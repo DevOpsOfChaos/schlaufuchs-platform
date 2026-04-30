@@ -1,9 +1,9 @@
 ---
 title: "Client- und Servervalidierung"
-description: "Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen: im Browser für schnelle Rückmeldung und auf dem Server für Verlässlichkeit."
+description: "Clientvalidierung liefert schnelles Feedback im Browser; Servervalidierung ist die verbindliche Prüfung vor Verarbeitung und Speicherung."
 subject: "web-development"
-section: "Formulare"
-topicPath: ["client-und-server-validierung", "ueberblick"]
+section: "HTML"
+topicPath: ["html", "formular-validierung", "client-und-server-validierung"]
 learningGoals: []
 practiceIdeas: []
 commonMistakes: []
@@ -11,47 +11,53 @@ keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
 level: "einfach"
-tags: ["web-development", "Formulare"]
+tags: ["web-development", "HTML", "Formulare"]
 draft: false
 ---
 # Client- und Servervalidierung
 
-Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen: im Browser für
-schnelle Rückmeldung und auf dem Server für Verlässlichkeit. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
+Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen. Der Browser kann früh Rückmeldung geben. Der Server entscheidet verbindlich, ob Daten akzeptiert, gespeichert oder abgelehnt werden.
 
 ## Einordnung
 
-Das Thema gehört im Bereich Formulare zu den Begriffen, die viele spätere Spezialfälle
-verständlicher machen. Es beschreibt nicht nur ein einzelnes Detail, sondern einen Zusammenhang:
-Was wird beobachtet, warum ist es wichtig, welche Größen oder Entscheidungen spielen hinein und
-wo liegen typische Grenzen?
+Formulare sind eine Schnittstelle zwischen Nutzeroberfläche und Anwendung. Alles, was vom Client kommt, kann manipuliert, unvollständig oder veraltet sein. Deshalb ist Clientvalidierung eine Bedienhilfe, aber keine Sicherheits- oder Integritätsgrenze.
 
-## Zentrale Teilaspekte
+## Zentrale Begriffe
 
-- Clientvalidierung verbessert Bedienbarkeit und vermeidet unnötige Requests.
-- Servervalidierung ist verbindlich, weil Browserdaten manipulierbar sind.
-- Fehlermeldungen sollten fachlich erklären, nicht nur technisch blockieren.
-- Beide Ebenen sollten dieselben Regeln nicht widersprüchlich auslegen.
+- **Clientvalidierung:** Prüfung im Browser, etwa durch HTML-Attribute oder JavaScript.
+- **Servervalidierung:** Prüfung nach Eingang des Requests im Backend.
+- **Geschäftsregel:** fachliche Bedingung, die der Server durchsetzen muss.
+- **Fehlermeldung:** Rückmeldung, die Regelverletzung und Korrekturmöglichkeit verständlich macht.
 
-## Beispiel im Zusammenhang
+## Mechanismus
 
-Ein Passwortfeld zeigt im Browser Hinweise zur Mindestlänge. Der Server prüft die Regel trotzdem
-erneut, bevor ein Konto erstellt wird.
+```html
+<input name="email" type="email" required />
+```
 
-Das Beispiel zeigt, dass der Begriff nicht isoliert betrachtet werden sollte. In der Praxis hängt er mit Rahmenbedingungen, Messung, Darstellung, Bedienung oder Modellannahmen zusammen. Wer nur einen einzelnen Wert, Befehl oder sichtbaren Effekt betrachtet, übersieht leicht die eigentliche Ursache.
+Der Browser kann fehlende oder formal falsche Eingaben melden. Der Server muss trotzdem prüfen, ob die E-Mail-Adresse erlaubt, eindeutig und im konkreten Prozess gültig ist.
+
+```ts
+if (!isAllowedEmail(input.email)) {
+  return { status: 400, field: "email", message: "Diese E-Mail-Adresse kann nicht verwendet werden." };
+}
+```
+
+## Typische Fehler
+
+- JavaScript-Prüfungen als Sicherheitsmaßnahme behandeln.
+- Serverregeln nicht mit Formularfeedback synchron halten.
+- Nur technische Fehlermeldungen wie "invalid input" ausgeben.
+- Berechtigungen, Duplikate oder Geschäftsregeln im Browser prüfen wollen.
+- Unterschiedliche Regeln auf Client und Server pflegen.
 
 ## Abgrenzung
 
-Clientvalidierung ist keine Sicherheitsgrenze. Sie ist eine Komfort- und Feedbackfunktion.
+Clientvalidierung verbessert Geschwindigkeit und Bedienbarkeit. Servervalidierung schützt Datenqualität, Berechtigungen und fachliche Regeln. Beide Ebenen haben unterschiedliche Aufgaben und dürfen nicht gegeneinander ausgespielt werden.
 
-Diese Abgrenzung ist wichtig, weil viele Lernseiten später einzelne Werkzeuge oder Sonderfälle behandeln. Der Überblick hilft, solche Spezialfälle nicht mit dem ganzen Thema zu verwechseln.
+## Verwandte Themen
 
-## Häufige Missverständnisse
-
-Ein häufiger Fehler ist, JavaScript-Prüfungen als ausreichend sicher zu betrachten.
-
-Ein zweites Missverständnis besteht darin, das Thema nur als Rezept zu behandeln. Gerade bei Grundbegriffen ist aber entscheidend, die Voraussetzungen und Grenzen zu kennen. Dadurch wird klarer, wann ein Verfahren, eine Einstellung oder eine Erklärung wirklich passt.
-
-## Merksatz
-
-Client- und Servervalidierung ist ein Orientierungsbegriff: Er hilft, Beobachtungen zu sortieren, typische Entscheidungen zu begründen und Spezialfälle in einen größeren Zusammenhang einzuordnen.
+- Formularlabels und Fehlermeldungen
+- Accessible Error Messages
+- API-Fehlerformate
+- Authentifizierung und Autorisierung

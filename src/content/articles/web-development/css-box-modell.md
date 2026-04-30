@@ -1,9 +1,9 @@
 ---
 title: "CSS-Box-Modell"
-description: "Verstehe, wie Inhalt, Innenabstand, Rand und Außenabstand zusammen eine Box bilden."
+description: "Das CSS-Box-Modell beschreibt Inhaltsbereich, Padding, Border und Margin als Grundlage von Größe und Abstand."
 subject: "web-development"
 section: "CSS"
-topicPath: ["css-box-modell"]
+topicPath: ["css", "box-modell"]
 learningGoals: []
 practiceIdeas: []
 commonMistakes: []
@@ -16,79 +16,17 @@ draft: false
 ---
 ## Grundidee
 
-Im CSS wird fast jedes Element als Box behandelt. Diese Box besteht nicht nur aus dem sichtbaren Inhalt, sondern aus mehreren Schichten, die gemeinsam Größe, Rahmen und Abstand beeinflussen.
+Im CSS wird fast jedes Element als rechteckige Box berechnet. Diese Box besteht aus Inhaltsbereich, Innenabstand, Rahmen und Außenabstand. Das Modell erklärt, warum ein Element größer wirkt als sein Text oder Bild und warum Abstand nicht immer an derselben Stelle entsteht.
 
-Das Box-Modell hilft dir deshalb vor allem bei einer ruhigen Frage: **Wo genau entsteht der Abstand, den ich gerade sehe?**
+## Zentrale Begriffe
 
-<div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Eine Karte mit Text wirkt „größer als gedacht“</h3>
-  <p>Du gibst einer kleinen Textkarte <code>padding</code>, einen Rahmen und etwas <code>margin</code>. Plötzlich wirkt das Element deutlich größer und weiter vom nächsten Element entfernt. Das Box-Modell trennt genau diese Schichten, damit du nicht alles nur als „irgendwie Abstand“ liest.</p>
-</div>
+- **Content:** eigentlicher Inhaltsbereich eines Elements.
+- **Padding:** Innenabstand zwischen Inhalt und Rahmen.
+- **Border:** Rahmen der Box.
+- **Margin:** Außenabstand zu anderen Boxen.
+- **`box-sizing`:** legt fest, ob `width` und `height` nur den Inhalt oder auch Padding und Border umfassen.
 
-## Die vier Schichten der Box
-
-<div class="visual-grid">
-  <div class="visual-item">
-    <strong>Inhalt</strong>
-    <span>Das ist der eigentliche Text, das Bild oder der andere sichtbare Inhalt.</span>
-  </div>
-  <div class="visual-item">
-    <strong>Padding</strong>
-    <span>Padding liegt innerhalb der Box und schafft Platz zwischen Inhalt und Rand.</span>
-  </div>
-  <div class="visual-item">
-    <strong>Border</strong>
-    <span>Der Rahmen gehört zur Box und liegt zwischen padding und margin.</span>
-  </div>
-  <div class="visual-item">
-    <strong>Margin</strong>
-    <span>Margin liegt außerhalb der Box und erzeugt Abstand zu anderen Elementen.</span>
-  </div>
-</div>
-
-## Von innen nach außen lesen
-
-<div class="figure-card">
-  <p class="card-kicker">Denkbild</p>
-  <h3>So kannst du eine Box systematisch lesen</h3>
-  <div class="signal-flow">
-    <div class="flow-node"><strong>Inhalt</strong><span>Was steckt im Element?</span></div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-node"><strong>Padding</strong><span>Wie viel Luft ist innen?</span></div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-node"><strong>Border</strong><span>Wo endet die Box sichtbar?</span></div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-node"><strong>Margin</strong><span>Wie weit ist die nächste Box entfernt?</span></div>
-  </div>
-</div>
-
-Wer von innen nach außen liest, verwechselt die Schichten seltener. Genau das macht das Thema im Alltag so hilfreich.
-
-## Padding und margin nicht verwechseln
-
-<div class="compare-card">
-  <p class="card-kicker">Häufige Verwechslung</p>
-  <h3>Beide erzeugen Abstand – aber an unterschiedlicher Stelle</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Padding</strong>
-      <span>Der Inhalt rückt vom Rahmen weg. Die Box selbst bleibt dabei der Bereich, in dem Inhalt, padding und border zusammengehören.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Margin</strong>
-      <span>Die ganze Box rückt von anderen Elementen weg. Der Abstand entsteht also außerhalb des Elements.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Border</strong>
-      <span>Der Rahmen ist nicht nur Deko, sondern ein echter Teil der Box zwischen padding und margin.</span>
-    </div>
-  </div>
-</div>
-
-Ein ruhiger Test ist deshalb: **Bewegt sich der Inhalt nach innen oder rückt das ganze Element nach außen?**
-
-## Ein kleines CSS-Beispiel
+## Struktur
 
 ```css
 .karte {
@@ -99,38 +37,38 @@ Ein ruhiger Test ist deshalb: **Bewegt sich der Inhalt nach innen oder rückt da
 }
 ```
 
-Hier bedeutet das:
+Bei der Standardberechnung beschreibt `width` zuerst die Inhaltsbreite. Links und rechts kommen jeweils `16px` Padding und `2px` Border hinzu. Die sichtbare Box ist dadurch `276px` breit. Mit linker und rechter Margin benötigt sie im Layout insgesamt `324px` Platz.
 
-- der Inhalt bleibt die innere Fläche,
-- <code>padding: 16px</code> schafft innen Luft,
-- der Rahmen gehört zur Box,
-- und <code>margin: 24px</code> trennt die Karte von anderen Elementen.
+```text
+sichtbare Boxbreite = content + padding links/rechts + border links/rechts
+gesamter Platzbedarf = sichtbare Boxbreite + margin links/rechts
+```
 
-## So liest du Layout-Abstände ruhiger
+## `box-sizing: border-box`
 
-<div class="step-grid">
-  <div class="step-item">
-    <strong>1. Abstand sehen</strong>
-    <span>Wo wirkt etwas zu eng oder zu weit entfernt?</span>
-  </div>
-  <div class="step-item">
-    <strong>2. Innen oder außen?</strong>
-    <span>Liegt der Abstand zwischen Inhalt und Rand oder zwischen zwei Elementen?</span>
-  </div>
-  <div class="step-item">
-    <strong>3. Schicht benennen</strong>
-    <span>Ist es padding, border oder margin?</span>
-  </div>
-  <div class="step-item">
-    <strong>4. Erst dann ändern</strong>
-    <span>Wer die Ursache kennt, ändert CSS gezielter und ruhiger.</span>
-  </div>
-</div>
+Mit `box-sizing: border-box` umfasst die angegebene Breite den Inhaltsbereich, Padding und Border. Dadurch lassen sich Komponenten oft stabiler planen, weil `width: 240px` dann die sichtbare Boxbreite beschreibt.
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Das Box-Modell beantwortet nicht nur „Wie groß ist das Element?“, sondern auch „Wo genau entsteht der sichtbare Abstand?“</p>
-</div>
+```css
+* {
+  box-sizing: border-box;
+}
+```
 
-## Warum das Box-Modell so wichtig ist
+## Typische Fehler
 
-Viele Layoutprobleme wirken kompliziert, sind aber in Wahrheit nur unklar benannte Abstände. Wer das Box-Modell sauber versteht, liest CSS deutlich systematischer und verändert Seiten gezielter statt auf Verdacht Werte zu verschieben.
+- Padding und Margin verwechseln.
+- Margin verwenden, obwohl Innenabstand gemeint ist.
+- Border nicht in die sichtbare Größe einrechnen.
+- Breiten mit Padding kombinieren, ohne `box-sizing` zu beachten.
+- Layoutprobleme mit zufälligen Pixelwerten lösen, statt die betroffene Box-Schicht zu identifizieren.
+
+## Abgrenzung
+
+Das Box-Modell erklärt Größe und Abstand einzelner Boxen. Flexbox, Grid, Positionierung und normaler Dokumentfluss regeln zusätzlich, wie mehrere Boxen zueinander angeordnet werden.
+
+## Verwandte Themen
+
+- CSS-Selektoren
+- Flexbox
+- CSS Grid
+- Responsive Design

@@ -457,109 +457,185 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
     }
   ],
   "web-development": [
-    { slug: "html-zugaenglichkeit-und-struktur", title: "HTML-Zugänglichkeit und Struktur", description: "Semantik, Fokus und Statusmeldungen werden als eigene HTML-Entscheidungen geführt.", icon: iconMap.form, chips: ["Grundlagen"], prefixes: [["html-zugaenglichkeit-und-struktur"]], children: [
-      { slug: "semantik-und-bedienabsicht", title: "Semantik und Bedienabsicht", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Semantik und Bedienabsicht.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "semantik-und-bedienabsicht"]] },
-      { slug: "formulare-und-fehlertexte", title: "Formulare und Fehlertexte", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Formulare und Fehlertexte.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "formulare-und-fehlertexte"]] },
-      { slug: "fokus-und-tastatur", title: "Fokus und Tastatur", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Fokus und Tastatur.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "fokus-und-tastatur"]] }
-    ] },
-    { slug: "css-layoutsysteme", title: "CSS-Layoutsysteme", description: "Grid, Flexbox, Container und Abstände werden als getrennte Layoutfragen behandelt.", icon: iconMap.css, chips: ["Grundlagen"], prefixes: [["css-layoutsysteme"]], children: [
-      { slug: "grid-und-layoutachsen", title: "Grid und Layoutachsen", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Grid und Layoutachsen.", icon: iconMap.css, chips: ["Praxis"], prefixes: [["css-layoutsysteme", "grid-und-layoutachsen"]] },
-      { slug: "flexbox-und-verteilung", title: "Flexbox und Verteilung", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Flexbox und Verteilung.", icon: iconMap.css, chips: ["Praxis"], prefixes: [["css-layoutsysteme", "flexbox-und-verteilung"]] },
-      { slug: "responsive-abstaende", title: "Responsive Abstände", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Responsive Abstände.", icon: iconMap.css, chips: ["Praxis"], prefixes: [["css-layoutsysteme", "responsive-abstaende"]] }
-    ] },
-    { slug: "javascript-interaktion", title: "JavaScript-Interaktion", description: "DOM-Zustand, Events und asynchrone Abläufe werden klein und testbar gehalten.", icon: iconMap.terminal, chips: ["Grundlagen"], prefixes: [["javascript-interaktion"]], children: [
-      { slug: "dom-zustand-und-rendern", title: "DOM-Zustand und Rendern", description: "Kernidee, typische Anwendung und sichere Kontrolle zu DOM-Zustand und Rendern.", icon: iconMap.terminal, chips: ["Praxis"], prefixes: [["javascript-interaktion", "dom-zustand-und-rendern"]] },
-      { slug: "events-und-delegation", title: "Events und Delegation", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Events und Delegation.", icon: iconMap.terminal, chips: ["Praxis"], prefixes: [["javascript-interaktion", "events-und-delegation"]] },
-      { slug: "async-und-fehlerfluss", title: "Async und Fehlerfluss", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Async und Fehlerfluss.", icon: iconMap.terminal, chips: ["Praxis"], prefixes: [["javascript-interaktion", "async-und-fehlerfluss"]] }
-    ] },
-    { slug: "browser-daten-und-http", title: "Browser-Daten und HTTP", description: "Anfragen, Statuscodes, Cache und Speicher werden als Browser-Verhalten erklärbar.", icon: iconMap.network, chips: ["Grundlagen"], prefixes: [["browser-daten-und-http"]], children: [
-      { slug: "fetch-und-statuscodes", title: "Fetch und Statuscodes", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Fetch und Statuscodes.", icon: iconMap.network, chips: ["Praxis"], prefixes: [["browser-daten-und-http", "fetch-und-statuscodes"]] },
-      { slug: "cache-und-aktualitaet", title: "Cache und Aktualität", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Cache und Aktualität.", icon: iconMap.network, chips: ["Praxis"], prefixes: [["browser-daten-und-http", "cache-und-aktualitaet"]] },
-      { slug: "localstorage-und-datenschutz", title: "localStorage und Datenschutz", description: "Kernidee, typische Anwendung und sichere Kontrolle zu localStorage und Datenschutz.", icon: iconMap.network, chips: ["Praxis"], prefixes: [["browser-daten-und-http", "localstorage-und-datenschutz"]] }
-    ] },
-    { slug: "frontend-qualitaet", title: "Frontend-Qualität", description: "Tests, Reviews und Wartbarkeit werden als sichtbare Projektpraxis trainiert.", icon: iconMap.shield, chips: ["Grundlagen"], prefixes: [["frontend-qualitaet"]], children: [
-      { slug: "komponententest-und-story", title: "Komponententest und Story", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Komponententest und Story.", icon: iconMap.shield, chips: ["Praxis"], prefixes: [["frontend-qualitaet", "komponententest-und-story"]] },
-      { slug: "review-und-checkliste", title: "Review und Checkliste", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Review und Checkliste.", icon: iconMap.shield, chips: ["Praxis"], prefixes: [["frontend-qualitaet", "review-und-checkliste"]] },
-      { slug: "performance-und-messung", title: "Performance und Messung", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Performance und Messung.", icon: iconMap.shield, chips: ["Praxis"], prefixes: [["frontend-qualitaet", "performance-und-messung"]] }
-    ] },
-    { slug: "ux-feedback-und-fehlerzustaende", title: "UX-Feedback und Fehlerzustände", description: "Nutzerführung wird über leere Zustände, Fehler, Erfolg und Wartezeit gestaltet.", icon: iconMap.form, chips: ["Grundlagen"], prefixes: [["ux-feedback-und-fehlerzustaende"]], children: [
-      { slug: "empty-state-und-naechster-schritt", title: "Empty State und nächster Schritt", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Empty State und nächster Schritt.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "empty-state-und-naechster-schritt"]] },
-      { slug: "toast-dialog-und-inline", title: "Toast, Dialog und Inline", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Toast, Dialog und Inline.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "toast-dialog-und-inline"]] },
-      { slug: "ladezustand-und-skeleton", title: "Ladezustand und Skeleton", description: "Kernidee, typische Anwendung und sichere Kontrolle zu Ladezustand und Skeleton.", icon: iconMap.form, chips: ["Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "ladezustand-und-skeleton"]] }
-    ] },
-    { slug: "html", title: "HTML", description: "Semantik, Formulare, Navigation, Tabellen und Statusmeldungen als getrennte HTML-Blöcke.", icon: iconMap.form, chips: ["HTML", "Semantik"], prefixes: [["html"]], children: [
-      { slug: "semantik-und-interaktion", title: "Semantik und Interaktion", description: "Button, Link und Nutzerabsicht semantisch unterscheiden.", icon: iconMap.form, chips: ["Button", "Link"], prefixes: [["html", "semantik-und-interaktion"]] },
-      { slug: "accessibility-und-status", title: "Accessibility und Status", description: "aria-live, Statusmeldungen und Dringlichkeit trennen.", icon: iconMap.form, chips: ["aria-live", "Status"], prefixes: [["html", "accessibility-und-status"]] },
-      { slug: "formulare-und-tabellen", title: "Formulare und Tabellen", description: "Formulare, Validierung und Tabellen als Grundlagenblock.", icon: iconMap.form, chips: ["Formulare", "Tabellen"], prefixes: [["html", "formulare-und-eingaben"], ["html", "formular-validierung"], ["html", "tabellen-barrierearm"]] },
-      { slug: "formularfeedback-und-zustaende", title: "Formularfeedback und Zustände", description: "Fehler, Erfolg, Wartezustand und Fokusführung getrennt prüfen.", icon: iconMap.form, chips: ["Fehler", "Status"], prefixes: [["html", "formularfeedback-und-zustaende"]] },
-      { slug: "bilder-navigation-und-links", title: "Bilder, Navigation und Links", description: "Bilder, Menüs und Linktexte als Orientierungsblock.", icon: iconMap.image, chips: ["Bilder", "Links"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"]] },
-    ] },
-    { slug: "css", title: "CSS", description: "Layout, Kaskade, Tokens und Komponentenvarianten werden kleinteiliger auffindbar.", icon: iconMap.css, chips: ["CSS", "Layout"], prefixes: [["css"]], children: [
-      { slug: "responsive-design", title: "Responsive Design", description: "Fluid Typography, Breakpoints und Layoutgrenzen bewusst wählen.", icon: iconMap.css, chips: ["clamp", "responsive"], prefixes: [["css", "responsive-design"]] },
-      { slug: "grid-und-layout", title: "Grid und Layout", description: "auto-fit, auto-fill und Rasterverhalten getrennt prüfen.", icon: iconMap.css, chips: ["Grid", "Tracks"], prefixes: [["css", "grid-und-layout"]] },
-      { slug: "css-und-layout", title: "CSS und Layout", description: "Boxmodell, Flexbox, Grid und responsive Layouts.", icon: iconMap.css, chips: ["Layout", "Responsive"], prefixes: [["css", "responsive-layouts"], ["css", "box-modell"], ["css", "flexbox"], ["css", "selektoren"]] },
-      { slug: "design-systeme", title: "Design-Systeme", description: "Tokens, Varianten und Komponentenregeln sauber trennen.", icon: iconMap.css, chips: ["Tokens", "Varianten"], prefixes: [["css", "design-systeme"], ["css", "css-spezifitaet-und-kaskade"]] },
-    ] },
-    { slug: "javascript", title: "JavaScript", description: "DOM, Browser-APIs, Async, Speicher und Fehlerbehandlung getrennt lernen.", icon: iconMap.terminal, chips: ["JS", "Browser"], prefixes: [["javascript"]], children: [
-      { slug: "dom-events-und-zustand", title: "DOM-Events und Zustand", description: "Event Delegation, Zielprüfung und dynamische Listen.", icon: iconMap.terminal, chips: ["Events", "DOM"], prefixes: [["javascript", "dom-events-und-zustand"]] },
-      { slug: "async-und-fehlerbehandlung", title: "Async und Fehlerbehandlung", description: "Ladezustand, Fehlerpfad und Wiederholbarkeit sichtbar machen.", icon: iconMap.terminal, chips: ["async", "Fehler"], prefixes: [["javascript", "async-und-fehlerbehandlung"]] },
-    ] },
-    { slug: "ux", title: "UX und Nutzerführung", description: "Orientierung, Rückwege und Zustände aus Nutzersicht prüfen.", icon: iconMap.network, chips: ["UX", "Navigation"], prefixes: [["ux"]], children: [
-      { slug: "navigation-und-orientierung", title: "Navigation und Orientierung", description: "Aktiver Zustand, Breadcrumb und Rückweg zusammen planen.", icon: iconMap.network, chips: ["Navigation", "Breadcrumb"], prefixes: [["ux", "navigation-und-orientierung"]] },
-    ] },
-    { slug: "projektpraxis", title: "Projektpraxis", description: "Tests, Review, Betrieb und Wartung als eigene Praxisblöcke.", icon: iconMap.shield, chips: ["Review", "Tests"], prefixes: [["projektpraxis"]], children: [
-      { slug: "formulare-und-validierung", title: "Formulare und Validierung", description: "Client- und Serverprüfung als getrennte Schichten.", icon: iconMap.form, chips: ["Validierung", "Server"], prefixes: [["projektpraxis", "formulare-und-validierung"]] },
-      { slug: "performance-und-cache", title: "Performance und Cache", description: "Statische Assets, Versionierung und Cache-Regeln planen.", icon: iconMap.network, chips: ["Cache", "Assets"], prefixes: [["projektpraxis", "performance-und-cache"]] },
-      { slug: "content-security-policy", title: "Content Security Policy", description: "Skriptquellen, Nonces und Inline-Risiken begrenzen.", icon: iconMap.shield, chips: ["CSP", "Nonce"], prefixes: [["projektpraxis", "sicherheit-und-datenschutz", "content-security-policy"]] },
-      { slug: "tests-und-review", title: "Tests und Review", description: "Regressionen, Gegenproben und Review-Fragen klein halten.", icon: iconMap.shield, chips: ["Tests", "Review"], prefixes: [["projektpraxis", "tests-und-review"]] },
-      { slug: "betrieb-und-release", title: "Betrieb und Release", description: "Build, Deploy, Monitoring und Release-Notizen.", icon: iconMap.network, chips: ["Release", "Build"], prefixes: [["projektpraxis", "betrieb-und-release"]] },
-    ] },
-    { slug: "html-a11y", title: "HTML und Accessibility", description: "Semantik, Statusmeldungen und Fokusführung werden nicht vermischt.", icon: iconMap.css, chips: ["HTML", "Unterthemen"], prefixes: [["html-a11y"]], children: [
-      { slug: "semantik-status-fokus", title: "Semantik, Status und Fokus", description: "Zugängliche Oberflächen brauchen mehrere kleine Entscheidungen.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["html-a11y", "semantik-status-fokus"]] },
-    ] },
-    { slug: "css-systeme", title: "CSS-Systeme", description: "Tokens, Komponenten und Layoutgrenzen werden als Systementscheidungen sichtbar.", icon: iconMap.css, chips: ["CSS-Systeme", "Unterthemen"], prefixes: [["css-systeme"]], children: [
-      { slug: "layout-tokens-komponenten", title: "Layout, Tokens und Komponenten", description: "Wiederverwendbares CSS entsteht durch klare Abhängigkeiten.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["css-systeme", "layout-tokens-komponenten"]] },
-    ] },
-    { slug: "javascript-browser", title: "JavaScript im Browser", description: "Events, Zustand und asynchrone Abläufe werden kleinteilig geführt.", icon: iconMap.css, chips: ["JavaScript", "Unterthemen"], prefixes: [["javascript-browser"]], children: [
-      { slug: "events-state-async", title: "Events, State und Async", description: "Interaktion wird über Auslöser, Zustand und Nebenwirkung verständlich.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["javascript-browser", "events-state-async"]] },
-    ] },
-    { slug: "frontend-betrieb", title: "Frontend-Betrieb", description: "Performance, Build-Artefakte und Sicherheitsheader werden getrennt geprüft.", icon: iconMap.css, chips: ["Frontend-Betrieb", "Unterthemen"], prefixes: [["frontend-betrieb"]], children: [
-      { slug: "build-performance-security", title: "Build, Performance und Security", description: "Nach dem Code kommt die Frage, wie die Seite ausgeliefert wird.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["frontend-betrieb", "build-performance-security"]] },
-    ] },
     {
-      slug: "frontend-struktur",
-      title: "Frontend-Struktur",
-      description: "Semantik, Layout und Komponenten in kleinen Entscheidungen.",
+      slug: "html",
+      title: "HTML",
+      description: "Dokumentstruktur, Semantik, Formulare, Links, Medien und Tabellen als Grundlage jeder Webseite.",
       icon: iconMap.form,
-      chips: ["Grundlagen"],
-      prefixes: [["frontend-struktur"]],
+      chips: ["Semantik", "Formulare", "Struktur"],
+      prefixes: [
+        ["html"],
+        ["sectioning-content"],
+        ["tabellen-semantik"],
+        ["formularsemantik"],
+        ["semantische-navigation"]
+      ],
       children: [
-        { slug: "html-semantik-praxis", title: "Html Semantik Praxis", description: "Kernidee, typische Anwendung und sichere Kontrolle zu html semantik praxis.", icon: iconMap.form, chips: ["Grundlagen"], prefixes: [["frontend-struktur", "html-semantik-praxis"]] },
-        { slug: "css-layout-systeme", title: "Css Layout Systeme", description: "Kernidee, typische Anwendung und sichere Kontrolle zu css layout systeme.", icon: iconMap.form, chips: ["Grundlagen"], prefixes: [["frontend-struktur", "css-layout-systeme"]] }
+        { slug: "struktur-und-semantik", title: "Struktur und Semantik", description: "HTML beschreibt Inhalt, Reihenfolge und Rollen, bevor Gestaltung oder Verhalten hinzukommen.", icon: iconMap.form, chips: ["HTML", "Semantik"], prefixes: [["html", "struktur-und-semantik"], ["html", "semantik-und-struktur"], ["html", "html-semantik-grundidee-verstehen"], ["html", "html-semantik"], ["html", "semantik-und-interaktion"], ["html", "semantik-und-landmarks"], ["html", "struktur-und-semantik"], ["sectioning-content"], ["landmarks-und-semantische-regionen"]] },
+        { slug: "formulare-und-eingaben", title: "Formulare und Eingaben", description: "Labels, Eingabetypen, Validierung, Fehlermeldungen und Formularzustände fachlich trennen.", icon: iconMap.form, chips: ["Formulare", "Validierung"], prefixes: [["html", "formulare-und-eingaben"], ["html", "formular-validierung"], ["html", "formularfeedback-und-zustaende"], ["html", "formulare-und-tabellen"], ["formulare-und-eingaben"], ["formulardaten-und-validierung"], ["formularlabels-und-fehlermeldungen"], ["formularfehlermeldungen"], ["formdata"]] },
+        { slug: "links-navigation-medien", title: "Links, Navigation und Medien", description: "Linktexte, Navigation, Bilder, Alternativtexte und Mediengewicht als HTML-Entscheidungen.", icon: iconMap.image, chips: ["Links", "Bilder"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "bilder-navigation-und-links"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"], ["html", "performance-und-medien"], ["alternative-texte-fuer-bilder"], ["responsive-images-und-srcset"], ["assets-und-bilder-im-web"], ["bildoptimierung"], ["bildformate-im-web"], ["responsive-navigation"]] }
       ],
     },
     {
-      slug: "browser-javascript",
-      title: "Browser-JavaScript",
-      description: "DOM, Events, Zustand und Fetch als präzise UI-Fragen.",
+      slug: "css",
+      title: "CSS",
+      description: "Selektoren, Kaskade, Boxmodell, Layoutsysteme, Responsive Design und Design Tokens.",
+      icon: iconMap.css,
+      chips: ["Layout", "Kaskade", "Responsive"],
+      prefixes: [
+        ["css"],
+        ["css-grundlagen"],
+        ["css-box-modell"],
+        ["css-selektoren"],
+        ["css-kaskade-und-spezifitaet"],
+        ["css-grid"],
+        ["flexbox"],
+        ["responsive-design"],
+        ["responsive-design-und-media-queries"],
+        ["responsive-typografie"],
+        ["container-queries"],
+        ["css-einheiten-und-groessen"],
+        ["css-positionierung"],
+        ["z-index"],
+        ["stacking-context"],
+        ["cascade-layers"],
+        ["design-tokens"],
+        ["css-architektur-und-namenskonventionen"],
+        ["css-reset-und-normalisierung"]
+      ],
+      children: [
+        { slug: "selektoren-und-kaskade", title: "Selektoren und Kaskade", description: "Zielauswahl, Spezifität, Vererbung, Reihenfolge und Cascade Layers bestimmen, welche Regel wirkt.", icon: iconMap.css, chips: ["Selektoren", "Spezifität"], prefixes: [["css", "selektoren"], ["css", "css-selektoren-grundidee-verstehen"], ["css", "css-stylesheets-einbinden-und-priorisieren-verstehen"], ["css", "kaskade-und-spezifitaet"], ["css", "css-spezifitaet-und-kaskade"], ["css", "kaskade-und-mehrfachformatierung-in-css-verstehen"], ["css", "vererbung-in-css-verstehen"], ["css-selektoren"], ["css-kaskade-und-spezifitaet"], ["cascade-layers"]] },
+        { slug: "boxmodell-und-layout", title: "Boxmodell und Layout", description: "Boxmodell, Flexbox, Grid, Positionierung, Overflow und Abstände als Layoutmechanik.", icon: iconMap.css, chips: ["Boxmodell", "Flexbox", "Grid"], prefixes: [["css", "box-modell"], ["css", "boxmodell"], ["css", "flexbox"], ["css", "grid-und-layout"], ["css", "css-grid-grundidee-verstehen"], ["css", "css-und-layout"], ["css", "position-relative-und-absolute-verstehen"], ["css", "display-block-inline-und-inline-block-verstehen"], ["css-box-modell"], ["flexbox"], ["css-grid"], ["z-index"], ["stacking-context"]] },
+        { slug: "responsive-und-systeme", title: "Responsive Design und CSS-Systeme", description: "Media Queries, Container Queries, Tokens, Komponentenvarianten und Größenlogik für wiederverwendbares CSS.", icon: iconMap.css, chips: ["Responsive", "Tokens"], prefixes: [["css", "responsive-design"], ["css", "responsive-layouts"], ["css", "design-systeme"], ["css", "performance-und-laden"], ["css-systeme"], ["responsive-design"], ["responsive-typografie"], ["container-queries"], ["design-tokens"], ["css-architektur-und-namenskonventionen"]] }
+      ],
+    },
+    {
+      slug: "javascript",
+      title: "JavaScript",
+      description: "DOM, Events, Zustand, Browser-APIs, Fetch, Module, Fehlerbehandlung und sichere Ausgabe.",
       icon: iconMap.terminal,
-      chips: ["Grundlagen"],
-      prefixes: [["browser-javascript"]],
+      chips: ["DOM", "Events", "Async"],
+      prefixes: [
+        ["javascript"],
+        ["javascript-browser"],
+        ["browser-javascript"],
+        ["state-management"],
+        ["debounce-und-throttle"],
+        ["shadow-dom"],
+        ["typescript-im-frontend"],
+        ["websockets"],
+        ["browser-speicher"],
+        ["clientseitige-persistenzmodelle"]
+      ],
       children: [
-        { slug: "dom-zustand-events", title: "Dom Zustand Events", description: "Kernidee, typische Anwendung und sichere Kontrolle zu dom zustand events.", icon: iconMap.terminal, chips: ["Grundlagen"], prefixes: [["browser-javascript", "dom-zustand-events"]] },
-        { slug: "fetch-und-fehler", title: "Fetch und Fehler", description: "Kernidee, typische Anwendung und sichere Kontrolle zu fetch und fehler.", icon: iconMap.terminal, chips: ["Grundlagen"], prefixes: [["browser-javascript", "fetch-und-fehler"]] }
+        { slug: "dom-events-und-zustand", title: "DOM, Events und Zustand", description: "Interaktion entsteht aus DOM-Struktur, Ereignissen, Zustandsänderungen und kontrolliertem Rendern.", icon: iconMap.terminal, chips: ["DOM", "Events"], prefixes: [["javascript", "dom-und-events"], ["javascript", "dom-events-und-zustand"], ["javascript", "zustand-und-ui"], ["javascript", "zustand-und-rendern"], ["javascript-browser", "events-state-async"], ["browser-javascript", "dom-zustand-events"], ["state-management"], ["ui-zustaende"], ["shadow-dom"]] },
+        { slug: "async-daten-und-speicher", title: "Async, Daten und Speicher", description: "Fetch, Ladezustände, Fehlerarten, Browser Storage, Cookies und URL-Zustand getrennt behandeln.", icon: iconMap.network, chips: ["Fetch", "Storage"], prefixes: [["javascript", "daten-laden"], ["javascript", "async-und-fehlerbehandlung"], ["javascript", "async-und-fetch"], ["javascript", "browser-speicher"], ["javascript", "browser-speicher-und-session"], ["browser-speicher"], ["client-state-vs-server-state"], ["cookies-und-sessions"], ["same-site-cookies"], ["clientseitige-persistenzmodelle"], ["websockets"]] },
+        { slug: "module-debugging-und-sicherheit", title: "Module, Debugging und Sicherheit", description: "Module, Seiteneffekte, DevTools, sichere DOM-Ausgabe, CSP und robuste Fehlergrenzen.", icon: iconMap.shield, chips: ["Module", "Sicherheit"], prefixes: [["javascript", "module-und-struktur"], ["javascript", "module-und-importe"], ["javascript", "debugging-und-diagnose"], ["javascript", "sicherheit-und-daten"], ["javascript", "sicherheit-und-dom"], ["javascript", "robustheit-und-fehler"], ["javascript", "performance-und-laden"], ["typescript-im-frontend"], ["source-maps"]] }
       ],
     },
     {
-      slug: "web-betrieb",
-      title: "Web-Betrieb",
-      description: "Performance, Barrierefreiheit und Releasebeobachtung als Praxisfragen.",
-      icon: iconMap.shield,
-      chips: ["Grundlagen"],
-      prefixes: [["web-betrieb"]],
+      slug: "http-browser-und-webplattform",
+      title: "HTTP, Browser und Webplattform",
+      description: "Requests, Responses, Rendering, Caching, Routing, Plattformgrenzen, Sicherheit und Auslieferung.",
+      icon: iconMap.network,
+      chips: ["HTTP", "Browser", "Security"],
+      prefixes: [
+        ["http-browser-und-webplattform"],
+        ["browser-daten-und-http"],
+        ["request-response-modell"],
+        ["url-und-adressen-im-web"],
+        ["url-design"],
+        ["route-parameter"],
+        ["routing-im-web"],
+        ["clientseitiges-routing"],
+        ["browser-rendering-pipeline"],
+        ["browser-rendering-kontext"],
+        ["client-und-server-rendering"],
+        ["server-side-rendering-und-static-site-generation"],
+        ["edge-funktionen-und-rendering"],
+        ["cdn"],
+        ["cache-control-und-browser-cache"],
+        ["cache-busting"],
+        ["content-negotiation"],
+        ["apis-und-json"],
+        ["api-fehlerformate"],
+        ["cors-und-same-origin"],
+        ["cors-preflight"],
+        ["same-origin-policy"],
+        ["content-security-policy"],
+        ["security-header"],
+        ["cross-site-scripting-xss"],
+        ["csrf-und-formularschutz"],
+        ["clickjacking"],
+        ["csp-reporting"],
+        ["browser-devtools"],
+        ["browser-devtools-network"],
+        ["browser-kompatibilitaet"],
+        ["progressives-rendering"],
+        ["service-worker-und-offline-faehigkeit"]
+      ],
       children: [
-        { slug: "performance-a11y", title: "Performance A11Y", description: "Kernidee, typische Anwendung und sichere Kontrolle zu performance a11y.", icon: iconMap.shield, chips: ["Grundlagen"], prefixes: [["web-betrieb", "performance-a11y"]] },
-        { slug: "release-monitoring", title: "Release Monitoring", description: "Kernidee, typische Anwendung und sichere Kontrolle zu release monitoring.", icon: iconMap.shield, chips: ["Grundlagen"], prefixes: [["web-betrieb", "release-monitoring"]] }
+        { slug: "http-und-apis", title: "HTTP und APIs", description: "Request-Response, Statuscodes, URL-Struktur, JSON, Fehlerformate und CORS.", icon: iconMap.network, chips: ["HTTP", "API"], prefixes: [["request-response-modell"], ["url-und-adressen-im-web"], ["url-design"], ["route-parameter"], ["routing-im-web"], ["apis-und-json"], ["api-fehlerformate"], ["cors-und-same-origin"], ["cors-preflight"], ["same-origin-policy"], ["content-negotiation"], ["browser-devtools-network"]] },
+        { slug: "rendering-und-cache", title: "Rendering, Cache und Auslieferung", description: "Browser-Rendering, SSR, SSG, Edge, CDN, Cache-Control und statische Assets.", icon: iconMap.network, chips: ["Rendering", "Cache"], prefixes: [["browser-rendering-pipeline"], ["browser-rendering-kontext"], ["client-und-server-rendering"], ["server-side-rendering-und-static-site-generation"], ["edge-funktionen-und-rendering"], ["cdn"], ["cache-control-und-browser-cache"], ["cache-busting"], ["critical-css"], ["progressives-rendering"], ["service-worker-und-offline-faehigkeit"]] },
+        { slug: "web-security", title: "Web Security", description: "Sicherheitsheader, CSP, XSS, CSRF, Clickjacking, Authentifizierung und Browsergrenzen.", icon: iconMap.shield, chips: ["CSP", "XSS"], prefixes: [["content-security-policy"], ["security-header"], ["cross-site-scripting-xss"], ["csrf-und-formularschutz"], ["clickjacking"], ["csp-reporting"], ["authentifizierung-und-autorisierung"], ["sichere-cookie-flags"]] }
+      ],
+    },
+    {
+      slug: "accessibility-und-ux",
+      title: "Accessibility und UX",
+      description: "Zugängliche Namen, Fokus, Tastaturbedienung, Statusmeldungen, Orientierung und verständliche UI-Zustände.",
+      icon: iconMap.form,
+      chips: ["A11y", "Fokus", "UX"],
+      prefixes: [
+        ["accessibility-und-ux"],
+        ["accessible-name"],
+        ["accessibility-tree"],
+        ["accessibility-testing-grundlagen"],
+        ["aria-und-assistive-technologien"],
+        ["aria-live-regions"],
+        ["accessible-error-messages"],
+        ["barrierefreiheit-im-web"],
+        ["tastaturnavigation-und-fokus"],
+        ["tastaturbedienung-und-fokusreihenfolge"],
+        ["fokusreihenfolge"],
+        ["alternative-texte-fuer-bilder"],
+        ["html-a11y"],
+        ["ux"],
+        ["ux-feedback-und-fehlerzustaende"],
+        ["ui-zustaende"],
+        ["skeleton-screens-und-ladezustand"],
+        ["seitenstruktur-als-informationsarchitektur"]
+      ],
+      children: [
+        { slug: "accessible-name-und-tree", title: "Accessible Name und Accessibility Tree", description: "Bedienelemente brauchen berechnbare Namen, Rollen und Zustände für assistive Technologien.", icon: iconMap.form, chips: ["Name", "Tree"], prefixes: [["accessibility-und-ux", "accessible-name"], ["accessible-name"], ["accessibility-tree"], ["aria-und-assistive-technologien"], ["html-a11y", "semantik-status-fokus"]] },
+        { slug: "fokus-status-und-fehler", title: "Fokus, Status und Fehler", description: "Fokusreihenfolge, Tastaturbedienung, Live Regions und Fehlermeldungen als Bedienzustände.", icon: iconMap.form, chips: ["Fokus", "Status"], prefixes: [["tastaturnavigation-und-fokus"], ["tastaturbedienung-und-fokusreihenfolge"], ["fokusreihenfolge"], ["aria-live-regions"], ["accessible-error-messages"], ["html", "accessibility-und-status"], ["html", "formularfeedback-und-zustaende"]] },
+        { slug: "orientierung-und-ux-zustaende", title: "Orientierung und UX-Zustände", description: "Navigation, Breadcrumbs, Empty States, Ladezustände und verständliche Rückwege.", icon: iconMap.network, chips: ["Navigation", "Zustände"], prefixes: [["ux"], ["ux", "navigation-und-orientierung"], ["ux-feedback-und-fehlerzustaende"], ["ui-zustaende"], ["skeleton-screens-und-ladezustand"], ["seitenstruktur-als-informationsarchitektur"], ["responsive-navigation"]] }
+      ],
+    },
+    {
+      slug: "projektpraxis",
+      title: "Projektpraxis",
+      description: "Projektstruktur, Qualität, Tests, Review, Build, Deployment, Monitoring und Betrieb von Webprojekten.",
+      icon: iconMap.shield,
+      chips: ["Tests", "Build", "Release"],
+      prefixes: [
+        ["projektpraxis"],
+        ["frontend-betrieb"],
+        ["web-betrieb"],
+        ["frontend-qualitaet"],
+        ["build-tools-und-dev-server"],
+        ["deployment-und-statisches-hosting"],
+        ["dependency-audits"],
+        ["umgebungen-und-konfiguration"],
+        ["robots-txt-und-sitemap"],
+        ["canonical-links"],
+        ["backend-for-frontend"],
+        ["content-modellierung-im-web"]
+      ],
+      children: [
+        { slug: "struktur-und-qualitaet", title: "Struktur und Qualität", description: "Ordnerstruktur, Komponenten, Linting, Review, Tests und Wartbarkeit als Projektpraxis.", icon: iconMap.shield, chips: ["Review", "Tests"], prefixes: [["projektpraxis", "struktur-und-qualitaet"], ["projektpraxis", "tests-und-review"], ["projektpraxis", "tests-und-qualitaet"], ["projektpraxis", "qualitaet-und-wartung"], ["frontend-qualitaet"], ["dependency-audits"], ["content-modellierung-im-web"]] },
+        { slug: "betrieb-und-release", title: "Betrieb und Release", description: "Build, Deployment, Umgebungen, Rollback, Monitoring, Indexierung und Release-Kommunikation.", icon: iconMap.network, chips: ["Deploy", "Monitoring"], prefixes: [["projektpraxis", "betrieb-und-release"], ["projektpraxis", "release-und-betrieb"], ["frontend-betrieb"], ["web-betrieb"], ["build-tools-und-dev-server"], ["deployment-und-statisches-hosting"], ["umgebungen-und-konfiguration"], ["robots-txt-und-sitemap"], ["canonical-links"]] },
+        { slug: "performance-und-sicherheit", title: "Performance und Sicherheit", description: "Performancebudget, Cache-Regeln, Sicherheitsheader, Datenschutz und Risikoprüfung im Projektkontext.", icon: iconMap.shield, chips: ["Performance", "Security"], prefixes: [["projektpraxis", "performance-und-cache"], ["projektpraxis", "performance-und-sicherheit"], ["projektpraxis", "sicherheit-und-datenschutz"], ["frontend-betrieb", "build-performance-security"], ["backend-for-frontend"]] }
       ],
     }
   ],

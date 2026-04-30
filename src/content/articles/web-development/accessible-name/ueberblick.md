@@ -1,9 +1,9 @@
 ---
 title: "Accessible Name"
-description: "Der Accessible Name ist der Name, mit dem ein interaktives Element für assistive Technologien erkennbar wird."
+description: "Der Accessible Name ist der programmatisch ermittelbare Name, mit dem Bedienelemente im Accessibility Tree erscheinen."
 subject: "web-development"
-section: "Barrierefreiheit"
-topicPath: ["accessible-name", "ueberblick"]
+section: "Accessibility und UX"
+topicPath: ["accessibility-und-ux", "accessible-name"]
 learningGoals: []
 practiceIdeas: []
 commonMistakes: []
@@ -11,48 +11,55 @@ keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
 level: "einfach"
-tags: ["web-development", "Barrierefreiheit"]
+tags: ["web-development", "Accessibility und UX"]
 draft: false
 ---
 # Accessible Name
 
-Der Accessible Name ist der Name, mit dem ein interaktives Element für assistive Technologien
-erkennbar wird. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
+Der Accessible Name ist der Name, unter dem ein Element im Accessibility Tree erscheint. Screenreader, Sprachsteuerung und Accessibility-Tests verwenden diesen Namen, um Buttons, Links, Formularfelder und andere Bedienelemente identifizierbar zu machen.
 
 ## Einordnung
 
-Das Thema gehört im Bereich Barrierefreiheit zu den Begriffen, die viele spätere Spezialfälle
-verständlicher machen. Es beschreibt nicht nur ein einzelnes Detail, sondern einen Zusammenhang:
-Was wird beobachtet, warum ist es wichtig, welche Größen oder Entscheidungen spielen hinein und
-wo liegen typische Grenzen?
+Der Accessible Name verbindet sichtbare Oberfläche, HTML-Struktur und assistive Technologien. Ein Element kann visuell verständlich wirken und trotzdem technisch unklar sein, wenn kein stabiler Name berechnet werden kann oder wenn sichtbarer Text und zugänglicher Name voneinander abweichen.
 
-## Zentrale Teilaspekte
+## Zentrale Begriffe
 
-- Labels, Textinhalt, aria-label und aria-labelledby können Namen liefern.
-- Sichtbarer Text und zugänglicher Name sollten zusammenpassen.
-- Icons benötigen oft zusätzliche textliche Benennung.
-- Mehrdeutige Namen erschweren Tastatur- und Screenreader-Nutzung.
+- **Accessibility Tree:** technische Repräsentation der Bedien- und Inhaltsstruktur für assistive Technologien.
+- **sichtbarer Text:** Text, den Nutzende auf der Oberfläche sehen.
+- **`label`:** sichtbare Beschriftung für Formularfelder.
+- **`aria-label`:** expliziter Name ohne sichtbaren Text.
+- **`aria-labelledby`:** Verweis auf vorhandene Textelemente, die den Namen liefern.
 
-## Beispiel im Zusammenhang
+## Mechanismus
 
-Ein Button mit Lupe-Icon braucht einen verständlichen Namen wie Suche öffnen, nicht nur ein
-dekoratives Symbol.
+Browser berechnen den Accessible Name aus mehreren möglichen Quellen. Sichtbarer Text, ein zugeordnetes `label`, Alternativtext oder ARIA-Attribute können beteiligt sein. ARIA kann vorhandene Namen überschreiben; deshalb muss geprüft werden, ob der berechnete Name noch zur sichtbaren Funktion passt.
 
-Das Beispiel zeigt, dass der Begriff nicht isoliert betrachtet werden sollte. In der Praxis hängt er mit Rahmenbedingungen, Messung, Darstellung, Bedienung oder Modellannahmen zusammen. Wer nur einen einzelnen Wert, Befehl oder sichtbaren Effekt betrachtet, übersieht leicht die eigentliche Ursache.
+```html
+<button type="button" aria-label="Suche öffnen">
+  <svg aria-hidden="true">...</svg>
+</button>
+
+<label for="email">E-Mail-Adresse</label>
+<input id="email" name="email" type="email" />
+```
+
+Der Icon-Button braucht einen expliziten Namen, weil das Symbol selbst keinen verlässlichen Text liefert. Das Eingabefeld erhält seinen Namen über das sichtbare `label`.
+
+## Typische Fehler
+
+- Icon-Buttons ohne Textalternative ausliefern.
+- Platzhaltertext als dauerhafte Beschriftung behandeln.
+- Mehrere Links nur mit dem Text "Mehr" oder "Hier klicken" benennen.
+- `aria-label` verwenden, obwohl sichtbarer Text bereits vorhanden und eindeutiger wäre.
+- Sichtbaren Text und `aria-label` widersprüchlich pflegen.
 
 ## Abgrenzung
 
-Der Accessible Name ist nicht dasselbe wie Tooltip oder Platzhaltertext.
+Der Accessible Name ersetzt keine Bedienbarkeit. Fokusreihenfolge, Tastaturverhalten, Rollen, Zustände und Fehlermeldungen bleiben eigene Anforderungen. Ein korrekt benanntes Element kann trotzdem unzugänglich sein, wenn es nicht fokussierbar ist oder seinen Zustand nicht vermittelt.
 
-Diese Abgrenzung ist wichtig, weil viele Lernseiten später einzelne Werkzeuge oder Sonderfälle behandeln. Der Überblick hilft, solche Spezialfälle nicht mit dem ganzen Thema zu verwechseln.
+## Verwandte Themen
 
-## Häufige Missverständnisse
-
-Häufig werden Icon-Buttons visuell verstanden, aber für Screenreader namenlos oder mehrdeutig
-ausgeliefert.
-
-Ein zweites Missverständnis besteht darin, das Thema nur als Rezept zu behandeln. Gerade bei Grundbegriffen ist aber entscheidend, die Voraussetzungen und Grenzen zu kennen. Dadurch wird klarer, wann ein Verfahren, eine Einstellung oder eine Erklärung wirklich passt.
-
-## Merksatz
-
-Accessible Name ist ein Orientierungsbegriff: Er hilft, Beobachtungen zu sortieren, typische Entscheidungen zu begründen und Spezialfälle in einen größeren Zusammenhang einzuordnen.
+- Accessibility Tree
+- ARIA und assistive Technologien
+- Formularlabels und Fehlermeldungen
+- Tastaturnavigation und Fokus

@@ -1,9 +1,9 @@
 ---
 title: "CSS-Selektoren"
-description: "Allgemeiner Überblick über CSS-Selektoren, ihre Bedeutung und den gezielten Zugriff auf HTML-Elemente."
+description: "CSS-Selektoren legen fest, welche HTML-Elemente von einer CSS-Regel getroffen werden."
 subject: "web-development"
 section: "CSS"
-topicPath: ["css-selektoren", "ueberblick"]
+topicPath: ["css", "selektoren"]
 learningGoals: []
 practiceIdeas: []
 commonMistakes: []
@@ -18,29 +18,52 @@ draft: false
 
 CSS-Selektoren bestimmen, auf welche HTML-Elemente eine Gestaltungsregel angewendet wird. Sie bilden die Verbindung zwischen der Struktur eines Dokuments und seiner Darstellung.
 
-## Bedeutung
+## Einordnung
 
-Ein Selektor kann sehr allgemein oder sehr gezielt sein. Dadurch lassen sich Grundstile für ganze Elementgruppen, Varianten für Klassen oder Zustände für interaktive Elemente formulieren. Gute Selektoren halten CSS wartbar und vorhersehbar.
+Jede CSS-Regel besteht aus Selektor und Deklarationsblock. Der Selektor entscheidet zuerst, ob eine Regel überhaupt auf ein Element passt. Erst danach sind Eigenschaften wie Farbe, Abstand oder Layout relevant.
 
-## Typische Teilaspekte
+## Zentrale Selektorarten
 
-- **Elementselektor:** Spricht alle Elemente eines Typs an, etwa alle Absätze.
-- **Klassenselektor:** Beschreibt wiederverwendbare Varianten und Komponenten.
-- **Kombinatoren:** Beschreiben Beziehungen zwischen Elementen, etwa Nachfahren oder direkte Kinder.
-- **Pseudoklassen:** Erfassen Zustände wie Hover, Fokus oder erstes Kind.
+- **Typselektor:** `p`, `h1` oder `button` treffen alle Elemente dieses Typs.
+- **Klassenselektor:** `.warnung` trifft Elemente mit dieser Klasse.
+- **ID-Selektor:** `#hauptnavigation` trifft das Element mit dieser ID.
+- **Attributselektor:** `input[type="email"]` trifft Elemente mit passendem Attribut.
+- **Pseudoklasse:** `:hover`, `:focus-visible` oder `:first-child` treffen Zustände oder Positionen.
+- **Kombinator:** `nav a`, `ul > li`, `h2 + p` oder `h2 ~ p` beschreiben Beziehungen im DOM.
 
-## Beispiel
+## Syntaxbeispiel
 
-Eine Navigationsliste kann allgemeine Listenstile besitzen, während Links innerhalb der Navigation gezielt andere Abstände und Fokuszustände erhalten.
+```css
+nav a {
+  color: #1d4ed8;
+}
+
+nav > a {
+  font-weight: 700;
+}
+
+button:focus-visible {
+  outline: 3px solid currentColor;
+}
+```
+
+`nav a` trifft Links irgendwo innerhalb der Navigation. `nav > a` trifft nur direkte Link-Kinder. `:focus-visible` beschreibt einen Fokuszustand, der besonders für Tastaturbedienung relevant ist.
+
+## Typische Fehler
+
+- Selektoren zu stark an zufällige Verschachtelung koppeln.
+- IDs für normale Komponentenstile verwenden und dadurch Spezifität unnötig erhöhen.
+- Zustände wie Fokus oder Hover vergessen.
+- CSS-Klassen als Ersatz für semantisches HTML missverstehen.
+- Beziehungsselektoren verwenden, ohne die tatsächliche DOM-Struktur zu prüfen.
 
 ## Abgrenzung
 
-Selektoren sind nicht dasselbe wie Semantik. Eine Klasse kann Gestaltung erleichtern, ersetzt aber keine sinnvolle HTML-Struktur.
+Selektoren beschreiben Zielauswahl für CSS. Sie ersetzen keine HTML-Semantik und lösen keine Kaskadenkonflikte allein. Ob eine Regel gewinnt, hängt zusätzlich von Spezifität, Reihenfolge, Herkunft und Cascade Layers ab.
 
-## Häufige Missverständnisse
+## Verwandte Themen
 
-Häufig werden Selektoren zu lang und abhängig von zufälliger Verschachtelung. Kleine HTML-Änderungen brechen dann unerwartet das Styling.
-
-## Einordnung im Gesamtzusammenhang
-
-CSS-Selektoren stehen in engem Zusammenhang mit Kaskade, Spezifität, Komponentenstruktur und Barrierefreiheit.
+- CSS-Kaskade und Spezifität
+- Cascade Layers
+- HTML-Struktur und Semantik
+- Fokuszustände und Tastaturbedienung

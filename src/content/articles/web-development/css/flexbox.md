@@ -1,6 +1,6 @@
 ---
 title: "Flexbox"
-description: "Verstehe Flexbox als Werkzeug für geordnete Ausrichtung und Verteilung von Elementen."
+description: "Flexbox ist ein eindimensionales CSS-Layoutmodell für Ausrichtung, Verteilung, Umbruch und flexible Größen direkter Kindelemente."
 subject: "web-development"
 section: "CSS"
 topicPath: ["css", "flexbox"]
@@ -16,28 +16,57 @@ draft: false
 ---
 ## Grundidee
 
-Flexbox hilft dabei, mehrere Elemente geordnet auszurichten und zu verteilen. Es geht also nicht nur darum, <em>dass</em> etwas nebeneinander steht, sondern <em>wie</em> die Anordnung gesteuert wird.
+Flexbox ordnet direkte Kindelemente eines Containers entlang einer Hauptachse an. Es eignet sich für Navigationen, Button-Gruppen, Kartenreihen, Toolbars und viele Zentrierungs- oder Verteilungsaufgaben.
 
-## Achsen statt Bauchgefühl
+## Einordnung
 
-Statt nur nach „links“, „rechts“ oder „mittig“ zu denken, hilft bei Flexbox die Arbeit mit Achsen:
+Flexbox ist ein eindimensionales Layoutmodell. Eine Richtung steht im Mittelpunkt: Reihe oder Spalte. Für Raster, bei denen Zeilen und Spalten gemeinsam geplant werden, ist CSS Grid meistens klarer.
 
-- Hauptachse
-- Querachse
+## Zentrale Begriffe
 
-So wird Layout verständlicher und weniger zufällig.
+- **Flex-Container:** Element mit `display: flex`.
+- **Flex-Items:** direkte Kinder des Flex-Containers.
+- **Hauptachse:** Richtung von `flex-direction`.
+- **Querachse:** Achse senkrecht zur Hauptachse.
+- **`justify-content`:** Verteilung entlang der Hauptachse.
+- **`align-items`:** Ausrichtung entlang der Querachse.
+- **`gap`:** Abstand zwischen Items.
+- **`flex-wrap`:** erlaubt Umbruch in mehrere Zeilen oder Spalten.
+- **`flex-grow`, `flex-shrink`, `flex-basis`:** steuern Wachstum, Schrumpfen und Ausgangsgröße einzelner Items.
 
-<div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Drei Karten in einer Zeile</h3>
-  <p>Stell dir drei Karten vor, die in einer gemeinsamen Reihe stehen sollen. Mit Flexbox lässt sich nicht nur festlegen, dass sie nebeneinander erscheinen, sondern auch, wie viel Abstand dazwischen liegt und wie sie auf der zweiten Achse ausgerichtet sind.</p>
-</div>
+## Syntaxbeispiel
 
-## Wann Flexbox gut passt
+```css
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
 
-Flexbox ist besonders nützlich für kleinere bis mittlere Gruppen von Elementen, zum Beispiel:
+.navigation > .aktion {
+  margin-left: auto;
+}
+```
 
-- Navigationsleisten,
-- Button-Reihen,
-- Kartenzeilen,
-- Medienobjekte oder einfache Toolbar-Strukturen.
+Der Container aktiviert Flexbox. Seine direkten Kinder werden verteilt, ausgerichtet und können bei zu wenig Platz umbrechen.
+
+## Typische Fehler
+
+- `justify-content` und `align-items` ohne Blick auf `flex-direction` verwenden.
+- Flex-Eigenschaften auf ein Kind setzen, obwohl sie auf den Container gehören.
+- Starre Breiten und flexibles Schrumpfen widersprüchlich kombinieren.
+- Mit `order` die visuelle Reihenfolge ändern und dadurch Lese- oder Fokusreihenfolge verwirren.
+- Flexbox für komplexe zweidimensionale Raster erzwingen.
+
+## Abgrenzung zu CSS Grid
+
+Flexbox arbeitet besonders gut für eine Reihe oder eine Spalte. CSS Grid ist sinnvoller, wenn Layoutbereiche gleichzeitig in Zeilen und Spalten definiert werden sollen.
+
+## Verwandte Themen
+
+- CSS Grid
+- CSS-Box-Modell
+- Responsive Design
+- Lesereihenfolge und Fokusreihenfolge
