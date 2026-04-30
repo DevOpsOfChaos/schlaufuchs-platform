@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/CSS_box_modell.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:16 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Das Box-Modell</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css">
+</head>
+
+<body>
+
+<header>
+	<p>
+	<nav>
+		<script src="../css/head_nav_css.js"></script>
+	</nav>
+	</p>
+</header>
+
+<table>
+
+<td>
+	<main>
+	<h1>Das Box-Modell</h1>
+	<p>
+		Ein HTML-Dokument wird in rechteckige Bereiche eingeteilt. Diese rechteckigen Bereichen (Boxes) lassen sich mit Hilfe von CSS formatieren. Der Aufbau einer Box wird in CSS durch das <em class="Fachwort">Box-Modell</em> definiert.
+	</p>
+	
+	<h2>Das klassische W3C Box-Modell</h2>
+	<p>Ausgangspunkt für das klassische <em class="Fachwort">W3C-konforme Box-Modell</em> ist die Größe des <em>Inhalts-Fensters</em> (der <em class="Fachwort">Content-Box</em>). Möchte man die Gesamtgröße der dargestellten Box berechnen, muss man die Größe des <em>Innenabstands</em> (<em class="Fachwort">padding</em>), des <em>Rahmens</em> (<em class="Fachwort">border</em>) und des <em>Außenabstands</em> (<em class="Fachwort">margin</em>) zur Größe der Content-Box addieren.</p>
+	<p>Die Größe der Content-Box wird mit <em class="Befehl_Variable">width</em> und ggf. <em class="Befehl_Variable">height</em> vorgegeben.</p>
+
+	<figure>
+		<img src="bilder/Boxmodell-detail_jw_web.png" width="541" height="439" alt="Das W3C Box-Modell" longdesc="Das%20W3C%20Box-Modell.html">
+		<figcaption>Abbildung: Das W3C Box-Modell</figcaption>
+	</figure>
+	
+	<div class="Beispiel">
+	<p><em>Beispiel</em> für die Formatierung einer CSS-Box</p>
+	<pre>
+
+footer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	}</pre>
+	</div>
+	
+	<h2>Das alternative Border-Box-Modell</h2>
+	<p>
+		Das klassische Content-Box-Modell macht es manchmal schwierig, Boxen pixelgenau zu definieren.
+	</p>
+	<p>Daher hat man das alternative <em class="Fachwort">Border-Box-Modell</em> eingeführt, bei dem die Größe der <em class="Fachwort">Border-Box</em> wird mit <em class="Befehl_Variable">width</em> und ggf. <em class="Befehl_Variable">height</em> vorgegeben wird.</p>
+	<p>Dies bringt Vorteile beim pixelgenauen Positionieren von Boxen mit relativen Größenangaben.</p>
+	
+	<figure>
+		<img src="bilder/Border_Boxmodell_jw_web.png" width="550" height="446" alt="Das Border-Box-Modell" longdesc="Das%20Border-Box-Modell.html">
+		<figcaption>Abbildung: Das Border-Box-Modell</figcaption>
+	</figure>
+	
+	<h2>Umschalten zwischen den Box-Modellen</h2>
+	<p>Die <em class="Befehl_Variable">box-sizing</em> Eigenschaft (<a href="https://www.w3.org/TR/css-ui-3/#box-sizing" target="_blank">Link zur W3C Spezifikation</a>) in CSS gibt an, welches Box-Modell gelten werden soll.</p>
+	<div class="Beispiel">
+		<pre>box-sizing: border-box;  /* alternatives Box-Modell (Border-Box-Modell) */
+		 
+box-sizing: content-box;  /* klassisches W3C Modell (Content-Box-Modell) */</pre>
+	</div>
+	<p>Der besseren Übersichtlichkeit wegen, sollte man innerhalb eines HTML-Dokuments nur ein Modell verwenden.</p>
+	<p>Der inzwischen veraltete IE5 bzw. IE5.5 verwendet immer das Border-Box-Modell.</p>
+	
+	</main>
+</td>
+
+<td>
+	<aside>
+	 	<script src="../css/sidebar_css.js"></script>
+	</aside>
+</td>
+
+</table>
+	
+</body>
+
+<footer>
+	<a href="#oben">nach oben</a> 
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/CSS_box_modell.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:17 GMT -->
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_loesungen/avr_loesungen/arduino_zaehler_03_lsg/arduino_zaehler_03_lsg.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:32:27 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Arduino UNO Ereigniszähler Lösung</title>
+	<link href="../../../css/standard_elektrotechnik.css" type="text/css" rel="stylesheet">
+	<link href="../../../css/favicon.ico" type="image/x-icon" rel="shortcut icon">
+</head>
+
+<body>
+
+<header>
+	<nav>
+	<figure style="float: right; margin: -8px; padding: 0;">
+		<img src="../../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+	</figure>
+		<p>
+			<a href="../../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="../../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+			<a href="../../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+			<a href="../../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+			<a href="../../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+		</p>
+		<p>
+			<a href="../../../mikrocontroller_aufgaben/avr_aufgaben/avr_aufgaben.html"><b>AVR</b> Aufgaben</a> &nbsp;&nbsp;&nbsp;
+			<a href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_avr/avr.html"><b>AVR</b> Lernmaterial</a> &nbsp;&nbsp;&nbsp;
+			<a href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller.html">Mikrocontroller Lernmaterial</a>
+		</p>
+	</nav>
+</header>
+
+<table style="width: 100%">
+<tr>
+<td class="main" style="width: 80%;">
+		<h1 style="margin: 0;">Lösung: Arduino UNO Ereigniszähler</h1>
+		<h2 id="pins">Pin-Zuordnungen</h2>
+		<table>
+			<tr>
+				<td>
+					<code class="Pin">D0&nbsp;-&nbsp;D7</code>:&nbsp;&nbsp;&nbsp;
+				</td>
+				<td>
+					<code class="Pin">PD0&nbsp;-&nbsp;PD7&nbsp;&nbsp;&nbsp;</code>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<code class="Pin">D10</code>:&nbsp;&nbsp;&nbsp;
+				</td>
+				<td>
+					<code class="Pin">PB2&nbsp;&nbsp;&nbsp;</code>
+				</td>
+			</tr>
+		</table>
+		
+		<h2 id="pap">Programmablaufplan</h2>
+			<figure>
+				<a href="arduino_zaehler_03_lsg_bild_01.63" target="_blank" title="zum Vergrößern klicken"><img src="formeln/Zaehler_03_delay.svg.63d" width="250" height="275" alt="Schaltplan" class="interaktiv"></a>
+				<figcaption>
+					<p>
+						Programmablaufplan
+					</p>
+				</figcaption>
+			</figure>
+		
+		<h2 id="quelltext">C-Quelltext:</h2>
+		<div class="Beispiel">
+		<pre style='color:#1f1c1b;'><code><span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;avr/io.h&gt;</span>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdint.h&gt;</span>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;util/delay.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main(<span style='color:#0057ae;'>void</span>)
+{
+
+  DDRB = <span style='color:#b08000;'>0b00000000</span>;  <span style='color:#898887;'>// PortB auf Input</span>
+  PORTB = <span style='color:#b08000;'>0b00000100</span>; <span style='color:#898887;'>// PB1 und PB2 Pullup</span>
+  DDRD = <span style='color:#b08000;'>0b11111111</span>;  <span style='color:#898887;'>// PortD auf Output</span>
+
+  <span style='color:#0057ae;'>uint8_t</span> zaehler = <span style='color:#b08000;'>0</span>;
+
+  <b>while</b> (<span style='color:#b08000;'>1</span>)
+  {
+    <b>while</b> (PINB &amp; <span style='color:#b08000;'>0b00000100</span>) <span style='color:#898887;'>// Warten auf Tastendruck</span>
+    {
+    }
+    zaehler++;       <span style='color:#898887;'>// Zähler inkrement</span>
+    PORTD = zaehler; <span style='color:#898887;'>// Zähler an PortD ausgeben</span>
+    <span style='color:#808080;'>_delay_ms</span>(<span style='color:#b08000;'>500</span>);
+  }
+}</code></pre>
+		</div>
+
+		<h2 id="erklaerung">Quelltext: Erklärung</h2>
+			<h3 id="CompilerDirektiven">Compiler-Direktiven</h3>
+			<h4>#include</h4>
+				<p>
+					<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;avr/io.h&gt;</span>: <a class="intern" href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_a/avr_in_c_programmieren#AVRIO" target="_blank" title="AVR-I/O Standardbibiliothek"><b>AVR-I/O</b></a> Bibliothek einbinden
+				</p>
+				<p>
+					<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdint.h&gt;</span>: <a class="intern" href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_a/avr_in_c_programmieren#stdint_h" target="_blank" title="Standardisierte Integer Bibliothek"><b>Standard-Integer</b></a> Bibliothek einbinden
+				</p>
+				<p>
+					<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;util/delay.h&gt;</span>: Delay Bibliothek einbinden
+				</p>
+			
+			<h3 id="main"><code>main() Funktion</code></h3>
+				<p>
+					<code><b>while</b> (!(PINB &amp; <span style='color:#b08000;'>0b00000100</span>))...</code><br>
+				</p>
+				<p>
+					Auf Tastendruck an <em class="Pin">PB2</em> warten.<br>
+					Der Pullup an <em class="Pin">PB2</em> muss aktiviert sein.<br>
+					Es muss eine Bitmaske verwendet werden.
+				</p>
+				<p style="margin-top: 1em;">
+					<code><span style='color:#808080;'>_delay_ms</span>(<span style='color:#b08000;'>500</span>);</code><br>
+				</p>
+				<p>
+					Dieses Delay sorgt dafür, dass der Zähler nicht unkontrolliert hochzählt.
+				</p>
+</td>
+	
+<td>
+	<aside>
+		<p><a href="../../../mikrocontroller_aufgaben/avr_aufgaben/arduino_zaehler_03/arduino_zaehler_03.html">Aufgabenblatt</a></p>
+		<p>
+			<a href="#pins">Pin-Zuordnungen</a><br>
+			<a href="#pap">Programmablaufplan</a><br>
+			<a href="#quelltext">Quelltext</a><br>
+			<a href="#erklaerung">Erklärung</a><br>
+			<a href="../../../mikrocontroller_aufgaben/avr_aufgaben/arduino_zaehler_03/arduino_zaehler_03_bild_01.html" target="_blank">Schaltplan</a>
+		</p>
+		<p><a href="c_quellcode/main.cpp">Download: Quelltext</a></p>
+		<a href="#oben" style="text-decoration: none;">
+			<div class="nach_oben" style="margin-top: 10px;">
+				&#x21eb;
+			</div>
+		</a>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../../../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a> 
+	<a href="../../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+	<a href="../../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right"><img src="../../../../css/by-nc-sa.eu.png" width="88" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+	<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 13.11.2021&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_loesungen/avr_loesungen/arduino_zaehler_03_lsg/arduino_zaehler_03_lsg.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:32:28 GMT -->
+</html>

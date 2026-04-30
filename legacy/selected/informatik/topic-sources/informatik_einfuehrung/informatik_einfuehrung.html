@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/informatik_einfuehrung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:15 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="expires" content="500000">
+	<title>Einführung in die Informatik mit C und Python</title>
+	<link href="../css/standard_informatik.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/schlaufuchs_logo_navbar.png">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../css/schlaufuchs_logo_navbar.png" width="75" height="67" alt="Schlaufuchs Logo">
+			</figure>
+			<p>
+				<a class="intern" href="../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;
+				<a class="intern" ref="../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a class="intern" href="../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a class="intern" href="../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a class="intern" href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+				<a class="intern" href="../informatik_start.html">Informatik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a class="intern" href="../informatik_start.html">Programmieren mit C und Python</a> &nbsp;&nbsp;
+			</p>
+		</nav>
+	</header>
+	<div class="main-container">
+		<main>
+			<h1>Einführung in die Informatik mit C und Python</h1>
+			<h2 id="Abakus">Vom Abakus zum Computer</h2>
+			<p>
+				Vom Abakus bis zum Hochleistungsrechner – die Entwicklung des Computers begann mit dem Wunsch, komplexe
+				Berechnungen schneller, präziser und automatisiert durchführen zu können
+				<br>
+				Heute sind Computer aus unserem Alltag nicht mehr wegzudenken: Sie verarbeiten Daten, steuern Geräte und
+				ermöglichen die Entwicklung moderner Software.
+			</p>
+			<div class="Beispiel">
+				<p>
+					Ein einfaches, aber anschauliches Beispiel ist die folgende Aufgabe:
+				</p>
+				<div class="Aufgabe">
+					<p>
+						Berechnen Sie die Quadratwurzel von 2 auf drei Nachkommastellen<br>
+						<span class="wichtig">ohne Taschenrechner, nur mit Papier und Stift!</span>
+					</p>
+				</div>
+				<p>
+					Zunächst ist klar:<br>
+					Der Wert muss zwischen 1 und 2 liegen muss, da <code>1<sup>2</sup> = 1</code> und
+					<code>2<sup>2</sup> = 4</code> ist.<br>
+					Ein erster Versuch mit 1,5 ergibt <code>1,5<sup>2</sup> = 2,25</code> – der Wert ist zu groß.<br>
+					Eine Korrektur auf 1,4 führt zu <code>1,4<sup>2</sup> = 1,96</code> – näher am Ziel, aber immer noch
+					nicht exakt.
+				</p>
+				<p>
+					Es folgt ein Hin- und Herprobieren mit immer kleineren
+					Schritten, bis endlich die geforderten drei Nachkommastellen erreicht sind.
+				</p>
+				<p>
+					Nach einigen Minuten (oder einer halben Ewigkeit, je nach Geduld) stellt sich unweigerlich der
+					Gedanke ein:
+				</p>
+				<p>
+					<i>„Das könnte doch eigentlich auch jemand anderes für mich machen – zum Beispiel eine
+						Maschine.“</i>
+				</p>
+				<p>
+					Genau hier setzt die Geschichte des Computers an: eine präzise, schnelle und unermüdliche
+					Rechenhilfe, die solche Aufgaben in Millisekunden löst.
+				</p>
+			</div>
+			<p>
+				In diesem Kapitel werden die Grundlagen der Informatik vermittelt – beginnend bei den zentralen
+				Komponenten eines Computers (Eingabe, Ausgabe, Speicher, Steuerwerk und Rechenwerk) bis hin zu den
+				Unterschieden zwischen prozeduraler Programmierung in C und objektorientierter Programmierung in Python.
+			</p>
+			<p>
+				Zudem wird erläutert, wie Programme aus für Menschen verständlichen Anweisungen in Maschinensprache
+				übersetzt werden und welche Funktionen Compiler, Interpreter sowie hybride Ansätze in diesem Prozess
+				übernehmen.
+			</p>
+			<h2 id="Komponenten">Die Komponenten eines Computers</h2>
+			<p>
+				Ein Computer besteht aus mehreren wichtigen Bausteinen. Jeder dieser Bausteine übernimmt eine bestimmte
+				Aufgabe, damit der Computer als Ganzes funktioniert.
+			</p>
+			<p>
+				Die fünf wichtigsten Komponenten eines Computers sind:
+			</p>
+			<ul>
+				<li>
+					<em class="Fachwort">Eingabe</em> (<code class="Fachwort_nativ">Input</code>):<br>
+					Daten kommen in den Computer, z. B. über Tastatur, Maus oder Mikrofon.
+				</li>
+				<li>
+					<em class="Fachwort">Ausgabe</em> (<code class="Fachwort_nativ">Output</code>):<br>
+					Ergebnisse verlassen den Computer, z. B. über Bildschirm, Drucker oder Lautsprecher.
+				</li>
+				<li>
+					<em class="Fachwort">Speicher</em> (<code class="Fachwort_nativ">Memory</code>):<br>
+					Daten und Programme werden vorübergehend oder dauerhaft gespeichert.
+				</li>
+				<li>
+					<em class="Fachwort">Steuerwerk</em> (<code class="Fachwort_nativ">Control Unit</code>):<br>
+					Es sagt den anderen Komponenten, was sie wann tun sollen – wie ein Dirigent im Orchester.
+				</li>
+				<li>
+					<em class="Fachwort">Rechenwerk</em> (<code
+						class="Fachwort_nativ">Arithmetic Logic Unit, <b>ALU</b></code>):<br>
+					Hier wird gerechnet, verglichen und logisch kombiniert – die „Matheabteilung“ des Computers.
+				</li>
+			</ul>
+			<figure>
+				<img src="bilder/Aufbau_computer_02.png" alt="Schema: Die fünf wesentlichen Komponenten eines Computers"
+					width="500px" title="Schema: Die fünf wesentlichen Komponenten eines Computers"
+					style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Schema: Die fünf wesentlichen Komponenten eines Computers
+				</figcaption>
+			</figure>
+			<p>
+				Moderne Computer besitzen noch viele weitere Komponenten, wie z. B.
+			</p>
+			<ul>
+				<li>
+					<em class="Fachwort">Grafikprozessoren</em> (<code class="Fachwort_nativ"><b>GPU</b></code>) für
+					Spiele und Bildverarbeitung
+				</li>
+				<li>
+					Netzwerkkarten für Internetzugang
+				</li>
+				<li>
+					Sensoren, Kameras oder Touchscreens - vor allem in mobilen Geräten
+				</li>
+			</ul>
+			<p>
+				Aber die oben genannten fünf Grundkomponenten sind das Fundament jedes Computersystems.
+			</p>
+			<h2 id="Technik">
+				Technische Umsetzung der Grundfunktionen eines Computers
+			</h2>
+			<p>
+				Wie diese fünf Grundfunktionen - Eingabe, Ausgabe, Speicher, Steuerwerk und Rechenwerk - in der Praxis
+				realisiert werden, hängt von der jeweiligen Bauweise des Computers ab.<br>
+				Man spricht hierbei von unterschiedlichen <em class="Fachwort">Computerarchitekturen</em>.
+			</p>
+			<h3>
+				Beispiele für Computerarchitekturen
+			</h3>
+			<p>
+				<em class="Fachwort">Von-Neumann-Architektur</em>:<br>
+				Die klassische Architektur, wie sie in fast allen PCs verwendet wird. Speicher und Daten teilen sich
+				denselben Bus.
+			</p>
+			<p>
+				<em class="Fachwort">Harvard-Architektur</em>:<br>
+				Hier sind Programm und Daten getrennt gespeichert. Z. B. in vielen Mikrocontrollern.
+			</p>
+			<p>
+				<em class="Fachwort">RISC-Architektur</em> (<code
+					class="Fachwort_nativ">Reduced Instruction Set Computer</code>):<br>
+				Weniger, dafür schnellere Befehle.
+				Verwendet z. B. in modernen Smartphones (ARM-Prozessoren).
+			</p>
+			<p>
+				<em class="Fachwort">CISC-Architektur</em> (<code
+					class="Fachwort_nativ">Complex Instruction Set Computer</code>):<br>
+				Viele komplexe Befehle
+				Verwendet z.B. in klassischen Intel- oder AMD-Prozessoren.
+			</p>
+			<p>
+				<em class="Fachwort">Parallelrechner / GPU-Architektur</em>:<br>
+				Speziell zum gleichzeitigen Verarbeiten vieler Daten, z. B. für Spielegrafik, KI oder wissenschaftliches
+				Rechnen.
+			</p>
+			<h2 id="Programmierung">Programmierung eines Computers</h2>
+			<p>
+				Ein Computer verarbeitet Informationen in <em class="Fachwort">binärer Form</em>, also in einer Abfolge
+				von Nullen und Einsen -
+				der sogenannten <em class="Fachwort">Maschinensprache</em>.
+			</p>
+			<p>
+				Um Programme effizient zu entwickeln und verständlich zu formulieren, wurden im Laufe der Zeit
+				verschiedene <em class="Fachwort">Programmiersprachen</em> (<i>Abstraktionsebenen</i> der
+				Programmierung) eingeführt. Diese ermöglichen
+				es, komplexe Anweisungen in einer für den Menschen lesbaren Form zu schreiben und anschließend in
+				maschinenlesbare Befehle zu übersetzen.
+			</p>
+			<h3>
+				Low Level – Nah an der Hardware
+			</h3>
+			<p>
+				Diese Sprachen arbeiten direkt mit dem Prozessor.
+				Sie sind schwer zu lesen, dafür sehr schnell und effizient.
+				Um sie korrekt anwenden zu können, ist ein detailiertes Wissen über die Hardware notwendig.
+			</p>
+			<p>
+				<em class="Fachwort">Maschinensprache</em>:<br>
+				Direkt in Binärform – z. B.: <code class="Befehl_Attribut">10111001 00100000</code><br>
+				(Nur für Maschinen verständlich)
+			</p>
+			<p>
+				<em class="Fachwort">Assembler</em>:<br>
+				Lesbare Kurzbefehle wie: <code class="Befehl">MOV AX, 01</code> oder <code
+					class="Befehl">ADD BX, AX</code><br>
+				(Für Menschen lesbar, aber trotzdem sehr nah an der Maschine)
+			</p>
+			<h4>
+				Verwendung:
+			</h4>
+			<p>
+				Firmware, Mikrocontroller, Zeitkritische Systeme.
+			</p>
+			<h3>
+				High Level – Für Menschen gedacht
+			</h3>
+			<p>
+				Diese Sprachen sind deutlich abstrakter.
+				Sie nutzen Wörter, Schleifen, Bedingungen – und sind leichter zu schreiben und zu verstehen.
+				Sie erfordern nicht unbedingt Kenntnis über die Hardware. Vielmehr sind sie dazu da, um
+				Computerprogramme unabhängig von der Hardware zu machen.
+			</p>
+			<h4>
+				Verwendung:
+			</h4>
+			<p>
+				Softwareentwicklung, Webanwendungen, Spiele, Datenanalyse, KI
+			</p>
+			<h4>
+				Wozu unterschiedliche Programmiersprachen?
+			</h4>
+			<p>
+				Unterschiedliche Programmiersprachen sind häufig auf spezifische Anforderungen hin optimiert.
+				Dabei stehen je nach Sprache unterschiedliche Gesichtspunkte im Vordergrund, wie etwa:
+			</p>
+			<ul>
+				<li>
+					die Nähe zur Hardware (z. B. C oder Assembler für Embedded-Systeme)
+				</li>
+				<li>
+					die Lesbarkeit und Verständlichkeit für den Menschen (z. B. Python für Einsteiger und Datenanalysen)
+				</li>
+				<li>
+					die Leistungsfähigkeit in bestimmten Anwendungsbereichen (z. B. Java für plattformunabhängige
+					Anwendungen oder R für Statistik)
+				</li>
+				<li>
+					die Effizienz in der Parallelverarbeitung (z. B. CUDA für GPU-Programmierung)
+				</li>
+			</ul>
+			<p>
+				Trotz der Vielzahl moderner Programmiersprachen und deren unterschiedlichen Abstraktionsebenen ist es
+				didaktisch und praktisch sinnvoll, die fünf Grundfunktionen eines Computers – Eingabe, Ausgabe,
+				Speicher, Steuerwerk und Rechenwerk – stets im Hintergrund mit zu berücksichtigen.
+				Ein fundiertes Verständnis dieser grundlegenden Komponenten unterstützt dabei, sinnvollen,
+				strukturierten und ressourcenschonenden Code zu schreiben.
+			</p>
+			<h4>
+				Beispiele
+			</h4>
+			<ul>
+				<li>
+					Wer weiß, dass Daten aus der Festplatte (Speicher) viel langsamer verarbeitet werden als Daten im
+					RAM,
+					wird beim Programmieren gezielt mit Zwischenspeichern (Caching) arbeiten.
+				</li>
+				<li>
+					In der Mikrocontroller-Programmierung (z. B. mit C oder Assembler) ist das Wissen über Steuer- und
+					Rechenwerk entscheidend, um zeitkritische Abläufe korrekt umzusetzen.
+				</li>
+				<li>
+					In der Datenverarbeitung mit Python hilft das Verständnis von Ein- und Ausgabeoperationen, um
+					Dateizugriffe effizient zu gestalten, z. B. durch Pufferung und asynchrones Lesen.
+				</li>
+				<li>
+					Bei der Entwicklung grafischer Benutzeroberflächen (GUI) muss man beachten, dass zwischen
+					Eingabeereignissen (z. B. Mausklick) und der Ausgabe auf dem Bildschirm zahlreiche Komponenten und
+					Prozesse beteiligt sind – die man gezielt programmieren oder ansprechen muss.
+				</li>
+			</ul>
+			<h4>
+				Fazit
+			</h4>
+			<p>
+				Unabhängig von der verwendeten Sprache oder dem Einsatzbereich fördert das Wissen über die interne
+				Arbeitsweise des Computers ein besseres und effizientes Programmierverhalten – von der einfachen
+				Schleife bis zur komplexen Systemsoftware.
+			</p>
+			<h2 id="Programmierparadigmen">
+				Programmierparadigmen
+			</h2>
+			<p>
+				Programmiersprachen lassen sich nach <em class="Fachwort">Programmierparadigmen</em> unterscheiden.<br>
+				Ein <b>Programmierparadigma</b> beschreibt einen grundsätzlichen Ansatz, wie Programme konzipiert,
+				strukturiert
+				und umgesetzt werden.
+			</p>
+			<p>
+				Es legt fest:
+			</p>
+			<ul>
+				<li>
+					Welche Grundkonzepte in der Sprache im Vordergrund stehen (z. B. Funktionen, Objekte, Regeln,
+					Ausdrücke)
+				</li>
+				<li>
+					Wie Programmabläufe beschrieben werden (z. B. Schritt-für-Schritt, deklarativ)
+				</li>
+				<li>
+					Welche Denkweise bei der Problemlösung angewendet wird
+				</li>
+			</ul>
+			<p>
+				<b>Kategorien</b> für Programmierparadigmen sind: <em class="Fachwort">prozedural</em>, <em
+					class="Fachwort">objektorientiert</em>, deklarativ.
+			</p>
+			<figure>
+				<img src="bilder/programmierparadigmen_farbig.drawio.png" alt="Programmierparadigmen" width="500px"
+					title="Programmierparadigmen" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Programmierparadigmen
+				</figcaption>
+			</figure>
+			<h2 id="prozedural">
+				Prozedurale Programmierung (C)
+			</h2>
+			<h4>
+				Zentrale Idee:
+			</h4>
+			<p>
+				Ein <em class="Fachwort">prozedurales</em> Programm wird als Abfolge von Anweisungen ausgeführt –
+				Schritt für Schritt.
+			</p>
+			<p>
+				Um wiederkehrende Aufgaben nicht jedes Mal neu zu schreiben, fasst man sie in <em
+					class="Fachwort">Funktionen</em> zusammen.
+			</p>
+			<ul>
+				<li>
+					Eine <em class="Fachwort">Funktion</em> ist ein kleiner, eigenständiger Programmblock, der eine
+					bestimmte Aufgabe erledigt.
+				</li>
+				<li>
+					Funktionen können mehrfach und von beliebiger Stelle im Programm aufgerufen werden.
+				</li>
+			</ul>
+			<p>
+				Jedes Programm hat in der Regel ein <em class="Fachwort">Hauptprogramm</em> – in C ist das die Funktion
+				<code class="Programmierung_Funktion">main()</code>.
+			</p>
+			<p>
+				Das Hauptprogramm wird automatisch als Erstes beim Start des Programms ausgeführt.<br>
+				Von hier aus werden weitere Funktionen aufgerufen.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<p>
+					Programmcode in der Programmiersprache <b>C</b>.
+				</p>
+				<div class="Programmcode">
+					<pre style="color:#1f1c1b;">
+<span style=' color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#898887;'>// Funktion zur Begrüßung</span>
+<span style='color:#0057ae;'>void</span> begruessung<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Hallo, willkommen im Programm!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    begruessung<span style='color:#ca60ca;'>();</span> <span style='color:#898887;'>// Funktionsaufruf</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Programm läuft...</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span> <span style='color:#898887;'>// Ende des Programms</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<div class="Syntax">
+				<h4 style="margin-top: 0em;">
+					Programmablauf des Beispiels:
+				</h4>
+				<ol>
+					<li>
+						Programm startet → <code class="Programmierung_Funktion">main()</code> wird automatisch
+						aufgerufen.
+					</li>
+					<li>
+						<code class="Programmierung_Funktion">main()</code> ruft <code
+							class="Programmierung_Funktion">begruessung()</code> auf.
+					</li>
+					<li>
+						Begrüßungstext wird ausgegeben.
+					</li>
+					<li>
+						Das Hauptprogramm läuft weiter.
+					</li>
+				</ol>
+			</div>
+			<h2 id="objektorientiert">
+				objektorientierte Programmierung (Python)
+			</h2>
+			<h4>
+				Zentrale Idee:
+			</h4>
+			<p>
+				Ein objektorientiertes Programm besteht aus <em class="Fachwort">Objekten</em>, die <b>Daten</b> (<em
+					class="Fachwort">Attribute</em>)
+				und <b>Funktionen</b> (<em class="Fachwort">Methoden</em>) zusammenfassen.
+			</p>
+			<p>
+				<em class="Fachwort">Objekte</em> werden (in Python) aus <em class="Fachwort">Klassen</em> erzeugt
+				(Klasse = Bauplan, Objekt = gebautes Exemplar).
+			</p>
+			<p>
+				<em class="Fachwort">Methoden</em> sind Funktionen, die innerhalb einer Klasse definiert sind.
+			</p>
+			<h3>
+				Grundlegende Konzepte der Objektorientierung
+			</h3>
+			<p>
+				<em class="Fachwort">Kapselung</em> (<code class="Fachwort_nativ">Encapsulation</code>):
+			</p>
+			<ul>
+				<li>
+					<em class="Fachwort">Attribute</em> (Daten) und die zugehörigen <em class="Fachwort">Methoden</em>
+					(Funktionen) werden in einer <em class="Fachwort">Klasse</em> zu einer Einheit zusammengefasst.
+				</li>
+				<li>
+					Der direkte Zugriff auf Attribute von außen wird eingeschränkt (information hiding).
+				</li>
+				<li>
+					Änderungen an den Attributen erfolgen ausschließlich über die in der Klasse definierten <em
+						class="Fachwort">öffentlichen Methoden</em> (<code
+						class="Fachwort_nativ">public methods</code>),
+					die als Schnittstelle (Interface) dienen.
+				</li>
+			</ul>
+			<p>
+				<em class="Fachwort">Vererbung</em> (<code class="Fachwort_nativ">Inheritance</code>):
+			</p>
+			<ul>
+				<li>
+					Eine <em class="Fachwort">abgeleitete Klasse</em> (<code class="Fachwort_nativ">subclass</code>)
+					kann
+					Eigenschaften und Methoden einer <em class="Fachwort">Basisklasse</em> (<code
+						class="Fachwort_nativ">superclass</code>)
+					übernehmen.
+				</li>
+				<li>
+					Die abgeleitete Klasse kann diese geerbten Elemente unverändert nutzen, überschreiben oder
+					erweitern.
+				</li>
+				<li>
+					Vererbung dient der Wiederverwendbarkeit von Code und ermöglicht die Bildung von
+					Klassenhierarchien.
+				</li>
+			</ul>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<p>
+					Programmcode in der Programmiersprache <b>Python</b>.
+				</p>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<b>class</b> Person:
+    <b>def</b> <span style='color:#644a9b;'>__init__</span>(<span style='color:#0057ae;'>self</span>, name):
+        <span style='color:#0057ae;'>self</span>.name <span style='color:#ca60ca;'>=</span> name  <span style='color:#898887;'># Attribut speichern</span>
+
+    <b>def</b> vorstellen(<span style='color:#0057ae;'>self</span>):
+        <b><span style='color:#644a9b;'>print</span></b>(<span style='color:#ff5500;'>f&quot;Hallo, ich heiße </span><span style='color:#3daee9;'>{</span><span style='color:#0057ae;'>self</span><span style='color:#3daee9;'>.</span>name<span style='color:#3daee9;'>}</span><span style='color:#ff5500;'>.&quot;</span>)
+
+<span style='color:#898887;'># Hauptprogramm</span>
+<b>if</b> <span style='color:#0057ae;'>__name__</span> <span style='color:#ca60ca;'>==</span> <span style='color:#bf0303;'>&quot;__main__&quot;</span>:
+    p1 <span style='color:#ca60ca;'>=</span> Person(<span style='color:#bf0303;'>&quot;Anna&quot;</span>)   <span style='color:#898887;'># Objekt erzeugen</span>
+    p1.vorstellen()       <span style='color:#898887;'># Methode aufrufen</span></pre>
+				</div>
+			</div>
+			<div class="Syntax">
+				<h4 style="margin-top: 0em;">
+					Programmablauf des Beispiels:
+				</h4>
+				<ol>
+					<li>
+						Die Klasse <code class="Programmierung_Klasse">Person</code> wird definiert.
+					</li>
+					<li>
+						Ein Objekt <code class="Programmierung_Objekt">p1</code> wird erzeugt.
+					</li>
+					<li>
+						Die Methode <code class="Programmierung_Methode">vorstellen()</code> wird aufgerufen und gibt
+						den Namen aus.
+					</li>
+				</ol>
+			</div>
+			<h2 id="Vergleich">
+				Vergleich Prozedural vs. Objektorientiert
+			</h2>
+			<table width="641" cellpadding="4" cellspacing="0">
+				<colgroup>
+					<col width="185">
+					<col width="199">
+					<col width="231">
+				</colgroup>
+				<thead>
+					<tr>
+						<td width="185" bgcolor="#a9a9a9"
+							style="background: #a9a9a9; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Merkmal</b>
+							</p>
+						</td>
+						<td width="199" bgcolor="#a9a9a9"
+							style="background: #a9a9a9; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Prozedural (C)</b>
+							</p>
+						</td>
+						<td width="231" bgcolor="#a9a9a9"
+							style="background: #a9a9a9; border: 1px solid #000000; padding: 0.1cm">
+							<p class="western">
+								<b>Objektorientiert (Python)</b>
+							</p>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="185" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Fokus</i>
+							</p>
+						</td>
+						<td width="199"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Funktionen</p>
+						</td>
+						<td width="231"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Objekte</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="185" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Daten</i>
+							</p>
+						</td>
+						<td width="199"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Separat von Funktionen</p>
+						</td>
+						<td width="231"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								In Objekten gespeichert</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="185" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Strukturierung</i>
+							</p>
+						</td>
+						<td width="199"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Ablaufsteuerung</p>
+						</td>
+						<td width="231"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Modellierung von Dingen</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="185" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Wiederverwendbarkeit</i>
+							</p>
+						</td>
+						<td width="199"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Durch Funktionsaufrufe</p>
+						</td>
+						<td width="231"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Durch Klassen &amp; Vererbung</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="185" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Anwendung</i>
+							</p>
+						</td>
+						<td width="199"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Hardwarenahe Programmierung,</p>
+							<p class="western">Treiber, Betriebssysteme, Mikrocontroller</p>
+						</td>
+						<td width="231"
+							style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Größere bis große Softwareprojekte bei denen ganze Teams an
+								der Softwareentwicklung arbeiten,</p>
+							<p class="western">Anwendungssoftware</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2 id="Konvertierung">
+				Konvertierung von Programmiersprachen in ausführbaren Code
+			</h2>
+			<p>
+				Ein Computer kann Informationen ausschließlich in <em class="Fachwort">Maschinensprache</em> verarbeiten
+				– also in einer Folge von
+				binären Zuständen (0 und 1).
+			</p>
+			<p>
+				Programmiersprachen wie <b>Python</b>, <b>C</b> oder <b>Java</b> sind sogenannte <em
+					class="Fachwort">Hochsprachen</em>.<br>
+				Damit der Prozessor diese Anweisungen ausführen kann, müssen der Quellcode bzw. das Skript zunächst in
+				Maschinensprache übersetzt werden.<br>
+				Für diese Übersetzung existieren im Wesentlichen zwei grundlegende Ansätze:
+			</p>
+			<h2 id="Compiler">
+				Compiler-Ansatz
+			</h2>
+			<p>
+				Der gesamte Quellcode wird vor der Ausführung in Maschinensprache umgewandelt (<em
+					class="Fachwort">compiliert</em>).<br>
+				Die
+				Software, die dazu verwendet wird nennt man <em class="Fachwort">Compiler</em>.
+			</p>
+			<p>
+				Das Ergebnis ist eine ausführbare Datei, die direkt vom Prozessor gestartet werden kann.
+			</p>
+			<h4>
+				Beispiel:
+			</h4>
+			<p>
+				Erstellung einer <code class="Datei">.exe</code> Datei unter Windows oder einer <code
+					class="Datei">ausführbaren Binärdatei</code> unter Linux aus einem
+				Quelltext in C.
+			</p>
+			<p>
+				<b>Vorteil:</b> Sehr schnelle Ausführung des Programms, da keine Übersetzung während der Laufzeit nötig
+				ist.
+				Der erzeugte Maschienencode kann beim Compilieren optimiert werden.
+			</p>
+			<p>
+				<b>Nachteil:</b> Änderungen im Quellcode erfordern einen erneuten Compiliervorgang.
+			</p>
+			<h2 id="Interpreter">
+				Interpreter-Ansatz
+			</h2>
+			<p>
+				Der Quellcode wird Schritt für Schritt während der Programmausführung in Maschinensprache übersetzt
+				(<em class="Fachwort">interpretiert</em>) und sofort ausgeführt.<br>
+				Die Software, die dazu verwendet wird nennt man <em class="Fachwort">Interpreter</em>.
+			</p>
+			<h4>
+				Beispiel:
+			</h4>
+			<p>
+				Ausführung eines <b>Python Skripts</b> durch den <b>Python-Interpreter</b>.
+			</p>
+			<p>
+				<b>Vorteil:</b> Sofortiges Testen und schnelle Entwicklung möglich.
+			</p>
+			<p>
+				<b>Nachteil:</b> Langsamer als ein compiliertes Programm, da Übersetzung und Ausführung gleichzeitig
+				erfolgen.
+
+			</p>
+			<figure style="margin-top: 3em;">
+				<img src="bilder/interpreter_vs_compiler.drawio.png" alt="Compiler vs. Interpreter" width="500px"
+					title="Compiler vs. Interpreter" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Compiler vs. Interpreter
+				</figcaption>
+			</figure>
+			<h2>
+				Hybrid-Ansätze
+			</h2>
+			<p>
+				Einige Sprachen nutzen eine Kombination aus beiden Verfahren.<br>
+				Der Quellcode wird zunächst in eine Zwischensprache (z. B. <b>Bytecode</b>) kompiliert.
+				Dieser Bytecode wird anschließend von einer virtuellen Maschine interpretiert oder zusätzlich optimiert.
+			</p>
+			<h4>
+				Beispiel:
+			</h4>
+			<p>
+				Java – Quellcode → Bytecode (.class-Dateien) → Ausführung in der Java Virtual Machine
+			</p>
+
+
+
+		</main>
+
+		<div>
+			<aside>
+				<p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+					<a class="side" href="#Abakus">Vom Abakus zum Computer</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Komponenten">Grundkomponenten eines Computers</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Technik">Technische Umsetzung der Grundfunktionen eines Computers</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Programmierung">Programmierung eines Computers</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Programmierparadigmen">Programmierparadigmen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#prozedural">Prozedurale Programmierung</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#objektorientiert">objektorientierte Programmierung</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Vergleich">Prozedural vs. Objektorientiert</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Konvertierung">Konvertierung von Programmiersprachen in ausführbaren Code</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Compiler">Compiler-Ansatz</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Interpreter">Interpreter-Ansatz</a>
+				</p>
+				<p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px; margin-bottom: 15px;">
+							&#x21eb;
+						</div>
+					</a><br>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px; clear: both;" class="side">
+					<a class="intern" href="../informatik_start.html">Programmiern mit C und Python</a>
+				</p>
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right"><img src="../../css/by-nc-sa.eu.png" width="88" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 12.08.2025&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/informatik_einfuehrung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:16 GMT -->
+</html>

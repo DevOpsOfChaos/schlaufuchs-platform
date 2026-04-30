@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_aufgaben_bashSkripte/linux_bashSkripte_aufgabe_13.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:56 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Aufgabe 13 (Shell Skripte)</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_linux.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<script src="../css/linux_nav_standard.js"></script>
+	</nav>
+</header>
+
+<table>
+<tr>
+<td>	
+	<main>
+		<h1>Shell Skripte</h1>
+		<p><em class="Aufgabe">Aufgabe 13:</em></p>
+		<div class="Aufgabe">
+			<p>
+				Gegeben ist folgendes Bash Skript:
+			</p>
+			<code>
+				<div class="Code">
+				<pre style='color:#1f1c1b;'>
+<span style='color:#898887;'>#!/bin/bash</span>
+
+<span style='color:#898887;'># Variable für Backup-Namen setzen.</span>
+<span style='color:#898887;'># Der Backup-Ordner trägt den Namen der Variablen</span>
+<span style='color:#0057ae;'>BackupOrdner=</span><span style='color:#bf0303;'>&quot;Sicherheitstest&quot;</span>
+
+<span style='color:#898887;'># Hier steht der absolute Pfad der zu sichernden Datei</span>
+<span style='color:#0057ae;'>Dateizusichern=</span><span style='color:#bf0303;'>&quot;/home/jw/Testverzeichnis/&quot;</span>
+
+<span style='color:#898887;'># Der Name des Backups ist der Name der zu sichernden Datei</span>
+<span style='color:#0057ae;'>BackupName=$(</span><span style='color:#644a9b;'>basename</span> <span style='color:#0057ae;'>$Dateizusichern)</span>
+
+
+<span style='color:#0057ae;'>MyOrdner=$(</span><span style='color:#644a9b;'>dirname</span> <span style='color:#0057ae;'>$0)</span>
+<b><span style='color:#644a9b;'>cd</span></b> <span style='color:#0057ae;'>$MyOrdner</span>
+
+<span style='color:#898887;'># in den darübergehenden Ordner wechseln</span>
+<b><span style='color:#644a9b;'>cd</span></b> ..
+
+<b>if</b> <b><span style='color:#644a9b;'>test</span></b> -d <span style='color:#0057ae;'>$BackupOrdner</span>
+    <b>then</b>
+        <b><span style='color:#644a9b;'>echo</span></b> <span style='color:#bf0303;'>&quot;Der Ordner existiert!&quot;</span>
+    <b>else</b>
+        <span style='color:#644a9b;'>mkdir</span> <span style='color:#0057ae;'>$BackupOrdner</span>
+        <b><span style='color:#644a9b;'>echo</span></b> <span style='color:#bf0303;'>&quot;Der Ordner &quot;</span><span style='color:#0057ae;'>$BackupOrdner</span><span style='color:#bf0303;'>&quot; wurde angelegt!&quot;</span>
+<b>fi</b>
+
+<b><span style='color:#644a9b;'>cd</span></b> <span style='color:#0057ae;'>$BackupOrdner</span>
+
+<span style='color:#898887;'># Backup mit rsync anlegen</span>
+<span style='color:#898887;'># Hier das Skript ergänzen...</span>
+</pre>
+				</div>
+			</code>
+			<p>
+				Ergänzen Sie das Skript zu folgender Funktionalität:
+			</p>
+			<ul>
+				<li>
+					Im Backup-Ordner, der über dem Ordner liegt, in dem sich das Skript befindet, soll mit <code class="Linux_Befehl">rsync</code> ein Backup einer Datei angelegt werden.
+				</li>
+				<li>
+					<code class="Linux_Befehl">rsync</code> bietet die Möglichkeit eines "Probelaufs" ohne Funktion. Ein solcher Probelauf soll zuerst durchgeführt werden.
+				</li>
+				<li>
+					Das Skript soll in einer Benutzerabfrage klären, ob das Backup so durchgeführt werden soll.
+				</li>
+				<li>
+					Falls die Überprüfung durch den Benutzer positiv ist, soll das Backup in einem Ordner innerhalb des Backup-Ordners gespeichert werden.
+				</li>
+				<li>
+					Das Skript soll von jedem Ort im Dateisystem aus aufrufbar sein.
+				</li>
+			</ul>
+			<p class="Bemerkung" style="margin-top: 1em;">
+				<b>Hinweis:</b><br>
+				Benutzen Sie die Systemvariable <em class="Variable">$0</em> die Befehle <code class="Linux_Befehl">dirname</code>, <code class="Linux_Befehl">basename</code> und <code class="Linux_Befehl">rsync</code>
+			</p>
+		</div>
+	</main>
+</td>
+	
+<td>
+	<aside>
+		<p>
+			<em>Material</em>
+		</p>
+		<p>
+			<a href="skripte/aufgabe13.sh" target="_blank" title="a">Download Skript</a><br>
+		</p>
+		<p>
+			<em>Hinweise</em>
+		</p>
+		<p>
+			<a href="../linux_dateisystem/linux_dateisystem.html#dirname" target="_blank" title="a">dirname</a><br>
+		</p>
+		<script src="../css/linux_aside_aufgaben_kurz.js"></script>
+		<p>
+			<a href="loesungen/aufgabe13_lsg.sh" target="_blank" class="hidden">&#8466;</a>
+		</p>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+	<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+	<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right; margin-top: 0px;"><img src="../../css/by-nc-sa.eu.png" width="89" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+	<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 07.05.2020&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_aufgaben_bashSkripte/linux_bashSkripte_aufgabe_13.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:56 GMT -->
+</html>

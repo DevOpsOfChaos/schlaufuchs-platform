@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_shell/linux_shell.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:21 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Die LINUX Shell</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_linux.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<script src="../css/linux_nav_standard.js"></script>
+	</nav>
+</header>
+
+<table style="position: relative;">
+<tr>
+<td class="main" style="width: 75%; position: relative;">
+	<img src="../css/JW_Linux_Computer_OC.png" alt="" style="opacity: 0.10; width: 35%; position: fixed; right: 30%; bottom: 5%;">
+	<h1>Die LINUX Shell</h1>
+		<p>
+			Bei der Administration eines LINUX-Systems kommt man in der Regel nicht um sie herum: <em class="Fachwort">Die Shell</em>. Für den LINUX-Neuling stellt sich am Anfang natürlich <i>die Frage</i>:
+		</p>
+		<figure style="float: right;">
+			<img src="bilder/linux_shell_jw_web.png" width="200" height="205" alt="Linux Shell" longdesc="Linux%20Shell.html">
+			<figcaption>Die Shell umschließt den LINUX Kernel</figcaption>
+		</figure>
+		<h2>Was ist die Shell</h2>
+		<p>
+			Die Shell ist die <em>Kommunikationsebene</em> zwischen Benutzer und Betriebssystem-Kern. Die Shell nimmt Kommandos entgegen, interpretiert diese und gibt sie an das Betriebssystem weiter.
+		</p>
+		<p>
+			Wie in der Abbildung rechts angedeutet, schottet die Shell den Betriebssystem-Kern vom Benutzer und oft auch von Anwendungspogrammen ab.
+		</p>
+		<p>
+			Sie sorgt dafür, dass der Benutzer nach der Ausführung von Befehlen über Fehler informiert wird.
+		</p>
+		<p>
+			Im <em class="Fachwort">Terminal-Modus</em> stellt die Shell einen <em class="Fachwort"><a href="linux_shell.html#kanaele">Eingabekanal</a></em> für Tastatureingaben und zwei <em class="Fachwort"><a href="linux_shell.html#kanaele">Ausgabekanäle</a></em> für Bildschirmausgaben zur Verfügung. So kann auch ohne grafische Tools per Kommandozeile im Textmodus mit dem System kommuniziert werden.
+		</p>
+		<p>
+			Doch die Shell kann mehr. Sie ist auch eine Programmiersprache, die Shell-Skripte automatisiert abarbeiten kann und kennt die Grundelemente einer Programmiersprache wie Variablen und Verzweigungen.
+		</p>
+		<p>
+			Die Shell ist ein mächtiges Werkzeug für die Administration des Systems. <em>Wer die Shell beherrscht, beherrscht auch das System.</em>
+		</p>
+		
+		<h3>Der Prompt</h3>
+		<p>
+			Loggt man sich in ein Linux-System ohne grafische Oberfläche ein, so landet man normalerweise in der <em class="Fachwort">Kommandozeile</em>, auch <em class="Fachwort">Prompt</em> genannt. Der Prompt bzw. die <em class="Fachwort">Eingabeaufforderung</em> nimmt Befehle entgegen. Die Shell sorgt dafür, dass diese Anweisungen von System ausgeführt werden. Außerdem versorgt Sie den Benutzer mit Informationen, wenn z.B die Ausführung eines Befehls nicht funktioniert hat.
+		</p>
+		<h3>Shell-Typen</h3>
+		<p>
+			Es gibt nicht nur eine Shell, sondern verschiedene, die sich im Befehlsumfang und in der Syntax teilweise stark unterscheiden.
+		</p>
+		<p>
+			Wenn unter LINUX jedoch von der "<i>Shell</i>" die Rede ist, so ist zumeist die <em>Bourne again Shell <em class="Fachwort">bash</em></em> gemeint. Sie ist normalerweise die LINUX-Standard-Shell.
+		</p>
+		<h2 id="kanaele">Kommunikationskanäle der Shell</h2>
+		<p>
+			Die Shell kennt drei Standard-<em class="Fachwort">Kommunikationskanäle</em> (<em class="Fachwort">Streams</em>):
+		</p>
+		<ul>
+			<li>
+				<em class="Fachwort">stdin</em>: Der <em>Standard-Eingabekanal</em> mit der Nummer <em>0</em> liest (normalerweise) Eingaben von der Tastatur ein.
+			</li>
+			<li>
+				<em class="Fachwort">stdout</em>: Der <em>Standard-Ausgabekanal</em> mit der Nummer <em>1</em> gibt (normalerweise) Zeichen auf dem Bildschirm aus.
+			</li>
+			<li>
+				<em class="Fachwort">stderr</em>: Der <em>Standard-Fehlerkanal</em> mit der Nummer <em>2</em> liefert (normalerweise) Bildschirmausgaben, die sich auf fehlerhafte Ausführungen von Befehlen beziehen.
+			</li>
+		</ul>
+		
+		<h2 id="streams">Umleitungen</h2>
+		<p>
+			<em class="Fachwort">Umleitungen</em> dienen häufig dazu, Bildschirmausgaben in eine Datei umzuleiten (um die Ausgaben mitzuloggen). Die Shell kennt mehrere Arten der Umleitung:
+		</p>
+		<ul>
+			<li>
+				<em class="Befehl_Variable">Befehl</em> <em class="Befehl">&gt;</em> <em class="Datei">Datei</em> : Die Standardausgabe (<em class="Fachwort">stdout</em>) wird in eine Datei <em class="Fachwort">umgeleitet</em>. Existiert die Datei nicht, wird sie angelegt.<br/>
+<em class="Achtung">ACHTUNG!</em> <em>Existiert die Datei bereits wird sie <em class="Achtung">überschrieben</em>!</em>
+			</li>
+			<li>
+				<em class="Befehl_Variable">Befehl</em> <em class="Befehl">&gt;&gt;</em> <em class="Datei">Datei</em> : Die Standardausgabe (<em class="Fachwort">stdout</em>) wird am Ende einer Datei <em class="Fachwort">angehängt</em>. Existiert die Datei nicht, wird sie angelegt.
+			</li>
+			<li>
+				<em class="Befehl_Variable">Befehl</em> <em class="Befehl">2&gt;</em> <em class="Datei">Datei</em> : Der Standardfehler-Kanal (<em class="Fachwort">stderr</em>) wird in eine Datei <em class="Fachwort">umgeleitet</em>. Existiert die Datei nicht, wird sie angelegt.<br/>
+<em class="Achtung">ACHTUNG!</em> <em>Existiert die Datei bereits wird sie <em class="Achtung">überschrieben</em>!</em>
+			</li>
+			<li>
+				<em class="Befehl_Variable">Befehl</em> <em class="Befehl">2&gt;&gt;</em> <em class="Datei">Datei</em> : Der Standardfehler-Kanal <em class="Fachwort">stderr</em> wird am Ende einer Datei <em class="Fachwort">angehängt</em>. Existiert die Datei nicht, wird sie angelegt.
+			</li>
+			<li style="margin-top: 1.5em;">
+				<em class="Befehl_Variable">Befehl</em> <em class="Befehl">&lt;</em> <em class="Datei">Datei</em> : Hier wird der Standardeingabekanal (<em class="Fachwort">stdin</em>) <em class="Fachwort">umgeleitet</em>. Normalerweise dient die Tastatur als Standardeingabekanal. Hier wird jedoch der Inhalt der <em class="Datei">Datei</em> an den Befehl umgeleitet so, als hätte man den Dateiinhalt per Tastatur in die Konsole eingegeben.
+			</li>
+		</ul>
+		
+		<h2 id="pipes">Weiterleitungen</h2>
+		<p>
+			<em class="Fachwort">Weiterleitungen</em> oder auch <em class="Fachwort">Pipes</em> dienen in der Shell dazu, Ergebnisse eines Befehls an einen anderen Befehl weiterzuleiten.
+		</p>
+		<p>
+			Das <em>Pipe-Zeichen</em> <em class="Befehl">|</em> erhält man über die Tastenkombination <em class="Taste">[STRG]</em> + <em class="Taste">[&lt]</em>.
+		</p>
+		<p class="Syntax"><em class="Befehl_Variable">Befehl 1</em> <em class="Befehl">|</em> <em class="Befehl_Variable">Befehl 2</em></p>
+		<p>
+			Das Ergebnis von <em class="Befehl_Variable">Befehl 1</em> wird an <em class="Befehl_Variable">Befehl 2</em> weitergeleitet.
+		</p>
+		
+		<h2><a href="linux_shellskripte.html">Shell Skripte</a></h2>
+		<p>
+			<em class="Fachwort"><a href="linux_shellskripte.html">Shell Skripte</a></em> sind Textdateien, die eine Abfolge von Shell-Befehlen enthalten. Diese werden dann von der Shell abgearbeitet. Shell-Skripte sind wichtige Hilfsmittel, wenn es darum geht, automatisiert eine Abfolge von Befehlen auszuführen, die man sonst einzeln in der Kommandozeile eingeben müsste. Die Fähigkeit Skripte auszuführen, macht die Shell zu einem sehr mächtigen Werkzeug.
+		</p>
+		
+		<h2><a href="linux_ssh.html">Die Secure Shell</a></h2>
+		<p>
+			Die <em class="Fachwort"><a href="linux_ssh.html">Secure Shell</a></em> (<em class="fachwort"><a href="linux_ssh.html">SSH</a></em>) ist ein Tool, mit dem eine Administration von entfernten Rechnern per Netzwerk möglich ist. Eine SSH-Verbindung ist
+			<b>verschlüsselt</b> und somit abhörsicher. Als Standardtool ist der SSH-Client auf jedem LINUX-System vorhanden.
+		</p>
+</td>
+	
+<td>
+	<img src="../css/tux.svg" width="157" height="201" alt="" style="opacity: 0.5; width: 9%; position: absolute; right: 1%; bottom: 0%;">
+	<aside style="position: fixed;">
+		<script src="../css/linux_aside_standard.js"></script>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../../impressum/impressum_datenschutz.html">Impressum</a>
+	<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+	<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right; margin-top: 0px;"><img src="../../css/by-nc-sa.eu.png" width="89" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+	<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 01.10.2019&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_shell/linux_shell.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:22 GMT -->
+</html>

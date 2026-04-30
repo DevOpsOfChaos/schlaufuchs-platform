@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/informatik_einstieg.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:16 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="expires" content="500000">
+	<title>Einstieg in die Informatik mit C und Python</title>
+	<link href="../css/standard_informatik.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/schlaufuchs_logo_navbar.png">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../css/schlaufuchs_logo_navbar.png" width="75" height="67" alt="Schlaufuchs Logo">
+			</figure>
+			<p>
+				<a class="intern" href="../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;
+				<a class="intern" ref="../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a class="intern" href="../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a class="intern" href="../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a class="intern" href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+				<a class="intern" href="../informatik_start.html">Informatik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a class="intern" href="../informatik_start.html">Programmieren mit C und Python</a> &nbsp;&nbsp;
+			</p>
+		</nav>
+	</header>
+	<div class="main-container">
+		<main>
+			<h1>Einstieg in die Programmierung mit C und Python</h1>
+			<h2 id="Struktur">Programme – Struktur und Bestandteile</h2>
+			<p>
+				Wie kommt man als Einsteiger von einer Aufgabe zu einem funktionierenden Computerprogramm?<br>
+				Am Anfang steht immer ein Ziel – zum Beispiel eine Zahl zu berechnen, Daten zu speichern oder
+				Informationen anzuzeigen.<br>
+				Dieses Ziel muss in eindeutige, logisch geordnete Anweisungen übersetzt werden, die der Computer
+				verstehen kann.
+			</p>
+			<p>
+				In diesem Kapitel wird erläutert, wie aus einer Idee eine
+				klare, ausführbare Folge von Anweisungen entsteht.
+			</p>
+			<h2 id="Grundidee">Grundidee eines Programms</h2>
+			<p>
+				Ein Computerprogramm ist eine genau festgelegte Abfolge von Anweisungen, die von einem Computer
+				schrittweise ausgeführt werden.<br>
+				Damit ein Computer diese Anweisungen verstehen kann, müssen sie in einer Programmiersprache geschrieben
+				werden, die anschließend in Maschinensprache übersetzt wird.
+			</p>
+			<p>
+				Ein Programm besteht im Wesentlichen aus zwei grundlegenden Bausteinen:
+			</p>
+			<figure style="margin-top: 1em;">
+				<img src="bilder/Bestandteile_Programm.png" alt="Bestandteile eines Programms" width="250px"
+					title="Bestandteile eines Programms" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Bestandteile eines Programms
+				</figcaption>
+			</figure>
+			<h3>Anweisungen</h3>
+			<p>
+				<em class="Fachwort">Anweisungen</em> (<b>Befehle</b>) legen fest, welche Aktionen der Computer
+				ausführen soll.
+			</p>
+			<h4>
+				Eigenschaften von Anweisungen:
+			</h4>
+			<ul>
+				<li>
+					Werden in einer Programmiersprache formuliert (z. B. C, Python).
+				</li>
+				<li>
+					Folgen einer logischen Reihenfolge (Ablaufsteuerung).
+				</li>
+				<li>
+					Können sich wiederholen (Schleifen) oder Entscheidungen treffen (Bedingungen).
+				</li>
+			</ul>
+			<h4>
+				Beispiele:
+			</h4>
+			<ul>
+				<li>
+					„Addiere zwei Zahlen“
+				</li>
+				<li>
+					„Zeige den Text ‘Hallo Welt’ auf dem Bildschirm an“
+				</li>
+				<li>
+					„Prüfe, ob eine Zahl größer als 10 ist“
+				</li>
+			</ul>
+			<h3>Daten</h3>
+			<p>
+				<em class="Fachwort">Daten</em> sind die <b>Informationen</b>, auf die sich die Anweisungen beziehen und
+				mit
+				denen sie arbeiten.
+			</p>
+			<h4>
+				Eigenschaften von Daten:
+			</h4>
+			<ul>
+				<li>
+					Können Zahlen, Texte, Bilder oder andere Informationsarten sein.
+				</li>
+				<li>
+					Werden im Speicher des Computers abgelegt (temporär im Arbeitsspeicher oder dauerhaft auf einer
+					Festplatte).
+				</li>
+				<li>
+					Können vom Benutzer eingegeben, aus Dateien gelesen oder vom Programm selbst erzeugt werden.
+				</li>
+			</ul>
+			<h4>
+				Beispiele:
+			</h4>
+			<ul>
+				<li>
+					Die Zahlen 5 und 3, die addiert werden sollen.
+				</li>
+				<li>
+					Ein Text wie „Herzlich willkommen“, der auf dem Bildschirm erscheinen soll.
+				</li>
+				<li>
+					Messwerte eines Sensors, die in einem Programm verarbeitet werden.
+				</li>
+			</ul>
+
+
+			<h2 id="Anweisungen">Anweisungen – das Fundament eines Programms</h2>
+			<p>
+				<em class="Fachwort">Anweisungen</em> (<b>Befehle</b>) sind die elementaren Arbeitsschritte, die der
+				Computer ausführt.<br>
+				Damit sie verstanden und korrekt umgesetzt werden, müssen sie exakt formuliert sein – in einer
+				Programmiersprache mit festgelegten Regeln. Diese Regeln nennt man <code class="Fachwort"></code>Syntax.
+			</p>
+			<h3>
+				Warum ist Syntax so wichtig?
+			</h3>
+			<p>
+				Schon kleine Abweichungen, z. B. ein fehlendes Semikolon oder eine falsch eingerückte Zeile, können dazu
+				führen, dass ein Programm nicht funktioniert oder gar nicht erst gestartet wird.<br>
+				<em class="Fachwort">Syntaxfehler</em> sind vergleichbar mit Rechtschreibfehlern in einer formalen
+				Sprache – sie können den Sinn vollständig verändern oder die Verständlichkeit zerstören.
+			</p>
+			<h3>
+				Gemeinsamkeiten zwischen C und Python
+			</h3>
+			<h4>
+				Eindeutigkeit:
+			</h4>
+			<p>
+				In beiden Sprachen muss jede Anweisung klar formuliert und nach den jeweiligen Syntaxregeln geschrieben
+				werden.
+			</p>
+			<h4>
+				Ablaufsteuerung:
+			</h4>
+			<p>
+				Beide unterstützen grundlegende Kontrollstrukturen wie Bedingungen (<code
+					class="Programmierung_Befehl">if</code>-Anweisungen), Schleifen (<code
+					class="Programmierung_Befehl">for</code>, <code class="Programmierung_Befehl">while</code>) und
+				Funktionsaufrufe.
+			</p>
+			<h4>
+				Logischer Aufbau:
+			</h4>
+			<p>
+				Unabhängig von der Sprache folgt der Ablauf den gleichen Denkstrukturen – nur die Schreibweise
+				unterscheidet sich.
+			</p>
+			<h3>
+				Unterschiede in der Syntax
+			</h3>
+			<table cellpadding="4" cellspacing="0">
+				<thead>
+					<tr>
+						<td bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #708090; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Aspekt</b>
+							</p>
+						</td>
+						<td bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #708090; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>C</b>
+							</p>
+						</td>
+						<td bgcolor="#d3d3d3" style="background: #d3d3d3; border: 1px solid #708090; padding: 0.1cm">
+							<p class="western">
+								<b>Python</b>
+							</p>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Befehlsende</b>
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Jede Anweisung endet mit Semikolon <font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>;</b></font>
+								</font>.</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: 1px solid #708090; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Der Befehl endet mit dem Zeilenende.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Blockstruktur</b>
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Codeblöcke werden mit geschweiften Klammern <font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>{}</b></font>
+								</font>
+								begrenzt.</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: 1px solid #708090; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Codeblöcke werden durch <i><b>Einrückungen</b></i> definiert.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								<b>Variablendeklaration</b>
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Variablen müssen vor der Verwendung mit <font color="#800000"><span
+										style="letter-spacing: 1.0pt"><span style="font-style: normal"><span
+												style="background: #ffffcc">Typ</span></span></span></font>
+								angegeben werden (<var class="western">int</var>, <var class="western">float</var>,
+								<var class="western">char</var>).
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: 1px solid #708090; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Variablen werden beim Zuweisen <i>automatisch</i> angelegt, der
+								<i>Typ</i> wird <i>automatisch</i> bestimmt.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<b>Funktionen</b>
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Funktionskopf enthält Rückgabetyp (<var class="western">int</var>
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>main()</b></font>
+								</font>),
+								Parameter und geschweifte Klammern.
+							</p>
+						</td>
+						<td
+							style="border-top: none; border-bottom: 1px solid #708090; border-left: 1px solid #708090; border-right: 1px solid #708090; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Funktion wird mit <font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>def</b></font>
+								</font>
+								eingeleitet, Parameter in Klammern, Block durch Einrückung.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>
+				Zusammenfassung
+			</h3>
+			<p>
+				Auch wenn sich C und Python in ihrer Schreibweise (Syntax) deutlich unterscheiden, beruhen beide auf
+				denselben logischen Prinzipien:
+			</p>
+			<ul>
+				<li>
+					Anweisungen müssen eindeutig formuliert sein.
+				</li>
+				<li>
+					Der Ablauf wird mit Kontrollstrukturen wie Bedingungen und Schleifen gesteuert.
+				</li>
+				<li>
+					Aufgaben lassen sich in Funktionen gliedern, um den Code übersichtlich und wiederverwendbar zu
+					gestalten.
+				</li>
+			</ul>
+			<p>
+				Wer die grundlegende Denkweise hinter den Anweisungen verstanden hat, kann dieses Wissen leicht auf
+				verschiedene Programmiersprachen übertragen.
+			</p>
+			<ul>
+				<li>
+					Inhaltlich lässt sich derselbe Algorithmus in C, Python oder einer anderen Sprache umsetzen.
+				</li>
+				<li>
+					Formell muss er jedoch an die jeweiligen Syntax-Vorgaben angepasst werden.
+				</li>
+			</ul>
+			<p>
+				Wer die gemeinsame Logik erkennt und die unterschiedliche Syntax beherrscht, kann in mehreren Sprachen
+				sicher programmieren.
+			</p>
+
+			<h2 id="Daten">Daten</h2>
+			<p>
+				Anweisungen beschreiben was ein Computer tun soll – Daten liefern das Womit.
+				Ohne Daten gäbe es für ein Programm nichts zu verarbeiten.
+			</p>
+			<h3>Bedeutung von Daten</h3>
+			<p>
+				<em class="Fachwort">Daten</em> sind Informationen, die ein Programm speichert, verarbeitet oder
+				ausgibt.
+				Sie können fest im Programm hinterlegt (konstant) oder zur Laufzeit eingegeben werden.
+				Daten werden im Speicher des Computers abgelegt:
+			</p>
+			<ul>
+				<li>
+					<i>flüchtig</i> (<code class="Fachwort_nativ">volatile</code>) im Arbeitsspeicher (RAM) – sie gehen
+					beim Ausschalten verloren.
+				</li>
+				<li>
+					<i>dauerhaft</i> (<code class="Fachwort_nativ">non volatile</code>) auf einer Festplatte, SSD oder
+					einem anderen Speichermedium.
+				</li>
+			</ul>
+			<h3>Datentypen</h3>
+			<p>
+				In Programmiersprachen werden Daten je nach Art in <em class="Fachwort">Datentypen</em> eingeteilt.
+				Dies ermöglicht dem Computer, Speicherplatz effizient zu nutzen und die richtigen Operationen
+				auszuführen.
+			</p>
+			<table width="635" cellpadding="4" cellspacing="0">
+				<col width="157" />
+				<col width="126" />
+				<col width="326" />
+				<thead>
+					<tr>
+						<th width="157" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #696969; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="left">
+								Datentyp</p>
+						</th>
+						<th width="126" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #696969; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="left">
+								Beispiele</p>
+						</th>
+						<th width="326" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #696969; padding: 0.1cm">
+							<p class="western" align="left">
+								Verwendung</p>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="157"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<var class="western">Ganzzahlen</var>
+							</p>
+						</td>
+						<td width="126"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>0,
+											42, -5</b></font>
+								</font>
+							</p>
+						</td>
+						<td width="326"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Zähler, Indizes, IDs</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<var class="western">Gleitkommazahlen</var>
+							</p>
+						</td>
+						<td width="126"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>3.14,
+											-0.01</b></font>
+								</font>
+							</p>
+						</td>
+						<td width="326"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Messwerte, Berechnungen mit Dezimalstellen</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<var class="western">Zeichen</var>
+							</p>
+						</td>
+						<td width="126"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>'A',
+											'z', '7'</b></font>
+								</font>
+							</p>
+						</td>
+						<td width="326"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Einzelne Buchstaben oder Symbole</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<var class="western">Zeichenketten</var>
+							</p>
+						</td>
+						<td width="126"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>&quot;Hallo&quot;,
+											&quot;abc123&quot;</b></font>
+								</font>
+							</p>
+						</td>
+						<td width="326"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Textverarbeitung, Nachrichten</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<var class="western">Wahrheitswerte</var>
+							</p>
+						</td>
+						<td width="126"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<font color="#0000ff">
+									<font face="Liberation Mono, monospace"><b>true,
+											false</b></font>
+								</font>
+							</p>
+						</td>
+						<td width="326"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Entscheidungen, Bedingungen</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3 style="margin-bottom: 0.5em;">Unterschiede zwischen C und Python bei Daten</h3>
+			<table width="643" cellpadding="4" cellspacing="0">
+				<col width="157" />
+				<col width="254" />
+				<col width="205" />
+				<thead>
+					<tr>
+						<th width="157" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #696969; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="center">
+								Aspekt</p>
+						</th>
+						<th width="254" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border-top: 1px solid #696969; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								C</p>
+						</th>
+						<th width="205" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #696969; padding: 0.1cm">
+							<p class="western">
+								Python</p>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="157" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="center">
+								<strong>Variablendeklaration</strong>
+							</p>
+						</td>
+						<td width="254"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Datentyp muss <strong>vorher</strong> angegeben werden (<code class="western">int
+				x = 5;</code>).</p>
+						</td>
+						<td width="205"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Datentyp wird <i>automatisch</i> erkannt (<code class="western">x
+				= 5</code>).</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="center">
+								<strong>Typensicherheit</strong>
+							</p>
+						</td>
+						<td width="254"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								<i>Streng</i> – Variablentyp ist fest und kann nicht geändert
+								werden.
+							</p>
+						</td>
+						<td width="205"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								<i>Flexibel</i> – Variablentyp kann sich zur Laufzeit ändern.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="center">
+								<strong>Speicherverwaltung</strong>
+							</p>
+						</td>
+						<td width="254"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Teilweise manuell (z. B. bei Arrays, dynamischem Speicher).</p>
+						</td>
+						<td width="205"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Automatisch
+							</p>
+							<p class="western">(<font color="#000080"><span style="letter-spacing: 1.0pt"><span
+											style="font-style: normal"><span style="background: #e0ffff">Garbage
+												Collection</span></span></span></font>).</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="157" bgcolor="#dcdcdc"
+							style="background: #dcdcdc; border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western" align="center">
+								<strong>Standard-Datentypen</strong>
+							</p>
+						</td>
+						<td width="254"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+							<p class="western">
+								Einfach, wenige Grundtypen: <br />
+								<var class="western">int,
+									float, char</var>
+							</p>
+							<p class="western">Komplexere Strukturen müssen definiert
+								werden.</p>
+						</td>
+						<td width="205"
+							style="border-top: none; border-bottom: 1px solid #696969; border-left: 1px solid #696969; border-right: 1px solid #696969; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+							<p class="western">
+								Viele eingebaute Datentypen (Listen, Dictionaries, Sets).</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<p>
+					Summe zweier Zahlen in <b>C</b>.
+				</p>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;background-color:#ffffff;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>;</span>
+    <span style='color:#0057ae;'>int</span> b <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>3</span><span style='color:#ca60ca;'>;</span>
+    <span style='color:#0057ae;'>int</span> summe <span style='color:#ca60ca;'>=</span> a <span style='color:#ca60ca;'>+</span> b<span style='color:#ca60ca;'>;</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Summe: </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> summe<span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<p>
+					Summe zweier Zahlen in <b>Python</b>.
+				</p>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;background-color:#ffffff;'>
+a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span>
+b <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>3</span>
+summe <span style='color:#ca60ca;'>=</span> a <span style='color:#ca60ca;'>+</span> b
+<b><span style='color:#644a9b;'>print</span></b>(<span style='color:#bf0303;'>&quot;Summe:&quot;</span>, summe)</pre>
+				</div>
+			</div>
+			<h3>Zusammenfassung: Daten als Arbeitsmaterial</h3>
+			<ul style="margin-top: 0em;">
+				<li>
+					<b>C</b> erfordert eine <i>präzise Vorabdefinition der Datentypen</i>, wodurch Programme oft
+					schneller und ressourcenschonender sind.
+				</li>
+				<li>
+					<b>Python</b> ist hier flexibler, was besonders für Einsteiger den Umgang erleichtert, jedoch in
+					bestimmten Fällen weniger effizient sein kann. Manchmal ist diese flexible Definition auch eine
+					Fehlerquelle in
+					Python Skripten.
+				</li>
+			</ul>
+			<h2 id="pap">Der Programmablaufplan – Programme visuell darstellen</h2>
+			<p>
+				Bevor der eigentliche Quellcode entsteht, ist es oft hilfreich, den Ablauf eines Programms visuell zu
+				planen.
+			</p>
+			<p>
+				Dafür werden <em class="Fachwort">Programmablaufpläne</em> (<em class="Fachwort">PAP</em>) verwendet.
+			</p>
+			<p style="margin-top: 0.5em;">
+				Ein Programmablaufplan zeigt in einer grafischen Form:
+			</p>
+			<ul style="margin-top: 0.5em;">
+				<li>
+					welche Schritte das Programm ausführt
+				</li>
+				<li>
+					in welcher Reihenfolge sie erfolgen
+				</li>
+				<li>
+					an welchen Stellen Entscheidungen getroffen werden
+				</li>
+			</ul>
+			<h3>Warum ein Programmablaufplan nützlich ist</h3>
+			<ul style="margin-top: 0;">
+				<li>
+					<b>Planung vor dem Programmieren</b>: Hilft, den Ablauf zu strukturieren, bevor Quellcode entsteht.
+				</li>
+				<li>
+					<b>Verständlichkeit</b>: Auch für Personen ohne Programmierkenntnisse nachvollziehbar.
+				</li>
+				<li>
+					<b>Fehlererkennung</b>: Logische Fehler lassen sich früh erkennen, bevor sie im Code Probleme
+					verursachen.
+				</li>
+				<li>
+					<b>Kommunikation</b>: Erleichtert die Zusammenarbeit in Teams, da er eine neutrale visuelle Sprache
+					nutzt.
+				</li>
+			</ul>
+			<h3>Standard-Symbole im PAP</h3>
+			<p>
+				Eine Form für die visuelle Darstellung eines Programms ist der <em
+					class="Fachwort">Programmablaufplan</em> (<em class="Fachwort">PAP nach DIN 66001</em>).<br>
+				Ein PAP eignet sich nicht nur zur Darstellung von Programmen, sondern auch zur Darstellung von
+				Prozessen. Die Darstellung ist in der <b>DIN&nbsp;66001</b> genormt. Jede Anweisung erhält einen eigenen
+				<em class="Fachwort">Strukturblock</em>, dessen Aussehen sich nach der Art der Anweisung richtet.
+			</p>
+			<h3>Start / Stopp - Block</h3>
+			<p>
+				Der Beginn bzw. das Ende des Programms wird durch einen Start- bzw. Stopp-Block gekennzeichnet.
+			</p>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Start- / Stopp-Block:</em>
+			</p>
+			<figure style="margin-top: 0;">
+				<img src="bilder/02_Grundlagen_Programmieren_html_446fdbd6.png" alt="Start- / Stopp-Block" width="150px"
+					title="Start- / Stopp-Block" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Start- / Stopp-Block im PAP
+				</figcaption>
+			</figure>
+			<h3>Anweisungen</h3>
+			<p>
+				Jede Anweisung in einem Programm erhält ihren eigenen Anweisungs-Block.
+			</p>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Anweisungs-Block:</em>
+			</p>
+			<figure style="margin-top: 1em;">
+				<img src="bilder/02_Grundlagen_Programmieren_html_e2f9289a.gif" alt="Anweisungs-Block" width="200px"
+					title="Anweisungs-Block" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Anweisungs-Block im PAP
+				</figcaption>
+			</figure>
+			<h3>Ein- Ausgabe</h3>
+			<p>
+				Für die Kommunikation mit dem Benutzer gibt es den Ein- bzw. Ausgabe-Block.
+			</p>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Ein- / Ausgabe-Block:</em>
+			</p>
+			<figure style="margin-top: 0;">
+				<img src="bilder/02_Grundlagen_Programmieren_html_7fcd0479.png" alt="Ein- / Ausgabe-Block" width="250px"
+					title="Ein- / Ausgabe-Block" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Ein- / Ausgabe-Block im PAP
+				</figcaption>
+			</figure>
+			<h3>Linearer Ablauf von Anweisungen (Sequenz)</h3>
+			<p>
+				Anweisungen, die nacheinander durchlaufen werden mit Pfeilen verbunden, die den Fluss der Anweisungen
+				wiedergeben.
+			</p>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Sequenz:</em>
+			</p>
+			<figure style="margin-top: 0;">
+				<img src="bilder/02_Grundlagen_Programmieren_html_777c998.png" alt="Sequenz" width="250px"
+					title="Sequenz" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Sequenz
+				</figcaption>
+			</figure>
+			<h3>Bedingte Verzweigungen (if / else)</h3>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Bedingte Verzweigung:</em>
+			</p>
+			<figure style="margin-top: 0;">
+				<img src="bilder/02_Grundlagen_Programmieren_html_5d71526b.png" alt="Bedingte Verzweigung" width="500px"
+					title="Bedingte Verzweigung" style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Bedingte Verzweigung
+				</figcaption>
+			</figure>
+			<h3>Schleifen</h3>
+			<p>
+				Schleifen werden im PAP durch bedingte Verzweigungen gebildet. Einen speziellen Block für Schleifen gibt
+				es im PAP nicht.
+			</p>
+			<p style="margin-top: 1em;">
+				<em class="Fachwort">Schleifen:</em>
+			</p>
+			<div style="display: flex; flex-wrap: wrap;">
+				<figure style="margin-top: 0;">
+					<img src="bilder/02_Grundlagen_Programmieren_html_1834d701.png" alt="Schleifen" width="300px"
+						title="Schleifen" style="min-width: 100px; max-width: 100%;">
+					<figcaption>
+						Kopfgesteuerte Schleife
+					</figcaption>
+				</figure>
+				<figure style="margin-top: 0;">
+					<img src="bilder/02_Grundlagen_Programmieren_html_37724044.png" alt="Schleifen" width="300px"
+						title="Schleifen" style="min-width: 100px; max-width: 100%;">
+					<figcaption>
+						Fußgesteuerte Schleife
+					</figcaption>
+				</figure>
+			</div>
+
+
+
+		</main>
+
+		<div>
+			<aside>
+				<p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+					<a class="side" href="#Struktur">Struktur und Bestandteile eines Programms</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Grundidee">Grundidee eines Programms</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Anweisungen">Anweisungen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Daten">Daten</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#pap">Programmablaufplan</a>
+				</p>
+
+				<p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px; margin-bottom: 15px;">
+							&#x21eb;
+						</div>
+					</a><br>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px; clear: both;" class="side">
+					<a class="intern" href="../informatik_start.html">Programmiern mit C und Python</a>
+				</p>
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right"><img src="../../css/by-nc-sa.eu.png" width="88" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 09.10.2025&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/informatik_einstieg.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:18 GMT -->
+</html>

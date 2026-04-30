@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html id="oben" style="scroll-behavior: smooth;">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_avr/avr_timer.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 17:26:52 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<title>AVR: Timer</title>
+	<link type="text/css" rel="stylesheet" href="../../../css/standard_elektrotechnik.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="../../../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<figure style="float: right; margin: -8px; padding: 0;">
+			<img src="../../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+		</figure>
+		<nav>
+			<p>
+				<a href="../../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;
+				<a href="../../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a href="../../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a href="../../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a href="../../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a href="../../mikrocontroller_lernmaterial.html">Mikrocontroller Lernmaterial</a> &nbsp;&nbsp;&nbsp;
+				<a href="avr.html">AVR Mikrocontroller</a> &nbsp;&nbsp;&nbsp;
+				<a href="../mikrocontroller_arduin/arduino.11e.delaye">Arduino</a> &nbsp;&nbsp;&nbsp;
+			</p>
+		</nav>
+	</header>
+
+	<table>
+		<tr>
+			<td class="main" style="width: 75%;">
+				<h1 id="timer">Timer der <span style="color: navy; ">AVR<sup>&reg;</sup></span> Mikrocontroller-Familie
+				</h1>
+				<p>
+					Eine der wichtigsten Funktionen, die <b>AVR</b> Mikrocontroller zur Verfügung stellen sind
+					<b>Timer</b>.<br>
+					Bei einem <b>Timer</b> handelt es sich prinzipiell um einen <b>Zähler</b>, der durch einen
+					einstellbaren, genau definierten Takt gespeist wird. Der Zähler läuft unabhängig vom aktuellen
+					Programm parallel zur CPU. Mit dem Zählerstand und der definierten Länge des Zähltakts kann man auf
+					die verstrichene Zeit zurückschließen.
+				</p>
+				<p>
+					Häufig stellt ein Mikrocontroller mehrere Timer zur Verfügung, die auch noch unterschiedliche
+					Sonderfunktionen besitzen.
+				</p>
+				<p>
+					Die Funktionsweise der Timer wird über <code
+						class="Fachwort"><a href="../mikrocontroller_a/avr_register.52c.delaye#Sonderregister" target="_blank" class="intern" title="Sonderregister">Sonderregister</a></code>
+					gesteuert.
+				</p>
+
+
+				<h2>Die Zähler des ATmega328p</h2>
+				<p>
+					Am Beispiel des <b style="color: navy;">ATmega328p</b> werden die grundlegenden Funktionen von
+					Timern behandelt. Der <span style="color: navy;">ATmega328p</span> besitzt 3 Timer mit
+					unterschiedlichen Sonderfunktionen. Zwei der Timer (<b>TC0</b> und <b>TC2</b>) haben eine Breite von
+					<b>8</b> Bit, einer (<b>TC1</b>) hat eine Breite von <b>16</b> Bit.
+				</p>
+				<h3 id="TCCR"><a href="/avr_TCCR.210a.delaye" target="_blank" class="intern">Die Timer/Counter
+						Control Register</a></h3>
+				<p>
+					Die Funktion der Timer wird für jedem Timer unabhängig von drei Sonderregistern gesteuert. Diese
+					werden im Handbuch als <a href="/avr_TCCR.210a.delaye" target="_blank"
+						class="intern"><b>Timer/Counter Control Register</b></a> (<b>TCCRnA</b>, <b>TCCRnB</b>,
+					<b>TCCRnC</b>) bezeichnet.
+				</p>
+
+
+				<h3 id="Normalmode">Zähler im Normalmodus</h3>
+				<figure style="max-width: 260px; float: right;">
+					<a href="../mikrocontroller_a/avr_timer_bild_001.210b" target="_blank"><img class="interaktiv"
+							src="../mikrocontroller_a/jw_timer_normalmodus_01" width="250" height="34"
+							alt="Blockdiagramm Timer"></a>
+					<figcaption>
+						<p>
+							Vereinfachtes Blockschaltbild für einen Zähler im Normalmodus
+						</p>
+					</figcaption>
+				</figure>
+				<p>
+					Im <em class="Fachwort">Normalmodus</em> fungiert ein Zähler einfach nur als Zähler. D.h. unabhängig
+					von der CPU zählt der Zähler kontinuierlich hoch bis zum Überlauf und fängt dann wieder bei Null an
+					weiter zu zählen.
+				</p>
+				<h4 id="prescaler">Prescaler</h4>
+				<p>
+					Der Takt, mit dem der Zähler hoch zählt, wird aus dem Systemtakt gewonnen. Beim <span
+						style="color: navy;">ATmega328p</span> auf dem <b>Arduino UNO</b> Board liegt dieser bei
+					<b>16MHz</b>. Da dies für viele Anwendungen zu schnell ist, kann man mit einem <code
+						class="Fachwort">Prescaler</code> einen niedrigeren Zähltakt einstellen.
+				</p>
+				<p>
+					Der <b>Prescaler</b> dividiert den Systemtakt durch einen festen Wert. Beim <span
+						style="color: navy;">ATmega328p</span> sind für <b>TC0</b> und <b>TC1</b> folgende Werte
+					möglich: <b>8</b>, <b>64</b>, <b>256</b>, <b>1024</b>.
+				</p>
+				<p>
+					Die Einstellungen des Prescalers werden durch die drei <b>Clock Select Bits</b> <code
+						class="Pin">CSn2:0</code> gesteuert, die sich im <a href="/avr_TCCR.210a.delaye"
+						target="_blank" class="intern"><b>Timer/Counter Control Register B</b></a> <code
+						class="Pin">TCCRnB</code> des jeweiligen Timers finden. Dabei unterscheidet sich die
+					Programmierung <b>CS</b>-Bits von <b>TC0</b> und <b>TC1</b> geringfügig vom <b>TC2</b>.
+				</p>
+				<h4>Setup der Timer im Normalmodus</h4>
+				<p>
+					Das Setup der Timer für den Normalmodus ist denkbar einfach. Es muss nur das <code
+						class="Pin">TCCRnB</code> beschrieben werden, die anderen Register werden bei einem Reset
+					standardmäßig auf Null gesetzt. Sobald eines der <b>Clock Select Bits</b> <code
+						class="Pin">CSn2:0</code> ungleich Null ist, erhält der Timer ein Taktsignal und läuft los.
+				</p>
+
+				<p>
+				<div style="margin-top: 1em;" class="Link">
+					<p>
+						<a href="../mikrocontroller_a/avr_timer_rechenbeispie" target="_blank" class="intern">Rechenbeispiele für
+							Timer im <span style="color: navy;">ATmega328p</span></a>
+					</p>
+				</div>
+				</p>
+				<p style="clear: both;">
+					<div style="margin-bottom: 2em; margin-top: 1em;" class="Link">
+						<p>
+							<a href="../mikrocontroller_a/avr_timer_warten_01.210" target="_blank" class="intern">Warten bis eine bestimmte Zeit abgelaufen ist</a>
+						</p>
+					</div>
+					</p>
+
+				<h3 style="clear: both; margin-top: 3em;" id="PWM">PWM</h3>
+				<p>
+					Die <em class="Fachwort"><a href="../mikrocontroller_e/mikrocontroller_PWM.b51"
+							target="_blank" class="intern" title="Pulsweitenmodulation">Pulsweiten-Modulation</a></em>
+					(<b>PWM</b>) wird häufig zur Leistungssteuerung von Verbrauchern eingesetzt.
+				</p>
+				<p>
+					Die Timer des <span style="color: navy;">ATmega328p</span> (und natürlich auch vieler anderer
+					<b>AVR</b>-Mikrocontroller) bieten die Möglichkeit an bestimmten Pins ein PWM-Signal zu generieren,
+					unabhängig vom Programmablauf auf der CPU.
+				</p>
+				<p>
+					Darüberhinaus stehen unterschiedliche PWM-Modi zur Verfügung.
+				</p>
+				<h4 id="CM">Compare Match</h4>
+				<p>
+					Die Funktionsweise der PWM-Generierung beruht auf einem Vergleich des aktuellen Zählerstands mit
+					zwei unabhängigen <b>Output Compare Registern</b> (<b>OCRnA</b> und <b>OCRnB</b>). Bei einem
+					<b>Compare Match</b> (Gleichheit von Register und Zählerstand) kann der Zustand der <b>PWM-Pins</b>
+					(<code class="Pin">OCnx</code>) auf unterschiedliche Art verändert werden.
+				</p>
+				<p>
+					Die Funktionalität ergibt sich wiederum durch das Beschreiben der Register-Bits im <a
+						href="/avr_TCCR.210a.delaye" target="_blank" class="intern"><b>Timer/Counter Control
+							Register</b></a> (<b>TCCRnA</b>, <b>TCCRnB</b>, <b>TCCRnC</b>) Außerdem müssen auch die
+					<b>Output Compare Register</b> (<b>OCRnA</b> und <b>OCRnB</b>) mit den entsprechenden Werten
+					beschrieben und ggf. im Programmablauf geändert werden.
+				</p>
+				<h4 id="fast_PWM_TC0">Fast PWM mit fester Periode TC0 (Mode 3)</h4>
+				<p>
+					Ein asymmetrisches PWM-Signal an den Pins <code class="Pin">OC0A</code> (<code
+						class="Pin">PD6</code>) und <code class="Pin">OC0B</code> (<code class="Pin">PD5</code>) ergibt
+					sich im PWM Mode 3. Dazu werden die <a href="/avr_TCCR.210a.delaye#WGM0" target="_blank"
+						class="intern" title="Waveform Gerneration Mode Register-Bits"><b>Waveform Generation Mode</b>
+						Register-Bits (<b>WGM0</b>2:0)</a> wie folgt beschrieben:
+				</p>
+				<table style="border-collapse: collapse; margin-top: 0.5em; margin-left: 2em;">
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM02</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM01</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM00</b>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>0</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>1</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>1</b>
+						</td>
+					</tr>
+				</table>
+				<p style="margin-top: 0.5em;">
+					Die <b>PWM-Frequenz</b> ergibt sich dann aus der Stellung des Prescalers von <b>TC0</b>, d.h. aus
+					den <a href="/avr_TCCR.210a.delaye#CS0" target="_blank" class="intern"
+						title="Clock Select Bits CS0"><b>Clock Select Bits</b> <b>CS02:0</b></a>.
+				</p>
+				<p>
+					Das PWM Signal kann invertiert werden oder nicht. Dies ergibt sich aus den <b>Compare Match Output
+						Mode</b> Bits <a href="/avr_TCCR.210a.delaye#COM0A" target="_blank" class="intern"
+						title="Compare Match Output Mode A für TC0"><b>COM0A</b>1:0</a> und <a
+						href="/avr_TCCR.210a.delaye#COM0B" target="_blank" class="intern"
+						title="Compare Match Output Mode B für TC0"><b>COM0B</b>1:0</a> für das <a
+						href="/avr_TCCR.210a.delaye#OCR0A" target="_blank" class="intern"
+						title="Output Compare Register TC0 A"><b>OCR0A</b></a> und <a
+						href="/avr_TCCR.210a.delaye#OCR0B" target="_blank" class="intern"
+						title="Output Compare Register TC0 B"><b>OCR0B</b></a>.
+				</p>
+				<p>
+					Das <b>Tastverhältnis</b> der PWM ergibt sich aus den <a href="/avr_TCCR.210a.delaye#OCR0A"
+						target="_blank" class="intern" title="Output Compare Register TC0"><b>Output Compare
+							Registern</b> <b>OCR0A</b> und <b>OCR0B</b></a>. Diese können während des Programmablaufs
+					verändert werden, was zu einer Veränderung des Tastverhältnisses des PWM-Signals an <code
+						class="Pin">OC0A</code> (<code class="Pin">PD6</code>) und <code class="Pin">OC0B</code> (<code
+						class="Pin">PD5</code>) führt.
+				</p>
+				<p>
+					Für die Erzeugung eines PWM-Signals mit dem <b>TC0</b> müssen also folgende Register-Bits
+					beschrieben werden:
+				</p>
+				<ul style="margin-top: 0.5em;">
+					<li>
+						<b>WGM0</b>[2:0]
+					</li>
+					<li>
+						<b>COM0A</b>[1:0]
+					</li>
+					<li>
+						<b>COM0B</b>[1:0]
+					</li>
+					<li>
+						<b>OCR0A</b>[7:0]
+					</li>
+					<li>
+						<b>OCR0B</b>[7:0]
+					</li>
+					<li>
+						<b>CS0</b>[2:0]
+					</li>
+				</ul>
+				<h3 id="Timer_Interrupts">Timer Interrupts</h3>
+				<p style="margin-bottom: 1em;">
+					Die Timer des <b style="color: navy;">AVR</b> stellen mehrere Möglichkeiten zur Verfügung, einen IRQ
+					auszulösen. Für den <span style="color: navy;">ATmega328p</span> werden diese in einem gesonderten
+					Abschnitt beschrieben:
+				</p>
+				<div style="margin-bottom: 1em;" class="Link">
+					<p>
+						<a href="../mikrocontroller_a/avr_interrupt.52f.delay#Timer_Interrupts" target="_blank" class="intern">Timer Interrupts
+							beim <span style="color: navy;">ATmega328p</span></a>
+					</p>
+				</div>
+
+				<h3 style="clear: both; margin-top: 1em;" id="rechteck_var_f">Rechtecksignal mit variabler Frequenz</h3>
+				<p>
+					Die Timer lassen sich auch zur Signalerzeugung nutzen. So lässt sich ein symmetrisches
+					Rechtecksignal mit variabler Frequenz unabhängig von der CPU erzeugen.
+				</p>
+				<h4 style="margin-top: 0.5em;" id="CTC">CTC-Mode</h4>
+				<p>
+					Für diesen Anwendungsfall eignet sich der <code class="Fachwort">CTC-Mode</code> des jeweiligen
+					Timers.<br>
+					<b>CTC</b> steht für <b>Clear Timer on Compare Match</b>. Der Timer wird bei einem <b><a href="#CM"
+							class="intern">Compare Match</a></b> rückgesetzt und fängt von Null an zu zählen.
+				</p>
+				<p>
+					Es muss dazu das <b>Output Compare Register A</b> <b>OCRnA</b> beschrieben werden.
+				</p>
+				<p>
+					Die <b>Output Compare Pins</b> müssen in den <b>Toggle Mode</b> versetzt werden.
+				</p>
+				<p>
+					Das Signal liegt dann an den entsprechenden <b>Output Compare Pins</b> <code class="Pin">OCnA</code>
+					bzw. <code class="Pin">OCnB</code> an.
+				</p>
+				<h4 id="TCO_CTC">TC0 im CTC-Mode</h4>
+				<p>
+					Um den <b>Timer 0</b> in den CTC-Mode zu setzen, werden die <a
+						href="/avr_TCCR.210a.delaye#WGM0" target="_blank" class="intern"
+						title="Waveform Gerneration Mode Register-Bits"><b>Waveform Generation Mode</b> Register-Bits
+						(<b>WGM0</b>2:0)</a> wie folgt beschrieben:
+				</p>
+				<table style="border-collapse: collapse; margin-top: 0.5em; margin-left: 2em;">
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM02</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM01</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>WGM00</b>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>0</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>1</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>0</b>
+						</td>
+					</tr>
+				</table>
+				<p style="margin-top: 0.5em;">
+					Die <b>Compare Match Output Mode</b> Bits <a href="/avr_TCCR.210a.delaye#COM0A" target="_blank"
+						class="intern" title="Compare Match Output Mode A für TC0"><b>COM0A</b>1:0</a> und <a
+						href="/avr_TCCR.210a.delaye#COM0B" target="_blank" class="intern"
+						title="Compare Match Output Mode B für TC0"><b>COM0B</b>1:0</a> für das <a
+						href="/avr_TCCR.210a.delaye#OCR0A" target="_blank" class="intern"
+						title="Output Compare Register TC0 A"><b>OCR0A</b></a> und <a
+						href="/avr_TCCR.210a.delaye#OCR0B" target="_blank" class="intern"
+						title="Output Compare Register TC0 B"><b>OCR0B</b></a> werden in den Toggle Modus versetzt:
+				</p>
+				<table style="border-collapse: collapse; margin-top: 0.5em; margin-left: 2em;">
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>COM0A1</b><br>
+							<b>COM0B1</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: palegreen; padding: 5px;">
+							<b>COM0A0</b><br>
+							<b>COM0B0</b>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>0</b>
+						</td>
+						<td
+							style="text-align: center; border: 2px solid black; background-color: whitesmoke; padding: 5px;">
+							<b>1</b>
+						</td>
+					</tr>
+				</table>
+				<p>
+					Die <b>Frequenz</b> des Ausgangssignals ergibt sich aus dem <a
+						href="/avr_TCCR.210a.delaye#OCR0A" target="_blank" class="intern"
+						title="Output Compare Register TC0"><b>Output Compare Register</b> <b>OCR0A</b></a> und dem
+					Prescaler, der sich aus den
+					drei <b>Clock Select Bits</b> <code
+						class="Pin">CS0<span style="font-weight: normal;">[2:0]</span></code> im <a
+						href="/avr_TCCR.210a.delaye#TCCR0B" target="_blank" class="intern"><b>TCCR0B</b></a>.
+				</p>
+				<p>
+					Die Ausgangsfrequenz ergibt sich aus folgender Formel:
+				</p>
+				<p>
+					<img src="../mikrocontroller_a/Timer_CTC_Frequenz.210f" width="177" height="43" alt="">
+				</p>
+				<p>
+					Das Ausgangssignal liegt an den Pins <code class="Pin">OC0A</code> (<code class="Pin">PD6</code>)
+					und (je nach Einstellung der Register) <code class="Pin">OC0B</code> (<code class="Pin">PD5</code>)
+					an.
+				</p>
+			</td>
+
+
+			<td style="width: 25%;">
+				<aside>
+
+					<a href="avr.html">AVR Mikrocontroller</a><br>
+					<div class="aside_einzug_1">
+						<a href="#timer">Timer/Counter</a><br>
+						<div class="aside_einzug_1">
+							<a href="/avr_TCCR.210a.delaye" target="_blank" class="intern">Timer/Counter Control
+								Register</a><br>
+							<a href="#Normalmode">Normal-Modus</a><br>
+							<a href="#prescaler">Prescaler</a><br>
+							<a href="#PWM">PWM</a><br>
+						</div>
+					</div>
+
+
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px;">
+							&#x21eb;
+						</div>
+					</a>
+					<p style="clear: both;">&nbsp;<br><b>Links</b>:</p>
+					<p><a href="http://www.microchip.com/design-centers/8-bit/avr-mcus" target="_blank"
+							style="color: red; font-weight: bold;">Microchip</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+							href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589120"
+							target="_blank">Übersicht der AVR Reihe</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+							href="http://www.microchip.com/mplab/avr-support/atmel-studio-7" target="_blank">Atmel
+							Studio 7</a>
+					</p>
+
+				</aside>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right"><img src="../../../../css/by-nc-sa.eu.png" width="88" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 23.11.2022&nbsp;&nbsp;
+			von:
+			<b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_avr/avr_timer.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 17:26:52 GMT -->
+</html>

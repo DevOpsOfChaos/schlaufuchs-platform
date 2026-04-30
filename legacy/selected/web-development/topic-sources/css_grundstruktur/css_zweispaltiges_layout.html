@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_zweispaltiges_layout.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:17 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zweispaltiges Layout</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css_neu.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+			</figure>
+			<script src="../css/head_nav_css.js"></script>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Zweispaltiges Layout</h1>
+		<p>
+			Mit Hilfe einer Tabelle lässt sich einfach ein zweispaltiges Layout gestalten.
+			In eine Spalte findet der Hauptinhalt (Main-Content) platz, in der anderen Spalte können Zusatzinfos oder Links platziert werden.
+			Der Vorteil von einem zweispaltigen Layouts mittels einer Tabelle liegt darin, dass die Tabelle auch beim Zoomen ihre Form behält.
+		</p>
+		<h2>Definieren der Tabelle</h2>
+		<p>
+			Zunächst definiert man mit <code class="Befehl">&lt;table&gt;</code> eine Tabelle.
+		</p>
+		<p>
+			Die Tabelle umschließt den gesamten Inhalt, der im Hauptbereich des HTML-Dokuments dargestellt wird.
+		</p>
+		<p>
+			Innerhalb der Tabelle definiert man mit <code class="Befehl">&lt;td&gt;</code> zwei Spalten.
+			In die erste Spalte kommt der Bereich mit dem Hauptinhalt. In die andere Spalte kommt der Bereich mit Zusatzinformationen und Links.
+			So erreicht man auch eine semantische Struktur des Dokuments.
+		</p>
+		<p>
+			Unterschiedliche Bildschirm-Formate können mit Media-Queries berücksichtigt werden. So ist eine optimal angepasste Formatierung
+			der Ausgabe mit relativ einfachen Mitteln möglich.
+		</p>
+		<h2>Formatieren der Tabellenspalten mit CSS</h2>
+		<p>
+			Mit Hilfe von <code class="Befehl_Attribut">vertical-align:</code> <code class="Befehl_Konstante">top;</code> wird der Tabelleninhalt oben ausgerichtet.
+		</p>
+		<p style="margin-top: 2em;">
+			Moderner und flexibler ist jedoch der Einsatz von eines <code class="Fachwort"><a href="css_grid_layout.html" target="_blank" class="intern">Grid-Layouts</a></code>. Hier lassen sich mehrere Spalten und Zeilen ähnlich wie in einer Tabelle definieren. Die Inhaltsbereiche können dann den Zeilen bzw. Spalten des Grids flexibel zugeordnet werden.
+		</p>
+		
+	</main>
+
+	<aside>
+	 	<script src="../css/sidebar_css.js"></script>
+	</aside>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+		<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right; margin-top: 0px;"><img src="../../css/by-nc-sa.eu.png" width="89" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 15.06.2020&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+	</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_zweispaltiges_layout.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:17 GMT -->
+</html>

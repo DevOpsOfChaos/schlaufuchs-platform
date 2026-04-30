@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/C_Programmierung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:18 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="expires" content="500000">
+    <title>Programmieren in C</title>
+    <link href="../css/standard_informatik.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../../css/schlaufuchs_logo_navbar.png">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <figure style="float: right; margin: -8px; padding: 0;">
+                <img src="../../css/schlaufuchs_logo_navbar.png" width="75" height="67" alt="Schlaufuchs Logo">
+            </figure>
+            <p>
+                <a class="intern" href="../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;
+                <a class="intern" ref="../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+                <a class="intern" href="../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+                <a class="intern" href="../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+                <a class="intern" href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+                <a class="intern" href="../informatik_start.html">Informatik</a> &nbsp;&nbsp;
+            </p>
+            <p style="margin-top: 10px;">
+                <a class="intern" href="../informatik_start.html">Programmieren mit C und Python</a> &nbsp;&nbsp;
+            </p>
+        </nav>
+    </header>
+    <div class="main-container">
+        <main>
+            <h1 style="margin-top: 0; margin-bottom: 0;">Programmieren in C</h1>
+            <h2 id="Programmsteuerung" style="margin-top: 0.5em;">Programmsteuerung</h2>
+            <p>
+                Im Kapitel <a class="intern" href="C_Grundlagen.html" target="_blank">C Grundlagen</a> wurden die
+                Grundlagen der Programmiersprache C vorgestellt.<br>
+                Dazu gehörten der Aufbau eines Programms, die Funktion
+                <code class="Programmierung_Funktion">main()</code>, die Verwendung von Variablen und Datentypen sowie
+                erste Ein- und Ausgaben.
+            </p>
+            <p>
+                In diesem Kapitel gehen wir einen entscheidenden Schritt weiter: Wir betrachten die eigentliche
+                <em class="Fachwort">Programmsteuerung</em>.<br>
+                Ein Programm besteht nicht nur aus einer linearen Abfolge von Anweisungen, sondern muss in der Lage
+                sein:
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    Abläufe zu <b>wiederholen</b> (z. B. mit Schleifen wie <code
+                        class="Programmierung_Befehl">for</code>, <code class="Programmierung_Befehl">while</code> oder
+                    <code class="Programmierung_Befehl">do-while</code>)
+                </li>
+                <li>
+                    <b>Entscheidungen</b> zu treffen (z. B. durch bedingte Anweisungen wie <code
+                        class="Programmierung_Befehl">if</code> oder <code class="Programmierung_Befehl">switch</code>)
+                </li>
+            </ul>
+            <p>
+                Diese <em class="Fachwort">Kontrollstrukturen</em> sind die zentralen Werkzeuge, um komplexe Probleme in
+                C zu lösen. Sie erlauben es, den Programmfluss gezielt zu steuern, statt Anweisungen starr und einmalig
+                auszuführen.
+            </p>
+            <p style="margin-top: 0.3em;">
+                Das Kapitel vermittelt deshalb:
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    die <em class="Fachwort">Syntax</em> und Funktionsweise von Schleifen und Bedingungen,
+                </li>
+                <li>
+                    die Anwendung dieser Strukturen anhand einfacher Programmieraufgaben,
+                </li>
+                <li>
+                    den Zusammenhang zwischen Kontrollstrukturen und logischem Denken bei der Problemlösung.
+                </li>
+            </ul>
+            <p>
+                Damit wird die Grundlage geschaffen, um Programme nicht nur korrekt, sondern auch dynamisch, flexibel
+                und strukturiert zu entwickeln.
+            </p>
+            <h2 id="if">Bedingte Verzweigungen mit <code class="Programmierung_Befehl">if</code></h2>
+            <p>
+                Programme sollen nicht nur Anweisungen nacheinander abarbeiten, sondern auch Entscheidungen treffen
+                können.<br>
+                In C geschieht das mit der <code class="Programmierung_Befehl">if</code>-Anweisung.<br>
+                Sie prüft eine Bedingung (logischer Ausdruck) und entscheidet, ob ein Anweisungsblock ausgeführt wird
+                oder nicht.
+            </p>
+            <div class="Syntax">
+                <p class="Syntax_green">
+                    Syntax:
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">if(<code class="Befehl_Konstante">Bedingung</code>) {</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen</em><br>
+                    <code class="Programmierung_Befehl">}</code>
+                </p>
+                <table class="Aufzaehlung_Syntax">
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Bedingung</code>: ein logischer Ausdruck (liefert <code
+                                class="Quelltext">0</code> = falsch oder <code class="Quelltext">&ne;0</code> = wahr).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Anweisungen</b>: Die Anweisungen werden ausgeführt, wenn die Bedingung wahr ist.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für eine einfache if Bedingung:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style=' color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> zahl <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>10</span><span style='color:#ca60ca;'>;</span>
+
+    <b>if</b> <span style='color:#ca60ca;'>(</span>zahl <span style='color:#ca60ca;'>&gt;</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Die Zahl ist größer als 5.</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+
+                </div>
+            </div>
+            <h2>Bedingte Verzweigungen mit <code class="Programmierung_Befehl">if else</code></h2>
+            <p>
+                Mit <code class="Programmierung_Befehl">else</code> kann ein alternativer Anweisungsblock ausgeführt
+                werden, falls die Bedingung nicht erfüllt ist.
+            </p>
+            <div class="Syntax">
+                <p class="Syntax_green">
+                    Syntax:
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">if(<code class="Befehl_Konstante">Bedingung</code>) {</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen true</em><br>
+                    <code class="Programmierung_Befehl">}</code>
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">else {</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen false</em><br>
+                    <code class="Programmierung_Befehl">}</code>
+                </p>
+                <table class="Aufzaehlung_Syntax">
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Bedingung</code>: ein logischer Ausdruck (liefert <code
+                                class="Quelltext">0</code> = falsch oder <code class="Quelltext">&ne;0</code> = wahr).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Anweisungen true</b>: Die Anweisungen werden ausgeführt, wenn die Bedingung wahr ist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Anweisungen false</b>: Die Anweisungen werden ausgeführt, wenn die Bedingung falsch ist.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für if else:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> alter <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>16</span><span style='color:#ca60ca;'>;</span>
+
+<b>if</b> <span style='color:#ca60ca;'>(</span>alter <span style='color:#ca60ca;'>&gt;=</span> <span style='color:#b08000;'>18</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Volljährig.</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Noch nicht volljährig.</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h2>Mehrfache Verzweigungen mit <code class="Programmierung_Befehl">else if</code></h2>
+            <p>
+                Mit <code class="Programmierung_Befehl">else if</code> lassen sich mehrere Alternativen prüfen.
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für Mehrfachverzweigungen:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> note <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>2</span><span style='color:#ca60ca;'>;</span>
+
+<b>if</b> <span style='color:#ca60ca;'>(</span>note <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>1</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Sehr gut</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <b>if</b> <span style='color:#ca60ca;'>(</span>note <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>2</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Gut</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <b>if</b> <span style='color:#ca60ca;'>(</span>note <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>3</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Befriedigend</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Ausreichend oder schlechter</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h2>Verschachtelte <code class="Programmierung_Befehl">if</code>-Anweisungen</h2>
+            <p>
+                <code class="Programmierung_Befehl">if</code>-Anweisungen können innerhalb anderer <code
+                    class="Programmierung_Befehl">if</code>- oder <code class="Programmierung_Befehl">else</code>-Blöcke
+                stehen → <em class="Fachwort">verschachtelte</em> Verzweigungen.
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für verschachtelte Verzweigungen:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> zahl <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>12</span><span style='color:#ca60ca;'>;</span>
+
+<b>if</b> <span style='color:#ca60ca;'>(</span>zahl <span style='color:#ca60ca;'>&gt;</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    <b>if</b> <span style='color:#ca60ca;'>(</span>zahl <span style='color:#ca60ca;'>%</span> <span style='color:#b08000;'>2</span> <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Positive gerade Zahl</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span> <b>else</b> <span style='color:#ca60ca;'>{</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Positive ungerade Zahl</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Zahl ist nicht positiv</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h2 id="logische_Verknuepfungen">Bedingungen logisch kombinieren</h2>
+            <p>
+                Mit <em class="Fachwort">logischen Operatoren</em> können mehrere Bedingungen logisch verknüpft werden:
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    <code class="Programmierung_Befehl">&&</code> (<em class="Fachwort">UND</em>) → beide Bedingungen
+                    müssen wahr sein
+                </li>
+                <li>
+                    <code class="Programmierung_Befehl">||</code> (<em class="Fachwort">ODER</em>) → mindestens eine
+                    Bedingung muss wahr sein
+                </li>
+                <li>
+                    <code class="Programmierung_Befehl">!</code> (<em class="Fachwort">NICHT</em>) → kehrt den
+                    Wahrheitswert um
+                </li>
+            </ul>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für logische Verknüpfung von Bedingungen:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> alter <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>20</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#0057ae;'>char</span> ausweis <span style='color:#ca60ca;'>=</span> <span style='color:#924c9d;'>'J'</span><span style='color:#ca60ca;'>;</span>
+
+<b>if</b> <span style='color:#ca60ca;'>(</span>alter <span style='color:#ca60ca;'>&gt;=</span> <span style='color:#b08000;'>18</span> <span style='color:#ca60ca;'>&amp;&amp;</span> ausweis <span style='color:#ca60ca;'>==</span> <span style='color:#924c9d;'>'J'</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Zutritt erlaubt.</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span> <b>else</b> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Kein Zutritt.</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h2 id="Schleifen">Schleifen in C</h2>
+            <p>
+                In vielen Situationen muss ein Programm wiederholt dieselben Anweisungen ausführen.
+            </p>
+            <p>
+                Beispiel: Wir möchten für die Funktion f(x)=x<sup>2</sup> die Funktionswerte für x von 1 bis 10
+                berechnen und ausgeben.
+            </p>
+            <p>
+                Ohne Schleifen müssten wir jede Berechnung einzeln programmieren – unpraktisch und fehleranfällig.
+            </p>
+            <p>
+                Mit <em class="Fachwort">Schleifen</em> (<code class="Fachwort_nativ">loops</code>) können wir solche
+                Wiederholungen elegant und automatisch lösen.
+            </p>
+            <p>
+                C kennt verschiedene Typen von Schleifen.
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    <code class="Programmierung_Befehl">for</code>-Schleife: feste Anzahl von Wiederholungen
+                </li>
+                <li>
+                    <code class="Programmierung_Befehl">while</code>-Schleife: Wiederholung solange eine Bedingung
+                    erfüllt ist
+                </li>
+                <li>
+                    <code class="Programmierung_Befehl">do</code>-<code
+                        class="Programmierung_Befehl">while</code>-Schleife: Bedingungsprüfung erst am Ende
+                </li>
+            </ul>
+            <p>
+                Welcher Typ am besten eingesetzt wird hängt von der Aufgabe ab.
+            </p>
+            <p>
+                Schleifen lassen sich auch <em class="Fachwort">verschachteln</em>, das heißt: Innerhalb einer Schleife
+                können weitere Schleifen stehen. <br>
+                Auf diese Weise lassen sich mehrdimensionale Abläufe, wie zum Beispiel Tabellen oder Matrizen, elegant
+                darstellen.
+            </p>
+            <p>
+                Zusätzlich kann der Ablauf einer Schleife gezielt gesteuert werden:
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    Mit <code class="Programmierung_Befehl">break</code> wird die Schleife sofort beendet, unabhängig
+                    von der eigentlichen Bedingung.
+                </li>
+                <li>
+                    Mit <code class="Programmierung_Befehl">continue</code> wird der aktuelle Durchlauf abgebrochen, und
+                    die Schleife springt direkt zur nächsten Iteration.
+                </li>
+            </ul>
+            <h3 id="while">Die while-Schleife</h3>
+            <p>
+                Die <code class="Programmierung_Befehl">while</code>-Schleife gehört zu den wichtigsten
+                Kontrollstrukturen in C.<br>
+                Sie wiederholt einen Anweisungsblock so lange, wie eine bestimmte Bedingung wahr (true) ist.<br>
+                Man spricht von einer <em class="Fachwort">kopfgesteuerten Schleife</em>, da die Bedingung bereits vor
+                dem ersten Durchlauf geprüft wird.
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    Ist die Bedingung von Anfang an falsch, wird der Schleifenrumpf kein einziges Mal ausgeführt.
+                </li>
+                <li>
+                    Ist die Bedingung wahr, läuft der Schleifenrumpf, bis die Bedingung nicht mehr erfüllt ist.
+                </li>
+            </ul>
+            <div class="Syntax">
+                <p class="Syntax_green">
+                    Syntax:
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">while(<code class="Befehl_Konstante">Bedingung</code>)
+                    {</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen</em><br>
+                    <code class="Programmierung_Befehl">}</code>
+                </p>
+                <table class="Aufzaehlung_Syntax">
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Bedingung</code>: ein logischer Ausdruck (liefert <code
+                                class="Quelltext">0</code> = falsch oder <code class="Quelltext">&ne;0</code> = wahr).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Anweisungen</b>: Der <em class="Fachwort">Schleifenrumpf</em> besteht aus Anweisungen,
+                            die wiederholt werden so lange die Bedingung wahr ist.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für eine Zählschleife:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> i <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>1</span><span style='color:#ca60ca;'>;</span>
+
+    <b>while</b> <span style='color:#ca60ca;'>(</span>i <span style='color:#ca60ca;'>&lt;=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Wert: </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> i<span style='color:#ca60ca;'>);</span>
+        i<span style='color:#ca60ca;'>++;</span>    <span style='color:#898887;'>// Zähler erhöhen</span>
+    <span style='color:#ca60ca;'>}</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+                <p>Erklärung:</p>
+                <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                    <li>
+                        Startwert: <code class="Wert">i = 1</code>
+                    </li>
+                    <li>
+                        Bedingung: <code class="Wert">i &le; 5</code>
+                    </li>
+                    <li>
+                        Solange die Bedingung wahr ist, wird der Schleifenrumpf ausgeführt.
+                    </li>
+                    <li>
+                        Nach jedem Durchlauf wird <code class="Wert">i</code> um <code class="Wert">1</code> erhöht.
+                    </li>
+                </ul>
+            </div>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel: Schleifensteuerung mit break und continue
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> i <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+
+    <b>while</b> <span style='color:#ca60ca;'>(</span>i <span style='color:#ca60ca;'>&lt;</span> <span style='color:#b08000;'>10</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+        i<span style='color:#ca60ca;'>++;</span>
+
+        <b>if</b> <span style='color:#ca60ca;'>(</span>i <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+            <b>continue</b><span style='color:#ca60ca;'>;</span>   <span style='color:#898887;'>// überspringt die Ausgabe für i = 5</span>
+        <span style='color:#ca60ca;'>}</span>
+
+        <b>if</b> <span style='color:#ca60ca;'>(</span>i <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>8</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+            <b>break</b><span style='color:#ca60ca;'>;</span>      <span style='color:#898887;'>// Schleife wird bei i = 8 beendet</span>
+        <span style='color:#ca60ca;'>}</span>
+
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;i = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> i<span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+                <p>
+                    Bildschirmausgabe:
+                </p>
+                <div class="Bildschirmausgabe">
+                    <p>
+                        i = 1<br>
+                        i = 2<br>
+                        i = 3<br>
+                        i = 4<br>
+                        i = 6<br>
+                        i = 7
+                    </p>
+                </div>
+            </div>
+            <h3 id="Dauerschleifen">Dauerschleifen mit while</h3>
+            <p>
+                Ein Sonderfall sind <em class="Fachwort">Dauerschleifen</em>, bei denen die Bedingung einer
+                while-Schleife dauerhaft wahr ist (<code class="Programmierung_Befehl">while(1){...</code>).
+            </p>
+            <p>
+                Der Ausstieg erfolgt dann ausschließlich durch eine Abbruchanweisung wie <code
+                    class="Programmierung_Befehl">break</code> im Schleifenrumpf.<br>
+                Solche Konstruktionen bergen die Gefahr einer unerwünschten <b>Endlosschleife</b>, wenn der vorgesehene
+                Abbruch nicht eintritt.
+            </p>
+            <div class="Achtung">
+                <p>
+                    <span class="wichtig">Achtung!</span> Bei Dauerschleifen muss immer sichergestellt werden, dass die
+                    Schleife zuverlässig beendet werden kann.
+                </p>
+            </div>
+            <p>
+                Dies kann durch eine <i>eindeutige Bedingung</i> oder durch gezielten Einsatz von <code
+                    class="Programmierung_Befehl">break</code> erreicht werden.
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für eine Dauerschleife:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> i <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+    <b>while</b> <span style='color:#ca60ca;'>(</span><span style='color:#b08000;'>1</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+        i<span style='color:#ca60ca;'>++;</span>  <span style='color:#898887;'>// äquivalent zu  i=i+1</span>
+        <b>if</b> <span style='color:#ca60ca;'>(</span>i <span style='color:#ca60ca;'>==</span> <span style='color:#b08000;'>10</span><span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+            <b>break</b><span style='color:#ca60ca;'>;</span>      <span style='color:#898887;'>// Schleife wird bei i = 10 beendet</span>
+        <span style='color:#ca60ca;'>}</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;i = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> i<span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h3 id="for">Zählschleifen mit for</h3>
+            <p>
+                Viele Aufgaben erfordern eine feste Anzahl von Wiederholungen.
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    Eine Wertetabelle einer Funktion berechnen
+                </li>
+                <li>
+                    Mehrfach eine Ausgabe erzeugen
+                </li>
+                <li>
+                    Einen Zähler von 1 bis 100 durchlaufen
+                </li>
+            </ul>
+            <p>
+                Für solche Fälle eignet sich die <code class="Programmierung_Befehl">for</code>-Schleife.
+            </p>
+            <div class="Syntax">
+                <p class="Syntax_green">
+                    Syntax:
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">for(<code class="Befehl_Konstante">Startwert</code>; <code
+                        class="Befehl_Konstante">Bedingung</code>; <code class="Befehl_Konstante">Veränderung</code>)
+                    {</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen</em><br>
+                    <code class="Programmierung_Befehl">}</code>
+                </p>
+                <table class="Aufzaehlung_Syntax">
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Startwert</code>: Initialisierung des Zählers (z. B. <code
+                                class="Quelltext">int i = 0;</code>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Bedingung</code>: ein logischer Ausdruck (liefert <code
+                                class="Quelltext">0</code> = falsch oder <code class="Quelltext">&ne;0</code> = wahr).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Veränderung</code>: ergibt wie der Zähler nach jedem
+                            Durchlauf verändert wird (z. B. <code class="Quelltext">i++</code>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Anweisungen</b>: Der <em class="Fachwort">Schleifenrumpf</em> besteht aus Anweisungen,
+                            die wiederholt werden so lange die Bedingung wahr ist.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                Für mehrdimensionales Zählen werden for-Schleifen häufig <i>verschachtelt</i>.
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel für eine for-Schleife:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;background-color:#ffffff;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+
+    <b>for</b> <span style='color:#ca60ca;'>(</span><span style='color:#0057ae;'>int</span> i <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>1</span><span style='color:#ca60ca;'>;</span> i<span style='color:#ca60ca;'>&lt;=</span><span style='color:#b08000;'>10</span><span style='color:#ca60ca;'>;</span> i<span style='color:#ca60ca;'>++)</span> <span style='color:#ca60ca;'>{</span>
+        printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Wert: </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> i<span style='color:#ca60ca;'>);</span>
+    <span style='color:#ca60ca;'>}</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+                </div>
+            </div>
+            <h2 id="scanf">Benutzereingaben mit scanf()</h2>
+            <p>
+                Damit Programme interaktiv werden, müssen sie Eingaben vom Benutzer entgegennehmen können.
+            </p>
+            <p>
+                In der Programmiersprache C geschieht das mit der Funktion
+                <code class="Programmierung_Befehl">scanf()</code> aus der
+                Bibliothek <code class="Bibliothek">stdio.h</code>.
+            </p>
+            <div class="Syntax">
+                <p class="Syntax_green">
+                    Syntax:
+                </p>
+                <p>
+                    <code class="Programmierung_Befehl">scanf("<code class="Befehl_Konstante">Formatzeichen</code>",
+                    <code class="Befehl_Konstante">Adresse</code>)
+                    </code>
+                </p>
+                <table class="Aufzaehlung_Syntax">
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Formatzeichen</code>: Legt den <i>Datentyp</i> der Eingabe
+                            fest.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code class="Befehl_Konstante">Adresse</code>: Die <i>Adresse</i> der Variablen, an die der
+                            Inhalt übergeben werden soll.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                Wichtige <em class="Fachwort">Formatzeichen</em> sind:
+            </p>
+            <table width="631" cellpadding="4" cellspacing="0">
+                <col width="206" />
+                <col width="128" />
+                <col width="271" />
+                <thead>
+                    <tr valign="top">
+                        <th width="206" bgcolor="#dcdcdc"
+                            style="background: #dcdcdc; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                Datentyp</p>
+                        </th>
+                        <th width="128" bgcolor="#dcdcdc"
+                            style="background: #dcdcdc; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                Formatzeichen</p>
+                        </th>
+                        <th width="271" bgcolor="#dcdcdc"
+                            style="background: #dcdcdc; border: 1px solid #000000; padding: 0.1cm">
+                            <p class="western" align="left">
+                                Beispiel</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr valign="top">
+                        <td width="206"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <var class="western">int</var> (Ganzzahl)
+                            </p>
+                        </td>
+                        <td width="128"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <font color="#000000">
+                                    <font face="Liberation Mono, monospace"><i><span style="font-weight: normal"><span
+                                                    style="background: #d3d3d3">%d</span></span></i></font>
+                                </font>
+                            </p>
+                        </td>
+                        <td width="271"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+                            <p class="western" align="left">
+                                <code class="western">scanf(&quot;%d&quot;, &amp;zahl);</code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="206"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <var class="western">float</var> (Fließkommazahl)
+                            </p>
+                        </td>
+                        <td width="128"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <font color="#000000">
+                                    <font face="Liberation Mono, monospace"><i><span style="font-weight: normal"><span
+                                                    style="background: #d3d3d3">%f</span></span></i></font>
+                                </font>
+                            </p>
+                        </td>
+                        <td width="271"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+                            <p class="western" align="left">
+                                <code class="western">scanf(&quot;%f&quot;, &amp;wert);</code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="206"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <var class="western">char</var> (einzelnes Zeichen)
+                            </p>
+                        </td>
+                        <td width="128"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <font color="#000000">
+                                    <font face="Liberation Mono, monospace"><i><span style="font-weight: normal"><span
+                                                    style="background: #d3d3d3">%c</span></span></i></font>
+                                </font>
+                            </p>
+                        </td>
+                        <td width="271"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+                            <p class="western" align="left">
+                                <code class="western">scanf(&quot;%c&quot;, &amp;zeichen);</code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="206"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <var class="western">string</var> (Text)
+                            </p>
+                        </td>
+                        <td width="128"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+                            <p class="western" align="left">
+                                <font color="#000000">
+                                    <font face="Liberation Mono, monospace"><i><span style="font-weight: normal"><span
+                                                    style="background: #d3d3d3">%s</span></span></i></font>
+                                </font>
+                            </p>
+                        </td>
+                        <td width="271"
+                            style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+                            <p class="western" align="left">
+                                <code class="western">scanf(&quot;%s&quot;, name);</code>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Der Adressoperator &</h3>
+            <p>
+                Bei der Eingabe mit <code class="Programmierung_Funktion">scanf()</code> muss der eingegebene Wert in
+                einer Variable gespeichert werden. Damit <code class="Programmierung_Funktion">scanf()</code> weiß, wo
+                im Speicher dieser Wert abgelegt werden soll,
+                braucht es die <em class="Fachwort">Adresse</em> dieser Variable.
+            </p>
+            <p>
+                Dafür wird in C der <em class="Fachwort">Adressoperator</em> <code
+                    class="Programmierung_Befehl">&</code> verwendet.
+            </p>
+            <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                <li>
+                    Eine Variable speichert einen Wert (z. B. <code class="Quelltext">int zahl = 5;</code>)
+                </li>
+                <li>
+                    Dieser Wert liegt an einer bestimmten <b>Speicherstelle</b> im Arbeitsspeicher.
+                </li>
+                <li>
+                    Der Operator <code class="Programmierung_Befehl">&</code> liefert die <em
+                        class="Fachwort">Adresse</em> dieser Speicherstelle.
+                </li>
+            </ul>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> zahl <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+scanf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;</span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> <span style='color:#ca60ca;'>&amp;</span>zahl<span style='color:#ca60ca;'>);</span></pre>
+                </div>
+            </div>
+            <p>
+                <code class="Befehl_Attribut">&zahl</code> übergibt die Speicheradresse der Variablen zahl an <code
+                    class="Programmierung_Funktion">scanf()</code>.<br>
+                Würde man nur <code class="Quelltext">zahl</code> (ohne &) schreiben, führt das zu einem Fehler.
+            </p>
+            <p>
+                Bei Arrays (z. B. Zeichenketten) ist der Name des Arrays die Adresse des ersten Elements.
+                Hier darf kein & verwendet werden
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style=' color:#0057ae;'>char</span> Text<span style='color:#ca60ca;'>[</span><span style='color:#b08000;'>25</span><span style='color:#ca60ca;'>];</span>
+scanf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;</span><span style='color:#3daee9;'>%s</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> Text<span style='color:#ca60ca;'>);</span></pre>
+                </div>
+            </div>
+            <h3>Eingabe mehrerer Variablen mit scanf()</h3>
+            <p>
+                Mit scanf() können auch mehrere Variablen vom Benutzer abgefragt werden.<br>
+                Diese müssen <i>durch Leerzeichen getrennt</i> werden.
+            </p>
+            <div class="Beispiel">
+                <h4 style="margin-top: 0em;">
+                    Beispiel:
+                </h4>
+                <div class="Programmcode">
+                    <pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> a<span style='color:#ca60ca;'>;</span>
+<span style='color:#0057ae;'>float</span> b<span style='color:#ca60ca;'>;</span>
+scanf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;</span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'> </span><span style='color:#3daee9;'>%f</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> <span style='color:#ca60ca;'>&amp;</span>a<span style='color:#ca60ca;'>,</span> <span style='color:#ca60ca;'>&amp;</span>b<span style='color:#ca60ca;'>);</span>
+</pre>
+                </div>
+            </div>
+
+        </main>
+
+        <div>
+            <aside>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#Programmsteuerung">Programmsteuerung</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#if">Bedingte Verzweigungen</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#logische_Verknuepfungen">Logische Operatoren</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#Schleifen">Schleifen</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#while">while-Schleife</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#Dauerschleifen">Dauerschleifen</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#for">for-Schleife</a>
+                </p>
+                <p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+                    <a class="side" href="#scanf">Benutzereingaben</a>
+                </p>
+
+                <p>
+                    <a href="#oben" style="text-decoration: none;">
+                        <div class="nach_oben" style="margin-top: 10px; margin-bottom: 15px;">
+                            &#x21eb;
+                        </div>
+                    </a><br>
+                </p>
+                <p style="margin-top: 2px; margin-bottom: 2px; clear: both;" class="side">
+                    <a class="intern" href="../informatik_start.html">Programmiern mit C und Python</a>
+                </p>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        <a href="#oben">nach oben</a>
+        <a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+        <a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+            target="_blank">Datenschutzerklärung</a>
+        <a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+            style="float: right"><img src="../../css/by-nc-sa.eu.png" width="88" height="31"
+                alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+        <a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+            href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 14.11.2025&nbsp;&nbsp;
+            von: <b style="color: blue;">JW</b></a>
+    </footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/C_Programmierung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:18 GMT -->
+</html>

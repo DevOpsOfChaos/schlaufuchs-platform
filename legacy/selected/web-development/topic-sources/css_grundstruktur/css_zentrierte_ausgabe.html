@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_zentrierte_ausgabe.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:17 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Zentrierte Ausgabe</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css"/>
+</head>
+
+<body>
+
+<header>
+	<p>
+	<nav>
+		<script src="../css/head_nav_css.js"></script>
+	</nav>
+	</p>
+</header>
+
+<table>
+
+<td>
+<main>
+	<h1>Zentrierte Bildschirmausgabe</h1>
+	<p>
+		Eine Zentrierte Bildschirmausgabe ist vor allem bei 16/9-formatigen Bildschirmen sinnvoll. Sie entlastet das Auge,
+		das sich auf zu breiten Bildschirmen "verliert".
+	</p>
+	<h3>Definieren der Bildschirmbreite</h3>
+	<p>
+		Zunächst wird die Breite der Bildschirmausgabe mit <em class="Befehl_Attribut">width</em> definiert. Die Angabe der Breite lässt sich
+		pixelgenau festlegen. Relative Angaben sind hier aber besser, da sie unterschiedliche physikalische Breiten des Ausgabefensters besser berücksichtigen.
+	</p>
+	<p>
+		Unterschiedliche Bildschirm-Formate können mit Media-Queries berücksichtigt werden. So ist eine optimal angepasste Formatierung
+		der Ausgabe mit relativ einfachen Mitteln möglich.
+	</p>
+	<h3>Zentrieren des Ausgabebereichs</h3>
+	<p>
+		Die zentrierte Ausrichtung erfolgt dann über die Definition der Seitenränder durch die <em class="Befehl_Attribut">margin</em> Eigenschaft.
+	</p>
+	<div class="Syntax">
+		<p>Folgende <em>Regel</em> ergibt eine zentrierte Ausgabe des <em class="Befehl">&lt;body&gt;</em> Bereichs:</p>
+		<p class="Syntax_Befehl">
+			<em class="Befehl">body</em> { <em class="Befehl_Attribut">width</em>: <em class="Befehl_Konstante">70%</em>; &nbsp;
+			<em class="Befehl_Attribut">margin-left</em>: <em class="Befehl_Konstante">auto</em>; &nbsp;
+			<em class="Befehl_Attribut">margin-right</em>: <em class="Befehl_Konstante">auto</em>; }
+		</p>
+		<ul>
+			<li>
+			Mit <em class="Befehl_Attribut">width</em>: <em class="Befehl_Konstante">70%</em>; wird der Ausgabebereich
+			auf 70% der Gesamtbreite des Fensters reduziert.
+			</li>
+			<li>
+			Mit <em class="Befehl_Attribut">margin-left</em>: <em class="Befehl_Konstante">auto</em>; wird der linke Seitenrand
+			automatisch aufgefüllt.
+			</li>
+			<li>
+			Mit <em class="Befehl_Attribut">margin-right</em>: <em class="Befehl_Konstante">auto</em>; wird der rechte Seitenrand
+			automatisch aufgefüllt.
+			</li>
+		</ul>
+		<p>
+		Die Kombination der beiden letztgenannten Deskriptoren ergibt die zentrierte Ausgabe.
+		</p>
+	</div>
+</main>
+</td>
+
+<td>
+	<aside>
+	 	<script src="../css/sidebar_css.js"></script>
+	</aside>
+</td>
+
+</table>
+
+<footer>
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>	
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_zentrierte_ausgabe.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:17 GMT -->
+</html>

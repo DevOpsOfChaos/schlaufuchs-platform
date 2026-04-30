@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/C_Grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:18 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="expires" content="500000">
+	<title>C Grundlagen</title>
+	<link href="../css/standard_informatik.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/schlaufuchs_logo_navbar.png">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../css/schlaufuchs_logo_navbar.png" width="75" height="67" alt="Schlaufuchs Logo">
+			</figure>
+			<p>
+				<a class="intern" href="../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;
+				<a class="intern" ref="../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a class="intern" href="../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a class="intern" href="../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a class="intern" href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+				<a class="intern" href="../informatik_start.html">Informatik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a class="intern" href="../informatik_start.html">Programmieren mit C und Python</a> &nbsp;&nbsp;
+			</p>
+		</nav>
+	</header>
+	<div class="main-container">
+		<main>
+			<h1>C Grundlagen</h1>
+			<h2 id="C">Ursprünge von C</h2>
+			<p>
+				Die Programmiersprache <code class="Fachwort">C</code> gehört zu den bedeutendsten Sprachen der
+				Informatikgeschichte. Sie entstand
+				Anfang der 1970er Jahre in den Bell Laboratories in den USA.<br>
+				<b>Dennis Ritchie</b>, Informatiker bei den Bell Labs, gilt als „Vater von C“. Gemeinsam mit <b>Ken
+					Thompson</b>
+				arbeitete er an dem Betriebssystem <code class="Fachwort_nativ">Unix</code>.<br>
+				Ursprünglich wurde Unix in Assembler entwickelt. Assembler hat den Vorteil, dass es sehr direkten
+				Zugriff auf die Hardware ermöglicht und äußerst effizient ist. Gleichzeitig bringt diese Nähe zur
+				Maschine aber große Nachteile mit sich: Der Code ist schwer lesbar, aufwendig zu warten und nahezu
+				vollständig an die jeweilige Prozessorarchitektur gebunden. Ein Programm, das für einen bestimmten
+				Rechner geschrieben wurde, lässt sich deshalb nicht ohne Weiteres auf einer anderen Hardware ausführen –
+				man müsste den gesamten Assemblercode anpassen.<br>
+				Genau dieses Problem löste die Einführung von C. Mit C konnte Unix fast vollständig neu geschrieben
+				werden. Der neue Quellcode war nicht nur wesentlich leichter verständlich und strukturierter, sondern
+				vor allem auch portierbar. Das bedeutete, dass Unix nun relativ einfach auf unterschiedliche
+				Rechnerarchitekturen übertragen werden konnte.<br>
+				Diese Eigenschaft machte C zu einem entscheidenden Meilenstein in der Softwareentwicklung und trug
+				maßgeblich dazu bei, dass sich Unix – und damit auch C – weltweit verbreiten konnte.
+			</p>
+			<h2 style="margin-top: 1em;">Bedeutung von C</h2>
+			<p>
+				C ist die „Mutter“ vieler späterer Sprachen:
+			</p>
+			<ul>
+				<li>
+					<code class="Fachwort_nativ">C++</code> (objektorientierte Erweiterung von C)
+				</li>
+				<li>
+					<code class="Fachwort_nativ">Java</code> (sieht in Syntax und Konzepten stark nach C aus)
+				</li>
+				<li>
+					<code class="Fachwort_nativ">C#</code>, <code class="Fachwort_nativ">Objective-C</code>,
+					<code class="Fachwort_nativ">Go</code>
+				</li>
+			</ul>
+			<p>
+				und viele andere.<br>
+				Bis heute nutzen fast alle modernen Programmiersprachen Ideen und Syntax-Elemente von C.
+				Dennis Ritchie und Ken Thompson bekamen dafür 1983 den Turing Award (die höchste Auszeichnung der
+				Informatik).
+			</p>
+			<h2 style="margin-top: 1em;">Einsatzgebiete von C</h2>
+			<p>
+				Die Sprache C wurde nicht nur als akademisches Projekt entwickelt, sondern hat seit den 1970er Jahren
+				unzählige Anwendungen gefunden. Der große Vorteil von C liegt darin, dass es direkten Zugriff auf die
+				Hardware erlaubt und gleichzeitig in einer hochsprachlichen Syntax geschrieben wird, die für Menschen
+				lesbarer ist als Assembler.
+				Schwerpunkte für den Einsatz von C sind sowohl für die Entwicklung von Systemsoftware als auch die
+				Programmierung von Mikrocontrollern und eingebetteten Systemen (Embedded Systems).
+			</p>
+			<h2 style="margin-top: 1em;">C, die Brücke zu Mikrocontrollern</h2>
+			<p>
+				<em class="Fachwort">Mikrocontroller</em> sind im Grunde vollständige Computer, die in einem einzigen
+				Chip integriert sind. Im
+				Unterschied zu den leistungsstarken Prozessoren in PCs oder Smartphones verfügen sie meist nur über sehr
+				begrenzte Ressourcen: wenige Kilobyte bis wenige Megabyte Speicher, geringe Taktfrequenzen und stark
+				eingeschränkte Rechenleistung.<br>
+				Mikrocontroller bilden sie das Herz zahlloser elektronischer Geräte des Alltags. Sie übernehmen
+				Steuerungsaufgaben in Autos, werten Sensordaten in Haushaltsgeräten aus, treiben kleine Displays an oder
+				kontrollieren ganze Produktionsmaschinen. Auch in Robotern und modernen Smart-Home-Geräten sorgen sie
+				dafür, dass Sensoren und Aktoren zuverlässig zusammenarbeiten.<br>
+				Weil Mikrocontroller mit wenig Ressourcen auskommen müssen, ist eine effiziente Programmierung
+				entscheidend.<br>
+				Hier zeigt C seine Stärken: Der direkte Zugriff auf Speicher und Hardware ermöglicht es, den vorhandenen
+				Platz optimal zu nutzen und Programme so klein und schnell wie möglich zu halten.
+			</p>
+			<p>
+				Das <code class="Fachwort_nativ">Arduino Framework</code> nutzt intern C/C++.<br>
+				Vorteil für Einsteiger: Arduino versteckt die komplizierten Teile (Compiler, Toolchain), man schreibt
+				„fast wie in C“ und bekommt direkten Zugriff auf die Hardware.
+			</p>
+			<h2 id="C_Grundstruktur">Die Grundstruktur eines C Programms</h2>
+			<p>
+				Ein C-Programm folgt immer einer klaren <b>Grundstruktur</b>.
+				Diese besteht aus drei wichtigen Teilen:
+			</p>
+			<ul>
+				<li>
+					Die <em class="Fachwort">Präprozessor-Direktiven</em> (Compiler-Direktiven)
+				</li>
+				<li>
+					Eigene Funktionen
+				</li>
+				<li>
+					Die <code class="Befehl">main()</code> Funktion
+				</li>
+			</ul>
+			<h2 id="C_Praeprozessor">Präprozessor und Präprozessor-Direktiven in C</h2>
+			<h3>Der Präprozessor – was ist das?</h3>
+			<p>
+				Bevor der eigentliche Compiler den C-Code übersetzt, läuft ein eigenes kleines Programm: der
+				<em class="Fachwort">C-Präprozessor</em>.<br>
+				Der <b>Päprozessor</b> bereitet den Quellcode auf, fügt externe Bausteine (Bibliotheken) hinzu, entfernt
+				Kommentare (die für den Compiler unwichtig sind), ersetzt Symbole oder Konstanten durch Werte.
+				Erst danach wird der vorbereitete Code an den Compiler übergeben, der daraus in einem mehrstufigen
+				Prozess der Maschinencode erzeugt.
+			</p>
+			<h3>Was sind Präprozessor-Direktiven?</h3>
+			<p>
+				<em class="Fachwort">Präprozessor-Direktiven</em> sind Anweisungen für den Präprozessor, die mit <code
+					class="Befehl">#</code> beginnen.<br>
+				Sie <b>steuern</b> wie der Quellcode vorbereitet wird. Sie gelten also als <em
+					class="Fachwort">Compiler-Direktiven</em> (weil sie den Ablauf der Übersetzung beeinflussen).
+			</p>
+			<h3 id="Direktiven">Wichtige Präprozessor-Direktiven</h3>
+			<h4><code class="Befehl">#include</code> – Bibliotheken (Libraries) einbinden</h4>
+			<p>
+				Damit bindet man fertigen Code ein, der in einer separaten Datei (<em class="Fachwort">Bibliothek</em> /
+				<code class="Fachwort_nativ">Library</code>) gespeichert ist.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span><span style='color:#006e28;'>   </span><span style='color:#898887;'>// Standard Input/Output Bibliothek</span></pre>
+				</div>
+			</div>
+			<h4><code class="Befehl">#define</code> – Konstanten und Makros</h4>
+			<p>
+				Mit <code class="Befehl">#define</code> legt man <b>symbolische Namen</b> fest.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#define PI </span><span style='color:#b08000;'>3.14159</span></pre>
+				</div>
+				<p>
+					Im Quellcode wird jedes <code class="Wert">PI</code> vor dem Compilieren mit dem Wert <code
+						class="Wert">3,14159</code> ersetzt.
+				</p>
+			</div>
+			<h4><code class="Befehl">#ifdef / #endif</code> – bedingte Übersetzung</h4>
+			<p>
+				Man kann mit dieser Direktive bestimmte Codebereiche nur dann übersetzen lassen, wenn eine Bedingung
+				erfüllt ist.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#define DEBUG</span>
+
+<span style='color:#006e28;'>#ifdef DEBUG</span>
+printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Debug-Modus aktiv!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#006e28;'>#endif</span></pre>
+				</div>
+				<p>
+					Ausgabe mit <code class="Befehl">printf()</code> erscheint nur, wenn <code
+						class="Befehl">DEBUG</code> definiert ist.
+				</p>
+			</div>
+			<figure style="margin-top: 0;">
+				<img src="bilder/20250824_1529_Entwicklungszyklus%20Infografik_simple_compose_01k3e46w3wf"
+					alt="Vom Quellcode zum Programm" width="500px" title="Vom Quellcode zum Programm"
+					style="min-width: 100px; max-width: 100%;">
+				<figcaption>
+					Vom Quellcode zum Programm
+				</figcaption>
+			</figure>
+			<h2 id="Funktionen">Eigene Funktionen (optional)</h2>
+			<p>
+				In C kann man man zusätzliche Funktionen definieren. <em class="Fachwort">Funktionen</em> sind
+				Programmbausteine, die eine
+				bestimmte Aufgabe erfüllten. Vorteil: Wiederverwendbarkeit und bessere Übersichtlichkeit.<br>
+				Funktionen müssen in C immer definiert werden bevor sie im Quellcode das erste Mal verwendet werden.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>void</span> begruessung<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Hallo, willkommen im Programm!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>
+					Die Funktion <code class="Programmierung_Funktion">begruessung()</code> kann nun im Quellcode
+					verwendet werden.
+				</p>
+			</div>
+			<h2 id="main">Hauptfunktion main()</h2>
+			<p>
+				Die <code class="Programmierung_Funktion">main()</code> Funktion ist Pflicht in jedem C-Programm. Sie
+				ist der Startpunkt des Programms. Das Betriebssystem sucht beim Start eines C Programms immer zuerst
+				nach <code class="Programmierung_Funktion">main()</code>.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#898887;'>// Hier beginnt das eigentliche Programm</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Programm startet!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>   <span style='color:#898887;'>// Rückgabe ans Betriebssystem</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<h3>Ablauf beim Programmstart</h3>
+			<p>
+				Wenn man ein C-Programm startet, passiert im Hintergrund:
+			</p>
+			<ol style="margin-top: 0.5em;">
+				<li>
+					Das Betriebssystem lädt das Programm in den Speicher.
+				</li>
+				<li>
+					Es sucht nach der Funktion <code class="Programmierung_Funktion">main()</code>.
+				</li>
+				<li>
+					Ab hier laufen alle Anweisungen in der festgelegten Reihenfolge.
+				</li>
+				<li>
+					Wenn <code class="Programmierung_Funktion">main()</code> endet (durch <code
+						class="Programmierung_Funktion">return</code> oder durch das Erreichen des Blockendes), wird das
+					Programm beendet.
+				</li>
+			</ol>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für ein einfaches C Programm:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span><span style='color:#006e28;'>   </span><span style='color:#898887;'>// Bibliothek einbinden</span>
+
+<span style='color:#898887;'>// Eigene Funktion</span>
+<span style='color:#0057ae;'>void</span> begruessung<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Hallo, willkommen im Programm!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#898887;'>// Hauptprogramm</span>
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    begruessung<span style='color:#ca60ca;'>();</span>            <span style='color:#898887;'>// Funktionsaufruf</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Programm läuft...</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>                 <span style='color:#898887;'>// Ende des Programms</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>
+					<b>Ablauf des Programms:</b>
+				</p>
+				<ol style="margin-top: 0em;">
+					<li>
+						Der Präprozessor fügt die Bibliothek <code class="Bibliothek">stdio.h</code> ein.
+					</li>
+					<li>
+						Die Funktion <code class="Programmierung_Funktion">begruessung()</code> wird definiert.
+					</li>
+					<li>
+						Das Programm startet in <code class="Programmierung_Funktion">main()</code>.
+					</li>
+					<li>
+						<code class="Programmierung_Funktion">main()</code> ruft <code
+							class="Programmierung_Funktion">begruessung()</code> auf → Textausgabe.
+					</li>
+					<li>
+						Weitere Ausgabe.
+					</li>
+					<li>
+						Ende mit <code class="Programmierung_Funktion">return 0;</code>.
+					</li>
+				</ol>
+			</div>
+			<h2 id="hallo">Einfache Bildschirmausgabe mit C</h2>
+			<p>
+				Zu Beginn des Programmierens steht traditionell das berühmte „Hallo Welt!“-Programm.<br>
+				Denn das Wichtigste ist zunächst, dass der Computer die Ergebnisse eines Programms auch sichtbar
+				macht. Am einfachsten geschieht dies durch die Ausgabe von Text auf dem Bildschirm.
+			</p>
+			<p>
+				In C erfolgt die einfache Textausgabe über den Befehl <code
+					class="Programmierung_Befehl">printf()</code>. Mit ihm können Zeichenketten, Zahlen
+				oder kombinierte Ausdrücke auf dem Bildschirm dargestellt werden. Damit diese Funktion jedoch
+				überhaupt zur Verfügung steht, muss zu Beginn des Programms die <em class="Fachwort">Standardbibliothek
+					für Ein- und Ausgabe</em> eingebunden werden.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für "Hallo Welt!" in C:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span><span style='color:#006e28;'>   </span><span style='color:#898887;'>// Bibliothek einbinden</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Hallo Welt!&quot;</span><span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>                 <span style='color:#898887;'>// Ende des Programms</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>
+					<span class="Quelltext">#include &lt;stdio.h&gt;</span>
+				</p>
+				<ul style="margin-top: 0;">
+					<li>
+						bindet die Bibliothek ein, die <code class="Programmierung_Befehl">printf()</code> bereitstellt.
+					</li>
+					<li>
+						<code class="Bibliothek">stdio.h</code> steht für <b>Standard Input/Output Header</b> und stellt
+						wichtige Funktionen bereit – darunter <code class="Programmierung_Befehl">printf()</code> für
+						Ausgaben und <code class="Programmierung_Befehl">scanf()</code> für Eingaben. Ohne diese
+						Einbindung erkennt der Compiler den Funktionsnamen <code
+							class="Programmierung_Befehl">printf()</code> nicht und meldet einen Fehler.
+					</li>
+				</ul>
+				<p>
+					<span class="Quelltext">printf("...");</span>
+				</p>
+				<ul style="margin-top: 0;">
+					<li>
+						Gibt den Text auf dem Bildschirm aus.
+					</li>
+				</ul>
+				<p>
+					<span class="Quelltext">return 0;</span>
+				</p>
+				<ul style="margin-top: 0;">
+					<li>
+						kehrt zum Betriebssystem zurück.
+					</li>
+					<li>
+						0 (Fehlercode) steht für die fehlerfreie Ausführung des Programms
+					</li>
+				</ul>
+				<p>
+					Dabei ist zu beachten, dass jeder Befehl in C mit einem Semikolon <code
+						class="Programmierung_Befehl">;</code> abgeschlossen werden muss! Andernfalls liefert der
+					Compiler einen Fehler.
+				</p>
+			</div>
+			<h1 id="Syntax" style="margin-bottom: 0.5em; margin-top: 1em;">Grundlegende Syntax von C-Quellcode</h1>
+			<h2 id="Befehle" style="margin-top: 0;">Syntax von Befehlen in C</h2>
+			<p>
+				In C endet jede Anweisung mit einem Semikolon (<span class="Quelltext">;</span>).<br>
+				Fehlt dieses Abschlusszeichen, kann der Compiler den
+				Befehl nicht korrekt verarbeiten und meldet einen Fehler.<br>
+				Außerdem ist C <b>case-sensitiv</b> – das bedeutet, dass zwischen Groß- und Kleinschreibung
+				unterschieden wird.<br>
+				So sind etwa main, Main und MAIN drei völlig verschiedene Bezeichner. Dies ist vor allem bei der
+				Benennung von Variablen und Funktionen zu beachten.
+			</p>
+			<h2 id="Bloecke" style="margin-top: 0.7em;">Code-Blöcke in C</h2>
+			<p>
+				In C lassen sich mehrere Anweisungen zu <em class="Fachwort">Blöcken</em> zusammenfassen, wodurch
+				Programme übersichtlich und hierarchisch strukturiert werden.<br>
+				Ein Block beginnt stets mit einer öffnenden geschweiften Klammer <span class="Quelltext">{</span> und
+				endet mit einer schließenden
+				geschweiften Klammer <span class="Quelltext">}</span>.
+			</p>
+			<h2 id="Kommentare" style="margin-top: 0.7em;">Kommentare</h2>
+			<p>
+				<em class="Fachwort">Kommentare</em> dienen dazu, den Quellcode für Menschen leichter verständlich zu
+				machen. Sie haben keinen Einfluss auf die Ausführung des Programms, sondern sind ausschließlich für den
+				Leser gedacht.
+			</p>
+			<p>
+				Besonders in größeren Projekten, an denen mehrere Personen zusammenarbeiten, ist eine klare und
+				durchdachte Kommentierung unverzichtbar. Sie erleichtert nicht nur die Zusammenarbeit im Team, sondern
+				auch die spätere Wartung und Weiterentwicklung des Codes – sei es durch andere Entwickler oder durch
+				einen selbst, wenn man den eigenen Code nach längerer Zeit erneut betrachtet.
+			</p>
+			<p>
+				Die Sprache C kennt zwei verschiedene Arten von Kommentaren: <b>einzeilige</b> und <b>mehrzeilige</b>.
+			</p>
+			<ul style="margin-top: 0.5em;">
+				<li>
+					<em class="Fachwort">Einzeilige Kommentare</em> beginnen mit <span class="Quelltext">//</span> und
+					reichen bis zum Ende der aktuellen Zeile.
+				</li>
+				<li>
+					<em class="Fachwort">Mehrzeilige Kommentare</em> werden mit <span class="Quelltext">/*</span>
+					eingeleitet und mit <span class="Quelltext">*/</span> abgeschlossen. Sie können sich über mehrere
+					Zeilen erstrecken.
+				</li>
+			</ul>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel: Kommentare in C
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#898887;'>// Einzeiliger Kommentar</span>
+<span style='color:#898887;'>/* Mehrzeiliger</span>
+<span style='color:#898887;'>   Kommentar */</span></pre>
+				</div>
+			</div>
+			<p>
+				Besonders praktisch ist die Möglichkeit, mit einem mehrzeiligen Kommentar ganze Abschnitte des
+				Quellcodes <em class="Fachwort">„auszukommentieren“</em>. Dabei wird dieser Code vom Compiler
+				vollständig ignoriert, ohne dass man ihn löschen muss.<br>
+				Diese Technik ist im Alltag äußerst nützlich, etwa wenn man beim Testen von Programmen bestimmte
+				Funktionen zeitweise deaktivieren möchte oder verschiedene Varianten von Code ausprobiert.
+			</p>
+			<h2 id="Variablen">Variablen in C</h2>
+			<p>
+				Damit ein Programm Informationen verarbeiten kann, müssen Daten im <em
+					class="Fachwort">Arbeitsspeicher</em> des Computers abgelegt werden. Dieser Speicher besteht aus
+				einer großen Menge einzelner Speicherzellen, die jeweils durch eine eindeutige <em
+					class="Fachwort">Adresse</em> gekennzeichnet sind.<br>
+				Für den Programmierer wäre es jedoch unpraktisch und fehleranfällig, Daten direkt über solche
+				numerischen Adressen zu verwalten.<br>
+				Hier kommen <em class="Fachwort">Variablen</em> ins Spiel. Eine <b>Variable</b> ist ein benannter
+				Speicherbereich im Arbeitsspeicher (an einer bestimmten <em class="Fachwort">Adresse</em>), in dem ein
+				<em class="Fachwort">Wert</em> abgelegt und später wieder verändert werden kann.<br>
+				Der <em class="Fachwort">Variablen-Bezeichner</em> (<b>Variablenname</b>) dient als verständlicher
+				Verweis auf diesen Speicherbereich, sodass der Programmierer nicht mit reinen Speicheradressen arbeiten
+				muss.
+			</p>
+			<p>
+				In der Programmiersprache C nimmt die Organisation und <b>effiziente Nutzung</b> des Arbeitsspeichers
+				eine zentrale Rolle ein.<br>
+				Anders als in vielen modernen Sprachen, die Speicherverwaltung teilweise oder vollständig
+				automatisieren, gibt C dem Entwickler die <b>direkte Kontrolle</b> über:
+			</p>
+			<ul style="margin-top: 0.5em;">
+				<li>
+					die Größe des reservierten Speicherbereichs
+				</li>
+				<li>
+					den <em class="Fachwort">Datentyp</em> der abgelegten Information (z. B. Ganzzahl, Kommazahl,
+					Zeichen)
+				</li>
+				<li>
+					die präzise Organisation des verfügbaren Arbeitsspeichers
+				</li>
+			</ul>
+			<p>
+				Diese Nähe zur Hardware ist einer der Gründe, warum C bis heute besonders für Systemprogrammierung und
+				Mikrocontroller-Anwendungen genutzt wird, wo die effiziente Verwaltung begrenzter Ressourcen
+				entscheidend ist.
+			</p>
+			<h3 id="Datentyp">Datentypen in C</h3>
+			<p>
+				Ein <em class="Fachwort">Datentyp</em> legt fest, welche Art von Daten in einer Variablen gespeichert
+				werden können und wie groß der dafür benötigte Speicherbereich mindestens sein muss. Außerdem bestimmt
+				er, wie der Inhalt im Arbeitsspeicher dargestellt wird (z. B. als Ganzzahl oder Kommazahl).
+			</p>
+			<p>
+				C kennt folgende Datentypen:
+			</p>
+			<table width="642" cellpadding="2" cellspacing="0" style="margin-top: 0.5em;">
+				<col width="113" />
+				<col width="163" />
+				<col width="148" />
+				<col width="200" />
+				<thead>
+					<tr valign="top">
+						<th width="113" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western" align="left">
+								<span style="background: transparent">Datentyp</span>
+							</p>
+						</th>
+						<th width="163" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western" align="left">
+								<span style="background: transparent">Mindestgröße laut
+									Standard</span>
+							</p>
+						</th>
+						<th width="148" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western" align="left">
+								<span style="background: transparent">Typische Größe (PC, 32/64
+									Bit)</span>
+							</p>
+						</th>
+						<th width="200" bgcolor="#d3d3d3"
+							style="background: #d3d3d3; border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western" align="left">
+								<span style="background: transparent">Wertebereich (Beispiel,
+									32-Bit-Compiler)</span>
+							</p>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">char</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								8 Bit (1 Byte)</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								8 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								-128 … 127 oder 0 … 255</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">int</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								≥ 16 Bit</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								meist 32 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								-2.147.483.648 … 2.147.483.647</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">long</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								≥ 32 Bit</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								32 oder 64 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								abhängig von System und Compiler</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">long long</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								≥ 64 Bit</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								64 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								sehr große Ganzzahlen</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">float</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								ca. 32 Bit (mind. 6 Stellen Genauigkeit)</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								32 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								ca. 7 Nachkommastellen</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">double</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								ca. 64 Bit (mind. 10 Stellen Genauigkeit)</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								64 Bit</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								ca. 15 Nachkommastellen</p>
+						</td>
+					</tr>
+					<tr>
+						<td width="113" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								<var class="western">long double</var>
+							</p>
+						</td>
+						<td width="163" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								≥ wie <code class="western">double</code>, oft 80 oder 128 Bit</p>
+						</td>
+						<td width="148" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								Plattformabhängig</p>
+						</td>
+						<td width="200" style="border: 1px solid #2f4f4f; padding: 0.1cm 0.05cm">
+							<p class="western">
+								noch höhere Genauigkeit</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p style="margin-top: 1em;">
+				Bei der Wahl des passenden Datentyps spielen drei Gesichtspunkte eine Rolle:
+			</p>
+			<h4>Speichergröße</h4>
+			<p>
+				Variablen belegen Platz im Arbeitsspeicher.
+			</p>
+			<ul style="margin-top: 0.3em;">
+				<li>
+					Kleine Datentypen (<code class="Befehl_Variable">char</code>, <code
+						class="Befehl_Variable">int</code>) sparen Speicher – wichtig auf Mikrocontrollern.
+				</li>
+				<li>
+					Der Typ muss aber groß genug sein, um den benötigten Wertebereich abzudecken.
+				</li>
+			</ul>
+			<h4>Genauigkeit</h4>
+			<ul style="margin-top: 0.3em;">
+				<li>
+					Ganze Zahlen (<code class="Befehl_Variable">int</code>, <code class="Befehl_Variable">long</code>)
+					sind exakt, aber ohne Nachkommastellen.
+				</li>
+				<li>
+					Kommazahlen (<code class="Befehl_Variable">float</code>, <code
+						class="Befehl_Variable">double</code>) erlauben Nachkommastellen, haben aber Rundungsfehler.
+				</li>
+			</ul>
+			<h4>Performance</h4>
+			<ul style="margin-top: 0.3em;">
+				<li>
+					Prozessoren arbeiten am schnellsten mit ihrer <em class="Fachwort">nativen Wortbreite</em> (int auf
+					PCs meist 32 Bit).
+				</li>
+				<li>
+					Auf kleinen Mikrocontrollern können 8- oder 16-Bit-Typen schneller und sparsamer sein.
+				</li>
+				<li>
+					Gleitkommazahlen sind oft langsamer, besonders wenn die CPU keine Hardware <code
+						class="Fachwort_nativ">Floatingpoint Unit</code> (<b>FPU</b>) besitzt.
+				</li>
+			</ul>
+			<h3 id="Zeichenketten">Zeichenketten in C</h3>
+			<p>
+				Wie man anhand der Datentypen sieht, liegt der Schwerpunkt bei C eindeutig auf Zahlen – ganze Zahlen,
+				Kommazahlen, Vorzeichen und Genauigkeit spielen eine zentrale Rolle.<br>
+				Doch Programme arbeiten nicht nur mit Zahlen, sondern müssen auch mit Texten umgehen können: Namen,
+				Meldungen oder ganze Wörter.
+			</p>
+			<p>
+				In C gibt es dafür den Datentyp <code class="Befehl_Variable">char</code> für einzelne Zeichen. Mehrere
+				<code class="Befehl_Variable">char</code>-Elemente hintereinander ergeben eine <b>Zeichenkette</b>
+				(englisch: <code class="Fachwort_nativ">String</code>).
+			</p>
+			<p>
+				Im Gegensatz zu vielen modernen Programmiersprachen wie Python oder Java gibt es in C keinen eigenen
+				Datentyp <code class="Variablentyp">string</code>.
+			</p>
+			<ul style="margin-top: 0.5em;">
+				<li>
+					C kennt nur den Datentyp <code class="Befehl_Variable">char</code> für ein einzelnes Zeichen.
+				</li>
+				<li>
+					Eine Zeichenkette wird in C als <code class="Fachwort_nativ">Array</code> von <code
+						class="Variablentyp">char</code> dargestellt, also eine Folge von Zeichen, die hintereinander im
+					Arbeitsspeicher abgelegt sind.
+				</li>
+				<li>
+					Das Ende einer Zeichenkette wird durch das besondere Nullzeichen '<span class="Quelltext">\0</span>'
+					markiert. Dieses unsichtbare Zeichen signalisiert dem Programm, wo die Zeichenkette endet. Man
+					bezeichnet dies auch als <em class="Fachwort">Nullterminierung</em>.
+				</li>
+			</ul>
+			<h2 id="Deklaration">Deklaration und Initialisierung von Variablen</h2>
+			<h3 style="margin-top: 0.5em;">Deklaration von Variablen</h3>
+			<p>
+				Unter <em class="Fachwort">Deklaration</em> versteht man die Bekanntmachung einer Variablen beim
+				Compiler.<br>
+				Dabei wird festgelegt:
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li><em class="Fachwort">Datentyp</em> → bestimmt, welche Art von Werten gespeichert werden kann (z. B.
+					<code class="Variablentyp">int</code>, <code class="Variablentyp">float</code>, <code
+						class="Variablentyp">char</code>).
+				</li>
+				<li>
+					<b>Name</b> → eindeutiger <em class="Fachwort">Bezeichner</em> für die Variable.
+				</li>
+			</ul>
+			<p>
+				Bei der Deklaration wird Speicherplatz reserviert, aber der Speicher-Inhalt ist noch undefiniert
+				(beliebiger „Müllwert“ im RAM).
+			</p>
+			<h3>Regeln für Variablennamen in C</h3>
+			<p>Für Variablen-Bezeichner sind nur bestimmte Zeichen erlaubt:</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Buchstaben (<code class="Quelltext">a–z</code>, <code class="Quelltext">A–Z</code>)
+				</li>
+				<li>
+					Ziffern (<code class="Quelltext">0–9</code>)
+				</li>
+				<li>
+					Unterstrich (<code class="Quelltext">_</code>)
+				</li>
+				<li>
+					Bezeichner in C sind <b>case-sensitiv</b>.
+				</li>
+			</ul>
+			<p>
+				<span class="wichtig">Wichtig!</span>
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Ein Variablen-Bezeichner darf nicht mit einer Zahl beginnen
+				</li>
+				<li>
+					Sonderzeichen, Leerzeichen, Umlaute u.a. sind nicht erlaubt!
+				</li>
+			</ul>
+			<h3>Reservierte Schlüsselwörter</h3>
+			<p>
+				Wörter wie <code class="Programmierung_Befehl">int</code>, <code
+					class="Programmierung_Befehl">for</code>, <code class="Programmierung_Befehl">return</code> sind
+				fest für die Sprache C reserviert und dürfen nicht als Variablenname benutzt werden.
+			</p>
+			<h3>Initialisierung von Variablen</h3>
+			<p>
+				Unter <em class="Fachwort">Initialisierung</em> versteht man das erste Zuweisen eines Werts für die
+				Variable.<br>
+				Die Initialisierung kann direkt bei der Deklaration geschehen oder später im Programmcode.
+			</p>
+			<div class="Achtung">
+				<p>
+					<span class="wichtig">Wichtig!</span> Variablen müssen <b>zuerst deklariert</b> werden bevor sie
+					initialisiert werden.
+				</p>
+			</div>
+
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für die Deklaration und Initialisierung von Variablen in C:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> a<span style='color:#ca60ca;'>;</span>          <span style='color:#898887;'>// nur Deklaration, a enthält zufälligen Wert</span>
+    <span style='color:#0057ae;'>int</span> b <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>;</span>      <span style='color:#898887;'>// Deklaration + Initialisierung</span>
+    a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>3</span><span style='color:#ca60ca;'>;</span>          <span style='color:#898887;'>// nachträgliche Zuweisung (Initialisierung)</span>
+
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;a = </span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'>, b = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> a<span style='color:#ca60ca;'>,</span> b<span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<h3>Deklaration einer Zeichenkette in C</h3>
+			<p>
+				Eine Zeichenkette wird als <code class="Variablentyp">Array</code> von <code
+					class="Variablentyp">char</code> deklariert.<br>
+				Es gibt mehrere Möglichkeiten ein <code class="Variablentyp">char-Array</code> zu deklarieren und zu
+				initialisieren.
+			</p>
+			<div class="Achtung">
+				<p>
+					<span class="wichtig">Achtung!</span> Die Initialisierung eines Arrays mit einer vorgegebenen
+					Zeichenkette ist nur bei der Deklaration erlaubt!
+				</p>
+			</div>
+			<h4>Deklaration ohne Initialisierung</h4>
+			<p>
+				Bei der Deklaration ohne Initialisierung muss immer die Länge des Arrays angegeben werden.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für die Deklaration einer Zeichenkette in C:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>char</span> Zeichenkette<span style='color:#ca60ca;'>[</span><span style='color:#b08000;'>21</span><span style='color:#ca60ca;'>]</span>  <span style='color:#898887;'>// Platz für bis zu 19 Zeichen + 1 Nullzeichen</span></pre>
+				</div>
+			</div>
+			<h4>
+				Wichtige Punkte bei der Wahl der Array-Länge für Zeichenketten
+			</h4>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					<b><em class="Fachwort">Nullterminierung</em> beachten</b>: Am Ende jeder Zeichenkette steht
+					automatisch das Zeichen '<span class="Quelltext">\0</span>'. Eine Zeichenkette mit 20 Zeichen
+					benötigt daher ein Array mit 21 Elementen.
+				</li>
+				<li>
+					<b>Feste Länge</b>: Die Größe eines Arrays ist nach der Deklaration unveränderlich.
+				</li>
+				<li>
+					Länge nicht unterschätzen: Schon bei etwas längeren Texten, z. B. für Ausgaben oder Meldungen,
+					können leicht über 100 Zeichen zusammenkommen.
+				</li>
+				<li>
+					<b>Risiko bei Überlauf</b>: Wird mehr Text in ein Array geschrieben, als Platz vorhanden ist, kommt
+					es zu undefiniertem Verhalten – von falschen Ausgaben bis hin zu Programmabstürzen.
+				</li>
+				<li>
+					Besonderheit bei Mikrocontrollern: Dort steht oft nur sehr wenig Arbeitsspeicher zur Verfügung.
+					Arrays sollten also so groß wie nötig, aber so klein wie möglich gewählt werden.
+				</li>
+			</ul>
+			<h4>Direkte Initialisierung mit einer Zeichenkette</h4>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für die direkte Initialisierung bei der Deklaration einer Zeichenkette in C:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>char</span> text<span style='color:#ca60ca;'>[]</span> <span style='color:#ca60ca;'>=</span> <span style='color:#bf0303;'>&quot;Hallo&quot;</span><span style='color:#ca60ca;'>;</span></pre>
+				</div>
+				<p>
+					Der Compiler erzeugt automatisch das Array:
+				</p>
+				<p>
+					<code class="Quelltext">{'H','a','l','l','o','\0'}</code>
+				</p>
+				<p>
+					Die Größe wird automatisch bestimmt (hier: 6 Zeichen inkl. <code class="Quelltext">\0</code>).
+				</p>
+			</div>
+			<h4>Direkte Initialisierung mit einer Zeichenkette und fester Größe</h4>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für die Initialisierung bei der Deklaration einer Zeichenkette in C:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>char</span> text<span style='color:#ca60ca;'>[21]</span> <span style='color:#ca60ca;'>=</span> <span style='color:#bf0303;'>&quot;Hallo&quot;</span><span style='color:#ca60ca;'>;</span></pre>
+				</div>
+				<p>
+					Das Array hat 21 Plätze, nur die ersten 6 werden belegt ("<code class="Quelltext">Hallo\0</code>").
+				</p>
+				<p>
+					Die restlichen Plätze werden mit <code class="Quelltext">\0</code> aufgefüllt.
+				</p>
+			</div>
+			<h2 id="printf">Formatierte Bildschirmausgabe in C</h2>
+			<p>
+				Die <code class="Programmierung_Funktion">printf()</code> Funktion, ermöglicht eine formatierte
+				Bildschirmausgabe im Terminal.
+			</p>
+			<p>
+				Die <code class="Programmierung_Funktion">printf()</code> Funktion ist in der <code
+					class="Bibliothek">&lt;stdio.h&gt;</code> Bibliothek enthalten. Diese muss vor der Verwendung
+				eingebunden werden.
+			</p>
+			<div class="Syntax">
+				<p class="Syntax_green">
+					Syntax:
+				</p>
+				<code class="Programmierung_Funktion">printf(<code class="Befehl_Konstante">"Ausgabetext"</code>, <code
+					class="Befehl_Variable">Variable</code>, <code class="Befehl_Variable">Variable</code>, <span
+					style="color: black;">…</span> );</code>
+				<table class="Aufzaehlung_Syntax">
+					<tr>
+						<td>
+							<code class="Befehl_Konstante">"Ausgabetext"</code>: Text mit <b>Formatanweisungen</b> für
+							die auszugebende Variable
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<code class="Befehl_Variable">Variable</code>: Bezeichner der Variablen, deren Inhalt
+							ausgegeben werden soll.
+						</td>
+					</tr>
+				</table>
+			</div>
+			<h4>Formatanweisungen</h4>
+			<table width="639" cellpadding="4" cellspacing="0">
+				<col width="74" />
+				<col width="547" />
+				<tr valign="top">
+					<td width="74"
+						style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre
+							class="western"><font color="#800000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="background: transparent"><font color="#000000"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-style: normal">%d</span></font></font></font></span></span></span></font></pre>
+					</td>
+					<td width="547" style="border: 1px solid #000000; padding: 0.1cm">
+						<p class="western">
+							Ganzzahl (Integer), dezimal</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%i</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Ganzzahl, dezimal</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%o</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Ganzzahl, oktal</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%h</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Ganzzahl, hexadezimal</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%u</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Ganzzahl, vorzeichenlos (unsigned integer)</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%c</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Character</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%s</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							String (nullterminertes Char-Array)</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%f</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Fließkommazahl (Float)</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%f.2</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Fließkommazahl (Float), angezeigt mit 2 Nachkommastellen</p>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="74"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+						<pre class="western">%p</pre>
+					</td>
+					<td width="547"
+						style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+						<p class="western">
+							Zeiger (Pointer), hexadezimal</p>
+					</td>
+				</tr>
+			</table>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für die formatierte Ausgabe im Terminal:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>42</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+  <span style='color:#898887;'>// Zeichenkette für die Formatierte Ausgabe //</span>
+  printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Der Wert von a betraegt: </span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span>a<span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<h4>Sonderzeichen in Zeichenketten</h4>
+			<p>
+				In C lassen sich in Zeichenketten Steuer- und Sonderzeichen verwenden.
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					<code class="Quelltext">\n</code> = Zeilenumbruch
+				</li>
+				<li>
+					<code class="Quelltext">\t</code> = Tabulator (Einrückung)
+				</li>
+				<li>
+					<code class="Quelltext">\"</code> = Anführungszeichen
+				</li>
+				<li>
+					<code class="Quelltext">\\</code> = Backslash
+				</li>
+			</ul>
+			<h2 id="Berechnungen">Mathematische Berechnungen</h2>
+			<p>
+				C unterstützt alle Grundrechenarten:
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Addition: <code class="Quelltext">+</code>
+				</li>
+				<li>
+					Subtraktion: <code class="Quelltext">-</code>
+				</li>
+				<li>
+					Multiplikation: <code class="Quelltext">*</code>
+				</li>
+				<li>
+					Division: <code class="Quelltext">/</code>
+				</li>
+				<li>
+					Modulo (Rest einer Division): <code class="Quelltext">%</code> <span class="Bemerkung">(nur für
+						Ganzzahlen)</span>
+				</li>
+			</ul>
+			<h3>Berechnungen mit Ganzzahlen (<code class="Variablentyp">int</code>)</h3>
+			<p>
+				Mit dem Datentyp <code class="Variablentyp">int</code> (<em class="Fachwort">Ganzzahlen</em>) werden nur
+				ganze Zahlen gespeichert.<br>
+				Bei der Division von zwei Ganzzahlen wird das Ergebnis abgeschnitten. Die Nachkommastellen gehen
+				verloren.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Division zweier Ganzzahlen:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> a<span style='color:#ca60ca;'>,</span> b<span style='color:#ca60ca;'>,</span> Ergebnis<span style='color:#ca60ca;'>;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+  a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>12</span><span style='color:#ca60ca;'>;</span>
+  b <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>;</span>
+  Ergebnis <span style='color:#ca60ca;'>=</span> a <span style='color:#ca60ca;'>/</span> b<span style='color:#ca60ca;'>;</span>
+  printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;</span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'> / </span><span style='color:#3daee9;'>%d</span><span style='color:#bf0303;'> = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span>a<span style='color:#ca60ca;'>,</span> b<span style='color:#ca60ca;'>,</span> Ergebnis<span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>Bildschirmausgabe:</p>
+				<div class="Bildschirmausgabe">
+					<p>
+						2
+					</p>
+				</div>
+			</div>
+			<h3>Berechnungen mit Fließkommazahlen (<code class="Variablentyp">float</code>, <code
+					class="Variablentyp">double</code>)</h3>
+			<p>
+				Mit <code class="Variablentyp">float</code> oder <code class="Variablentyp">double</code> (<em
+					class="Fachwort">Fließkommazahlen</em>) werden Nachkommastellen gespeichert.<br>
+				Die Division liefert ein numerisch exaktes Ergebnis <span class="Bemerkung">(so weit es der Datentyp
+					erlaubt)</span>.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Division zweier Ganzzahlen:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>float</span> a<span style='color:#ca60ca;'>,</span> b<span style='color:#ca60ca;'>,</span> Ergebnis<span style='color:#ca60ca;'>;</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+  a <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>12</span><span style='color:#ca60ca;'>;</span>
+  b <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>;</span>
+  Ergebnis <span style='color:#ca60ca;'>=</span> a <span style='color:#ca60ca;'>/</span> b<span style='color:#ca60ca;'>;</span>
+  printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;</span><span style='color:#3daee9;'>%f</span><span style='color:#bf0303;'> / </span><span style='color:#3daee9;'>%f</span><span style='color:#bf0303;'> = </span><span style='color:#3daee9;'>%f\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span>a<span style='color:#ca60ca;'>,</span> b<span style='color:#ca60ca;'>,</span> Ergebnis<span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span></pre>
+
+				</div>
+				<p>Bildschirmausgabe:</p>
+				<div class="Bildschirmausgabe">
+					<p>
+						2.4
+					</p>
+				</div>
+			</div>
+			<h3>Unterschied Integer vs. Float</h3>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Integer-Division: Ergebnis wird abgeschnitten (<code class="Quelltext">7 / 2 = 3</code>).
+				</li>
+				<li>
+					Float-Division: Ergebnis wird mit Nachkommastellen dargestellt (<code
+						class="Quelltext">7.0 / 2.0 = 3.5</code>).
+				</li>
+				<li>
+					Mischung von Typen: Wenn <code class="Variablentyp">int</code> und <code
+						class="Variablentyp">float</code> kombiniert werden, wandelt C
+					den <code class="Variablentyp">int</code> in einen <code class="Variablentyp">float</code> um (<em
+						class="Fachwort">implizite Typkonvertierung</em>).
+				</li>
+			</ul>
+			<h1 id="Funktionen_C" style="margin-bottom: 0.5em;">Funktionen in C</h1>
+			<h2 style="margin-top: 0;">Was sind Funktionen?</h2>
+			<p>
+				Eine <em class="Fachwort">Funktion</em> ist ein eigenständiger Programmblock, der eine bestimmte Aufgabe
+				erledigt.
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Funktionen helfen, Programme übersichtlicher und wiederverwendbarer zu machen.
+				</li>
+				<li>
+					Jede Funktion hat einen <b>Namen</b>.
+				</li>
+				<li>
+					Eine Funktion kann <b>Eingaben</b> (<em class="Fachwort">Parameter</em>) erhalten.
+				</li>
+				<li>
+					Eine Funktion kann eine <b>Ausgabe</b> (<em class="Fachwort">Rückgabewert</em>) liefern.
+				</li>
+			</ul>
+			<h2>Aufbau einer Funktion</h2>
+			<p>
+				Eine Funktion ist in C wie folgt aufgebaut:
+			</p>
+			<div class="Syntax">
+				<p>
+					<em class="Variablentyp">Datentyp</em> <em class="Programmierung_Funktion">Funktionsname(<em
+							class="Befehl_Attribut">Parameterliste</em>) {</em><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen</em><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<em class="Programmierung_Kommentar">// Anweisungen</em><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<code
+						class="Programmierung_Befehl">return <em class="Befehl_Attribut">Wert</em>;</code><br>
+					<code class="Programmierung_Befehl">}</code>
+				</p>
+			</div>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Alle Funktionen in C, auch wenn sie keinen Wert zurückgeben, <b>müssen</b> für einen bestimmten
+					Datentyp
+					definiert werden.
+				</li>
+				<li>
+					Prinzipiell können mehrere Parameter unterschiedlichen Datentyps an eine Funktion übergeben werden.
+					Wird
+					kein Wert vom Hauptprogramm an die Funktion übergeben, ist die Parameterliste leer.
+				</li>
+				<li>
+					Funktionen in C können <b>höchstens einen Rückgabewert</b> besitzen!
+				</li>
+			</ul>
+			<h2>Funktionen ohne Rückgabewert</h2>
+			<p>
+				Für Funktionen, die keine Werte zurückgeben existiert in C der Datentyp <code
+					class="Variable">void</code>.
+			</p>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für eine Funktion ohne Rückgabewert:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>void</span> begruessung<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Hallo, willkommen im Programm!</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    begruessung<span style='color:#ca60ca;'>();</span>   <span style='color:#898887;'>// Funktionsaufruf</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Programm läuft...</span><span style='color:#3daee9;'>\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+			</div>
+			<h2>Übergabeparameter</h2>
+			<p>
+				Übergabe-<em class="Fachwort">Parameter</em> sind Werte, die vom Hauptprogramm an die Funktion übergeben
+				werden. Sie liefern die notwendigen Eingangsdaten, damit die Funktion ihre Aufgabe erfüllen kann – zum
+				Beispiel, um interne Berechnungen durchzuführen oder Ergebnisse individuell anzupassen.
+			</p>
+			<h3>Allgemeine Syntax einer Parameterliste</h3>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Jeder Parameter hat einen <code class="Variablentyp">Datentyp</code> und einen <b>Namen</b>.
+				</li>
+				<li>
+					Parameter werden in runden Klammern <code class="Quelltext">(...)</code> aufgelistet.
+				</li>
+				<li>
+					Mehrere Parameter werden durch Kommas <code class="Quelltext">,</code> getrennt.
+				</li>
+			</ul>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für eine Funktion mit einem Parameter:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> quadrat<span style='color:#ca60ca;'>(</span><span style='color:#0057ae;'>int</span> x<span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    <b>return</b> x <span style='color:#ca60ca;'>*</span> x<span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<ul style="margin-top: 0.3em; margin-bottom: 0.2em;">
+					<li>
+						<code class="Variablentyp">int</code> : Datentyp des Parameters
+					</li>
+					<li>
+						<code class="Variable">x</code> : Name des Parameters
+					</li>
+				</ul>
+			</div>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für eine Funktion mit mehreren Parametern:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#0057ae;'>int</span> summe<span style='color:#ca60ca;'>(</span><span style='color:#0057ae;'>int</span> a<span style='color:#ca60ca;'>,</span> <span style='color:#0057ae;'>int</span> b<span style='color:#ca60ca;'>)</span> <span style='color:#ca60ca;'>{</span>
+    <b>return</b> a <span style='color:#ca60ca;'>+</span> b<span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> x <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>7</span><span style='color:#ca60ca;'>,</span> y <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>3</span><span style='color:#ca60ca;'>;</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Summe: </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> summe<span style='color:#ca60ca;'>(</span>x<span style='color:#ca60ca;'>,</span> y<span style='color:#ca60ca;'>));</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<ul style="margin-top: 0.3em; margin-bottom: 0.2em;">
+					<li>
+						<em class="Fachwort">Parameterliste</em>: (<code class="Variablentyp">int</code> <code
+							class="Variable">a</code>, <code class="Variablentyp">int</code> <code
+							class="Variable">b</code>)
+					</li>
+					<li>
+						Jeder Parameter hat seinen eigenen Datentyp und Namen.
+					</li>
+					<li>
+						Es können auch unterschiedliche Datentypen übergeben werden.
+					</li>
+					<li>
+						Die <b>Reihenfolge</b> der Parameter ist verbindlich beim Funktionsaufruf.
+					</li>
+					<li>
+						Beim Aufruf werden die Werte in der gleichen Reihenfolge übergeben, wie sie in der
+						Parameterliste definiert sind.
+					</li>
+				</ul>
+			</div>
+			<h2 id="scope">Gültigkeitsbereich von Variablen (Scope)</h2>
+			<p>
+				Der <em class="Fachwort">Gültigkeitsbereich</em> (engl. <code class="Fachwort_nativ">Scope</code>) einer
+				Variablen bestimmt, wo im Programm diese Variable sichtbar und nutzbar ist.
+			</p>
+			<p>
+				In C unterscheidet man im Wesentlichen <em class="Fachwort">globale</em> und <em
+					class="Fachwort">lokale</em> Variablen.
+			</p>
+			<h2 id="global">Globale Variablen</h2>
+			<p>
+				<em class="Fachwort">Globale Variablen</em> werden außerhalb von Funktionen (meist am Anfang des
+				Programms) deklariert.
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					Sind im gesamten Programm sichtbar – also in allen Funktionen.
+				</li>
+				<li>
+					Belegen Speicherplatz während der gesamten Programmlaufzeit.
+				</li>
+				<li>
+					<span style="color: forestgreen; font-weight: bold;">Vorteil</span>: Einfacher Zugriff aus
+					verschiedenen Funktionen.
+				</li>
+				<li>
+					<span style="color: red; font-weight: bold;">Nachteil</span>: Gefahr unbeabsichtigter Änderungen,
+					schlecht nachvollziehbarer Code.
+				</li>
+			</ul>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für globale Variablen:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> counter <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>   <span style='color:#898887;'>// globale Variable</span>
+
+<span style='color:#0057ae;'>void</span> zaehler<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    counter<span style='color:#ca60ca;'>++;</span>     <span style='color:#898887;'>// Zugriff von überall möglich</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    zaehler<span style='color:#ca60ca;'>();</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Counter = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> counter<span style='color:#ca60ca;'>);</span>
+    zaehler<span style='color:#ca60ca;'>();</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;Counter = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> counter<span style='color:#ca60ca;'>);</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>Bildschirmausgabe:</p>
+				<div class="Bildschirmausgabe">
+					<p>
+						counter = 1<br>
+						counter = 2
+					</p>
+				</div>
+			</div>
+			<h2 id="lokal">Lokale Variablen</h2>
+			<p>
+				<em class="Fachwort">Lokale Variablen</em> werden innerhalb einer Funktion oder eines Blocks (<code
+					class="Quelltext">{ ... }</code>) deklariert.
+			</p>
+			<ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+				<li>
+					<b>Sichtbarkeit</b> (<code class="Fachwort_nativ">Scope</code>): Nur innerhalb der Funktion oder des
+					Blocks.
+				</li>
+				<li>
+					Andere Teile des Programms, die außerhalb des Blocks sind, haben keinen Zugriff auf lokale
+					Variablen.
+				</li>
+				<li>
+					Dadurch können lokale Variablen nicht versehentlich überschrieben werden.
+				</li>
+				<li>
+					Unterschiedliche Funktionen können lokale Variablen mit demselben Namen haben, ohne dass Konflikte
+					entstehen.
+				</li>
+				<li>
+					Lebensdauer: Nur während der Ausführung der Funktion.
+				</li>
+				<li>
+					Wird die Funktion erneut aufgerufen, wird die Variable neu erzeugt und wieder mit ihrem Startwert initialisiert.
+				</li>
+			</ul>
+			<div class="Achtung">
+				<p>
+					<span class="wichtig">Wichtig!</span><br>
+					Wenn eine lokale Variable denselben Namen wie eine globale hat, verdeckt die lokale Variable die
+					globale Variable im jeweiligen Block.
+				</p>
+			</div>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für lokale Variablen:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>void</span> zaehler<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> x <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>  <span style='color:#898887;'>// lokale Variable</span>
+    x<span style='color:#ca60ca;'>++;</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;x = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> x<span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    zaehler<span style='color:#ca60ca;'>();</span>  <span style='color:#898887;'>// Ausgabe: x = 1</span>
+    zaehler<span style='color:#ca60ca;'>();</span>  <span style='color:#898887;'>// Ausgabe: x = 1 (neu erzeugt!)</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+				</div>
+				<p>Bildschirmausgabe:</p>
+				<div class="Bildschirmausgabe">
+					<p>
+						x = 1<br>
+						x = 1
+					</p>
+				</div>
+			</div>
+			<div class="Beispiel">
+				<h4 style="margin-top: 0em;">
+					Beispiel für lokale und globale Variablen:
+				</h4>
+				<div class="Programmcode">
+					<pre style='color:#1f1c1b;'>
+<span style='color:#006e28;'>#include </span><span style='color:#ff5500;'>&lt;stdio.h&gt;</span>
+
+<span style='color:#0057ae;'>int</span> counter <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>5</span><span style='color:#ca60ca;'>;</span>  <span style='color:#898887;'>// globale Variable</span>
+
+<span style='color:#0057ae;'>void</span> zaehler<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    <span style='color:#0057ae;'>int</span> counter <span style='color:#ca60ca;'>=</span> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>  <span style='color:#898887;'>// lokale Variable</span>
+    counter<span style='color:#ca60ca;'>++;</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;counter = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> counter<span style='color:#ca60ca;'>);</span>
+<span style='color:#ca60ca;'>}</span>
+
+<span style='color:#0057ae;'>int</span> main<span style='color:#ca60ca;'>()</span> <span style='color:#ca60ca;'>{</span>
+    zaehler<span style='color:#ca60ca;'>();</span>  <span style='color:#898887;'>// Ausgabe: x = 1</span>
+    printf<span style='color:#ca60ca;'>(</span><span style='color:#bf0303;'>&quot;counter = </span><span style='color:#3daee9;'>%d\n</span><span style='color:#bf0303;'>&quot;</span><span style='color:#ca60ca;'>,</span> counter<span style='color:#ca60ca;'>);</span>  <span style='color:#898887;'>// Ausgabe: counter = 5</span>
+    <b>return</b> <span style='color:#b08000;'>0</span><span style='color:#ca60ca;'>;</span>
+<span style='color:#ca60ca;'>}</span></pre>
+
+				</div>
+				<p>Bildschirmausgabe:</p>
+				<div class="Bildschirmausgabe">
+					<p>
+						counter = 1<br>
+						counter = 5
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<div>
+			<aside>
+				<p style="margin-top: 0px; margin-bottom: 4px;" class="side">
+					<a class="side" href="#C">Ursprünge und Bedeutung von C</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#C_Grundstruktur">Grundstruktur eines C Programms</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#C_Praeprozessor">C Präprozessor</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Direktiven">Wichtige Präprozessor-Direktiven</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Funktionen">Funktionen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#main">Die main() Funktion</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#hallo">"Hallo Welt!"</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Syntax">Syntax von C-Code</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Befehle">Syntax von Befehlen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Bloecke">Code-Blöcke</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Kommentare">Kommentare</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Variablen">Variablen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Datentyp">Datentypen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Zeichenketten">Zeichenketten</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Deklaration">Variablen deklarieren</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#printf">Bildschirmausgabe</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Berechnungen">Mathematische Berechnungen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#Funktionen_C">Funktionen in C</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#scope">Scope</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#global">Globale Variablen</a>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px;" class="side">
+					<a class="side" href="#lokal">Lokale Variablen</a>
+				</p>
+
+
+				<p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px; margin-bottom: 15px;">
+							&#x21eb;
+						</div>
+					</a><br>
+				</p>
+				<p style="margin-top: 2px; margin-bottom: 2px; clear: both;" class="side">
+					<a class="intern" href="../informatik_start.html">Programmiern mit C und Python</a>
+				</p>
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right"><img src="../../css/by-nc-sa.eu.png" width="88" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 29.10.2025&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/informatik/informatik_einfuehrung/C_Grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:18 GMT -->
+</html>

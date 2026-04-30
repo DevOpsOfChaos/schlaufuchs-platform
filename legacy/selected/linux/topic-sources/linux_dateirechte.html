@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_dateisystem/linux_dateirechte.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:27:24 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>LINUX Datei-Rechte</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<script src="../css/linux_nav_standard.js"></script>
+	</nav>
+</header>
+
+<table>
+<tr>
+<td>	
+	<main>
+		<h1>Die Rechteverwaltung für Dateien</h1>
+		<p>
+			Basierend auf der <em>UNIX-Rechteverwaltung</em> bringt LINUX eine einfache aber sehr effektive Verwaltung für den Umgang mit Dateien mit. Diese <em class="Fachwort">LINUX-Rechteverwaltung</em> regelt, wer auf dem System bestimmte Dateien lesen, schreiben oder ausführen darf und zwar getrennt für Eigentümer, Gruppen und Gäste. Nur der Administrator <em>root</em> darf als <em>Superuser</em> alles.
+		</p>
+		<h2>Die Zugriffsrechte unter LINUX</h2>
+		<p>
+			Für den Umgang mit Dateien und Verzeichnissen kennt LINUX drei "<em>Grundrechte</em>":
+		</p>
+		<ul>
+			<li><em>lesen</em>: <em class="Befehl_Attribut">r</em> (<i>read</i>)</li>
+			<li><em>schreiben</em>: <em class="Befehl_Attribut">w</em> (<i>write</i>), beinhaltet auch das Löschen</li>
+			<li><em>ausführen</em>: <em class="Befehl_Attribut">x</em> (<i>execute</i>)</li>
+		</ul>
+		<p>
+			Diese <em class="Fachwort">Zugriffsrechte</em>, auch <em class="Fachwort">Dateirechte</em> genannt, lassen sich für jede Datei und jedes Verzeichnis setzen und vom Eigentümer auch ändern.
+		</p>
+		<p>
+			Neben den grundlegenden Zugriffsrechten gibt es für besondere Situationen auch einige <em class="Fachwort">Sonderrechte</em> für den Dateizugriff.
+		</p>
+		<h2>Benutzerklassen unter LINUX</h2>
+		<p>
+			Linux Dateisysteme kennen drei <em class="Fachwort">Benutzerklassen</em> für Dateien, die unterschiedliche <em class="Fachwort">Besitzerrechte</em> haben können:
+		</p>
+		<ul>
+			<li><em>Eigentümer</em>: <em class="Befehl_Attribut">u</em> (<i>user</i>)</li>
+			<li><em>Gruppe</em>: <em class="Befehl_Attribut">g</em> (<i>group</i>)</li>
+			<li><em>alle Anderen</em>: <em class="Befehl_Attribut">o</em> (<i>others</i>)</li>
+		</ul>
+		<p>
+			Derjenige, der eine neue Datei oder ein neues Verzeichnis erstellt ist zunächst einmal auch der <em class="Fachwort">Eigentümer</em> der Datei. Die Gruppe, der die neue Datei gehört ist zunächst die Standardgruppe des Eigentümers.
+		</p>
+		<h2>Die Notation der Zugriffsrechte</h2>
+		<figure style="float: right;">
+			<img src="bilder/permissions.png" width="270" height="351" alt="Linux Dateirechte" longdesc="Dateirechte%20unter%20LINUX.html">
+			<figcaption style="width: 270px;">
+				<p>Unterschiedliche Darstellungen der LINUX Dateirechte</p>
+			</figcaption>
+		</figure>
+		<p>
+			Es gibt zwei Arten, wie die <em>Datei-Zugriffsrechte</em> dargestellt werden.
+		</p>
+		<h3>Die Oktalnotation</h3>
+		<p>
+			In der <em class="Fachwort">Oktalnotation</em> werden die Zugriffsrechte durch drei Ziffern dargestellt. Die Reihenfolge der Ziffern definiert die Zugriffsrechte für:
+		</p>
+		<ul>
+			<li><em>1.</em> Ziffer: <em>Eigentümer</em></li>
+			<li><em>2.</em> Ziffer: <em>Gruppe</em></li>
+			<li><em>3.</em> Ziffer: <em>Andere</em></li>
+		</ul>
+		<p>
+			Jede dieser Ziffern ergibt sich aus der Summe der Wertigkeiten der Zugriffsrechte:
+		</p>
+		<ul>
+			<li><em>ausführen</em>: Wertigkeit <em>1</em></li>
+			<li><em>schreiben</em>: Wertigkeit <em>2</em></li>
+			<li><em>lesen</em>: Wertigkeit <em>4</em></li>
+		</ul>
+		<p>
+			Aus der Ziffer 6 (6=4+2) ergeben sich also die Zugriffsrechte lesen (4) und schreiben (2).
+		</p>
+		<p>
+			Sind bei einer Datei auch noch <em class="Fachwort">Sonderrechte</em> vorhanden, so wird die dreiziffrige Darstellung durch eine führende 4. Ziffer ergänzt. Diese ergibt sich aus der Summe der Wertigkeiten der Sonderrechte:
+		</p>
+		<ul>
+			<li><em>Sticky</em> Bit: Wertigkeit <em>1</em></li>
+			<li><em>Set-GID</em> Bit: Wertigkeit <em>2</em></li>
+			<li><em>Set-UID</em> Biet: Wertigkeit <em>4</em></li>
+		</ul>
+		<h3>Die symbolische Notation</h3>
+		<p>
+			Bei der <em class="Fachwort">symbolischen Notation</em> werden die Zugriffsrechte durch eine Zeichenkette mit 9 Zeichen dargestellt.
+		</p>
+		<p>
+			Die ersten drei Zeichen stehen für die Rechte des Eigentümers, die mittleren drei Zeichen für die Rechte der Gruppe und die letzten drei Zeichen für die Gastrechte.
+		</p>
+		<p>
+			Wenn an einer Stelle ein Bindestrich -</em> steht, ist kein Recht gesetzt.
+		</p>
+		<ul>
+			<li>Die Positionen <em>1,4,7</em> geben die <em>Leserechte</em> (<em class="Befehl_Option">r</em>) an</li>
+			<li>Die Positionen <em>2,5,8</em> geben die <em>Schreibrechte</em> (<em class="Befehl_Option">w</em>) an</li>
+			<li>Die Positionen <em>3,6,9</em> geben die <em>Ausführrechte</em> (<em class="Befehl_Option">x</em>) an</li>
+		</ul>
+		<p>
+			Sind außerdem <em class="Fachwort">Sonderrechte</em> gesetzt, so erkennt man dies an den Positionen 3,6 und 9:
+		</p>
+		<ul>
+			<li>Position <em>3</em>: <em>SUID</em> Bit gesetzt (<em class="Befehl_Option">s</em>)</li>
+			<li>Position <em>6</em>: <em>GUID</em> Bit gesetzt (<em class="Befehl_Option">s</em>)</li>
+			<li>Position <em>9</em>: <em>Sticky</em> Bit gesetzt (<em class="Befehl_Option">t</em>)</li>
+		</ul>
+	</main>
+</td>
+	
+<td>
+	<aside>
+		<script src="../css/linux_aside_standard.js"></script>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_dateisystem/linux_dateirechte.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:27:24 GMT -->
+</html>

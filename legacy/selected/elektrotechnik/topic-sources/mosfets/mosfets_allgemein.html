@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/digitaltechnik_lernmaterial/halbleiterschalter/mosfets/mosfets_allgemein.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:28 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="expires" content="500000">
+	<title>MOSFETS</title>
+	<link type="text/css" rel="stylesheet" href="../../../css/standard_elektrotechnik.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="../../../../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+			</figure>
+			<p>
+				<a class="intern" href="../../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;
+				<a class="intern" href="../../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a class="intern" href="../../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a class="intern" href="../../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a class="intern" href="../../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a class="intern" href="../halbleiterschalter.html">Halbleiterschalter</a> &nbsp;&nbsp;&nbsp;
+				<a class="intern" href="../../digitaltechnik_lernmaterial.html">Digitaltechnik</a> &nbsp;&nbsp;&nbsp;
+				<a class="intern" href="../../logikgatter/logikgatter.html">Logikgatter</a> &nbsp;&nbsp;&nbsp;
+			</p>
+		</nav>
+	</header>
+
+
+	<table>
+		<tr>
+			<td style="width: 75%;">
+				<main>
+					<h1 id="MOSFET">MOSFETs</h1>
+					<p>
+						Beim <code class="Fachwort">MOSFET</code> (<b>Metal Oxide Semiconductor Field Effect
+							Transistor</b>)
+						handelt es sich um einen Feldeffekttransistor, dessen Gate durch eine Oxidschicht isoliert ist.
+						Daher auch die Bezeichnung <code class="Fachwort">IGFET</code> (<b>Insulated Gate Field Effect
+							Transistor</b>) bzw. auch <code class="Fachwort">MISFET</code> (<b>Metal Insulator
+							Semiconductor
+							Field Effect Transistor</b>).
+					</p>
+					<h2 id="aufbau">Aufbau und Funktionsprinzip</h2>
+					<p>
+						Der MOSFET besitzt normalerweise drei Anschlüsse:
+					</p>
+					<ul>
+						<li>
+							<code class="Fachwort">Gate</code> (<b>G</b>): Der Steuereingang
+						</li>
+						<li>
+							<code class="Fachwort">Source</code> (<b>S</b>): Quelle der Ladungsträger
+						</li>
+						<li>
+							<code class="Fachwort">Drain</code> (<b>D</b>): Abfluss der Ladungsträger
+						</li>
+					</ul>
+					<p>
+						Die zwischen Gate und Source anliegende Spannung <b>U<sub>GS</sub></b> steuert den Widerstand
+						der
+						Drain-Source-Strecke <b>R<sub>DS</sub></b>.
+					</p>
+					<p>
+						Der MOSFET eignet sich besonders gut für Schaltanwendungen. Er kann aufgrund seines isolierten
+						Gate-Anschlusses quasi leistungslos angesteuert werden. Nur beim Umschalten fließt kurzzeitig
+						ein
+						Gatestrom, da die Gate-Source-Strecke wie ein kleiner Kondensator wirkt.
+					</p>
+					<h2 id="typen">MOSFET Typen</h2>
+					<p style="margin-bottom: 0.5em;">
+						Man unterscheidet vier Typen von MOSFETs:
+					</p>
+					<table style="border-collapse: collapse;">
+						<tr>
+							<td style="background-color: lightgrey; border: 3px solid grey; padding: 5px;">
+								<p>
+								</p>
+							</td>
+							<td style="background-color: lightgrey; border: 3px solid grey; padding: 5px;">
+								<p>
+									<b>Anreicherungstyp</b><br>
+									(enhancement type)
+								</p>
+							</td>
+							<td style="background-color: lightgrey; border: 3px solid grey; padding: 5px;">
+								<p>
+									<b>Verarmungstyp</b><br>
+									(depletion type)
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: lightgrey; border: 3px solid grey; padding: 5px;">
+								<p>
+									<b>P-Kanal</b><br>
+									PMOS
+								</p>
+							</td>
+							<td style="background-color: white; border: 3px solid grey; padding: 5px;">
+								<img src="formeln/JW_PMOS_enhancement_01.245.delaye" alt="PMOS enhancement type"
+									title="PMOS enhancement type" style="max-height: 100px;">
+							</td>
+							<td style="background-color: white; border: 3px solid grey; padding: 5px;">
+								<img src="formeln/JW_PMOS_depletion_01.png" alt="PMOS depletion type"
+									title="PMOS depletion type" style="max-height: 100px;">
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: lightgrey; border: 3px solid grey; padding: 5px;">
+								<p>
+									<b>N-Kanal</b><br>
+									NMOS
+								</p>
+							</td>
+							<td style="background-color: white; border: 3px solid grey; padding: 5px;">
+								<img src="formeln/JW_NMOS_enhancement_01.247.delaye" alt="NMOS enhancement type"
+									title="PMOS enhancement type" style="max-height: 100px;">
+							</td>
+							<td style="background-color: white; border: 3px solid grey; padding: 5px;">
+								<img src="formeln/JW_NMOS_depletion_01.png" alt="NMOS depletion type"
+									title="PMOS depletion type" style="max-height: 100px;">
+							</td>
+						</tr>
+					</table>
+					<h2 id="nmos_schalter">NMOS als Schalter</h2>
+					<p>
+						Um die Funktionsweise eines NMOS-Transistors als Schalter zu verdeutlichen, wird eine Simulation
+						mit
+						<code style="color: darkorange;"><b>Qucs</b></code> durchgeführt.
+					</p>
+					<p style="margin-bottom: 1em;">
+						Das Gate des NMOS-Transistors wird mit einer linear ansteigenden Gate-Source Spannung <code
+							class="math_function">U<sub>GS</sub>(t)</code> beaufschlagt.<br>
+						Drainstrom <code class="math_function">I<sub>D</sub>(t)</code> und die Drain-Source Spannung
+						<code class="math_function">U<sub>DS</sub>(t)</code> werden aufgezeichnet.<br>
+						Aus den Daten wird der Drain-Source Widerstand in Abhängigkeit von der Gate-Source-Spannung
+						<code class="math_function">R<sub>DS</sub>(U<sub>GS</sub>)</code> berechnet.
+					</p>
+					<iframe style="display: table; margin-left: auto; margin-right: auto;" width="608" height="342"
+						src="https://www.youtube.com/embed/zA2NFVdhDb8" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+					<h3>Schaltplan der Simulation</h3>
+					<figure>
+						<a href="mosfets_allgemein_bild_01_interaktiv.249" target="_blank" class="interaktiv"><img
+								src="formeln/01_Schaltplan_web_500.png" alt="Schaltplan" class="interaktiv"
+								style="max-width: 300px;" title="Schaltplan"></a>
+						<figcaption>
+							Schaltplan
+						</figcaption>
+					</figure>
+					<h3>Eingangskennlinie der Simulation</h3>
+					<figure>
+						<a href="mosfets_allgemein_bild_01_interaktiv.249" target="_blank" class="interaktiv"><img
+								src="formeln/U_GS_web_500.png" alt="Eingangskennlinie" class="interaktiv"
+								style="max-width: 300px;" title="Eingangskennlinie"></a>
+						<figcaption>
+							<code class="math_function">U<sub>GS</sub>(t)</code>
+						</figcaption>
+					</figure>
+					<h3>Ausgangskennlinien der Simulation</h3>
+					<table>
+						<tr>
+							<td>
+								<figure style="margin: 5px;">
+									<a href="mosfets_allgemein_bild_01_interaktiv.249" target="_blank"
+										class="interaktiv"><img src="formeln/U_DS__U_GS_web_500.png"
+											alt="Ausgangskennlinie" class="interaktiv" style="max-width: 220px;"
+											title="Ausgangskennlinie"></a>
+									<figcaption>
+										<code class="math_function">U<sub>DS</sub>(U<sub>GS</sub>)</code>
+									</figcaption>
+								</figure>
+							</td>
+							<td>
+								<figure style="margin: 5px;">
+									<a href="mosfets_allgemein_bild_01_interaktiv.249" target="_blank"
+										class="interaktiv"><img src="formeln/I_D__U_GS_web_500.png"
+											alt="Ausgangskennlinie" class="interaktiv" style="max-width: 220px;"
+											title="Ausgangskennlinie"></a>
+									<figcaption>
+										<code class="math_function">I<sub>D</sub>(U<sub>GS</sub>)</code>
+									</figcaption>
+								</figure>
+							</td>
+							<td>
+								<figure style="margin: 5px;">
+									<a href="mosfets_allgemein_bild_01_interaktiv.249" target="_blank"
+										class="interaktiv"><img src="formeln/R_DS__U_GS_web_500.png"
+											alt="Ausgangskennlinie" class="interaktiv" style="max-width: 220px;"
+											title="Ausgangskennlinie"></a>
+									<figcaption>
+										<code class="math_function">R<sub>DS</sub>(U<sub>GS</sub>)</code>
+									</figcaption>
+								</figure>
+							</td>
+						</tr>
+					</table>
+					<h3>Schaltverhalten des NMOS</h3>
+					<p>
+						Der NMOS-Transistor verhält sich wie ein <b>spannungsgesteuerter Schalter</b>.
+					</p>
+					<p>
+						Ab einer Gate-Source Spannung von <code
+							class="math_const">U<sub>GS</sub>=2,5<code class="math_unit">V</code></code> schaltet die
+						Drain-Source Strecke durch. Der Widerstand <code class="math_const">R<sub>DS</sub></code> sinkt
+						um
+						mehrere Größenordnungen auf unter <b>10</b><code class="math_unit">Ω</code>.
+					</p>
+					<h3 id="nmos_not">Analyse der Schaltung: NMOS als Inverter</h3>
+					<figure style="float: right;">
+						<a href="mosfets_allgemein_bild_02.html" target="_blank" class="interaktiv"><img
+								src="formeln/NMOS_inverter_v02.png" alt="Ausgangskennlinie" class="interaktiv"
+								style="max-width: 300px; padding: 10px;" title="Ausgangskennlinie"></a>
+						<figcaption>
+							Ausgangskennlinie mit Arbeitspunkten
+						</figcaption>
+					</figure>
+					<p>
+						In der Ausgangskennlinie der obigen Schaltung kann man zwei Arbeitspunkte definieren.
+					</p>
+					<p>
+						Die Pegel beider Arbeitspunkte kann man in eine Wahrheitstabelle eintragen.
+					</p>
+					<figure>
+						<img src="formeln/Wahrheitstabelle_01.png" width="170" height="97" alt="Wahrheitstabelle"
+							title="Wahrheitstabelle">
+						<figcaption>
+							Wahrheitstabelle
+						</figcaption>
+					</figure>
+					<p>
+						Aus dieser Wahrheitstabelle entnimmt man, dass die Schaltung wie ein <b>Inverter</b> oder ein
+						<b>Nicht-Gatter</b> in der Digitaltechnik fungiert.
+					</p>
+					<figure>
+						<img src="formeln/Logikgatter_NOT_DIN.png" width="100" height="35" alt="Inverter"
+							title="Inverter">
+						<figcaption>
+							Inverter oder NICHT-Gatter
+						</figcaption>
+					</figure>
+					<iframe style="display: table; margin-left: auto; margin-right: auto; clear: both;" width="608"
+						height="342" src="https://www.youtube.com/embed/umC7VG5iiuE" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+					<h4 style="margin-top: 1">Vor- und Nachteile der Schaltung</h4>
+					<p>
+						Der Aufbau der Schaltung ist sehr einfach, es genügt ein Transistor.
+					</p>
+					<p style="margin-bottom: 1em;">
+						Allerdings hat diese Schaltung einen Nachteil: Der Ausgang kann niederohmig nur gegen GND
+						(LOW-Pegel) gezogen werden. Dabei fließt auch noch ein relativ hoher Strom, der durch den
+						Drain-Widerstand <code class="Bauteil">R1</code> gegeben ist.<br>
+						Ein höherer Drain-Widerstand kann diesen Strom reduzieren. Wird die Schaltung jedoch belastet,
+						wirkt
+						die Kombination aus Drain-Widerstand und Lastwiderstand wie ein Spannungsteiler. Um den
+						High-Pegel
+						am Ausgang sicher erreichen zu können darf der Lastwiderstand nicht kleiner sein als das
+						Zehnfache
+						des Drain-Widerstands. Diese Eigenschaften kann man in der unten verlinkten Aufgabe nachrechnen.
+					</p>
+					<div class="Link" style="float: left;">
+						<a href="../../../halbleiter_aufgaben/mosfets/mosfet_i_01/mosfet_i_01.html"
+							target="_blank">Aufgabe
+							zum Thema OD-Inverter</a>
+					</div>
+
+					<h2 id="od_bus" style="clear: both; margin-top: 3em;">Der Open Drain Bus</h2>
+					<p>
+						Der <code class="Fachwort">Open Drain Bus</code> ist eine kurzschlussfeste Bus-Struktur mit der
+						sich
+						mehrere <code class="Fachwort">Nodes</code> (<b>Teilnehmer</b>) über eine gemeinsame elektrische
+						Verbindung zusammenschalten lassen.
+					</p>
+					<p>
+						Die gemeinsame Bus-Leitung muss mit einem <code class="Fachwort">Pullup</code><em
+							class="Fachwort">-Widerstand</em> gegen <code class="Pegel">HIGH</code> gezogen werden, da
+						ihr
+						Pegel undefiniert wäre, wenn die Ausgangs-Transistoren aller Nodes sperren.
+					</p>
+					<figure>
+						<a href="mosfets_allgemein_bild_03.html" target="_blank" class="interaktiv"><img
+								src="formeln/OD_Bus_Logisim_01.png" style="max-width: 500px;" alt="Open Drain Bus"
+								title="Open Drain Bus" class="interaktiv"></a>
+						<figcaption>
+							Aufbau eines Open Drain Busses mit 4 Nodes
+						</figcaption>
+					</figure>
+					<p>
+						Der Pegel des gemeinsamen Bus-Leitung wird auf <code class="Pegel">LOW</code> gezogen, sobald
+						einer
+						der Teilnehmer den Bus auf <code class="Pegel">LOW</code>. Der <code class="Pegel">LOW</code>
+						Pegel
+						ist <em class="Fachwort">dominant</em>, d.h. er kann nicht von einem anderen Teilnehmer durch
+						einen
+						<code class="Pegel">HIGH</code> Pegel überschrieben werden.
+					</p>
+					<p>
+						Da der <code class="Pegel">HIGH</code> Pegel des Busses nur dann erreicht wird, wenn die
+						Ausgänge
+						aller Nodes auf <code class="Pegel">HIGH</code> Pegel liegen, bildet der Bus eine <code
+							class="Fachwort">wired-AND</code> Struktur.
+					</p>
+					<h4>Vorteile des OD-Busses</h4>
+					<ul style="margin-top: 0;">
+						<li>
+							<p>
+								Einfacher Aufbau
+							</p>
+						</li>
+						<li>
+							<p>
+								Kurzschlussfest
+							</p>
+						</li>
+					</ul>
+					<h4>Nachteile des OD-Busses</h4>
+					<ul style="margin-top: 0;">
+						<li>
+							<p>
+								Anfällig für elektromagnetische Störungen
+							</p>
+						</li>
+						<li>
+							<p>
+								nur für kurze Distanzen geeignet
+							</p>
+						</li>
+					</ul>
+					<iframe style="display: table; margin-left: auto; margin-right: auto; clear: both;" width="608"
+						height="342" src="https://www.youtube.com/embed/9reFqjXIyQM" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+
+					<h2 id="cmos">CMOS-Technik</h2>
+					<p>
+						Bei der <em class="Fachwort">CMOS-Technik</em>
+						(<b><code>Complementary Metal-Oxide-Semiconductor</code></b>) werden komplementäre MOSFETs
+						verwendet, d.h. NMOS und PMOS Transistoren. Diese Technik dominiert inzwischen den Großteil der
+						Digitaltechnik. Der Hauptvorteil ist die geringe Verlustleistung dieser Bausteine.
+					</p>
+					<h3 id="cmos_not">CMOS Inverter</h3>
+					<figure style="float: right;">
+						<a href="mosfets_allgemein_bild_04.html" target="_blank" class="interaktiv"><img
+								src="formeln/JW_CMOS_Inverter_v01.png" width="200" height="142" alt="CMOS Inverter"
+								class="interaktiv" title="CMOS Inverter"></a>
+						<figcaption>
+							CMOS Inverter
+						</figcaption>
+					</figure>
+					<p>
+						Am Beispiel des <code class="Fachwort">CMOS Inverters</code> lassen sich die Vorteile dieser
+						Technik
+						gut veranschaulichen.
+					</p>
+					<p>
+						Die Ausgangsstufe des CMOS Inverters besteht aus zwei komplementären Transistoren, die eine
+						Gegentakt-Endstufe bilden.<br>
+						Immer nur einer der Transistoren ist leitend und zieht den Ausgang niederohmig gegen <code
+							class="Pegel">LOW</code> oder gegen <code class="Pegel">HIGH</code>.
+					</p>
+					<p style="margin-bottom: 1em;">
+						Im Gegensatz zum Open-Drain Inverter ist kein Pullup-Widerstand nötig. Somit ist die
+						Gesamtstromaufnahme des CMOS-Inverters in unbelastetem Zustand praktisch gleich Null.
+					</p>
+					<iframe style="display: table; margin-left: auto; margin-right: auto; clear: both;" width="608"
+						height="342" src="https://www.youtube.com/embed/cvJXKYTHLyE" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+
+					<h3 id="cmos_not_tristate">CMOS Inverter mit Tristate-Ausgang</h3>
+					<figure style="float: right;">
+						<a href="mosfets_allgemein_bild_05.html" target="_blank" class="interaktiv"><img
+								src="formeln/JW_Tristate_CMOS_Inverter_v01.258" width="300" height="199"
+								alt="CMOS Inverter mit Tristate-Ausgang" class="interaktiv"
+								title="CMOS Inverter mit Tristate-Ausgang"></a>
+						<figcaption>
+							CMOS Inverter
+						</figcaption>
+					</figure>
+					<p>
+						Der CMOS Inverter mit Gegentaktendstufe hat den Nachteil, dass er nicht an einem Bus verwendet
+						werden kann. Dazu benötigt man einen <code class="Fachwort">Tristate</code>-Ausgang.
+					</p>
+					<p>
+						Der <b><code>Tristate</code>-Ausgang</b> kann drei Zustande annehmen:
+					</p>
+					<ol>
+						<li>
+							<code class="Pegel">LOW</code>
+						</li>
+						<li>
+							<code class="Pegel">HIGH</code>
+						</li>
+						<li>
+							<code class="Pegel">high-Z</code> (hochohmig)
+						</li>
+					</ol>
+					<p style="margin-bottom: 1em;">
+						Zusätzlich zum den Logikeingängen besitzen Bausteine mit Tristate-Ausgängen immer einen
+						zusätzlichen
+						Eingang, der meistens als <code class="Fachwort">Output-Enable</code> <code>(<b>OE</b></code>
+						bezeichnet wird. Dieser Eingang aktiviert die Ausgangsstufen, d.h. er schaltet die Ausgänge vom
+						hochohmigen in den niederohmigen Zustand.
+					</p>
+					<iframe style="display: table; margin-left: auto; margin-right: auto; clear: both;" width="608"
+						height="342" src="https://www.youtube.com/embed/xm2aQT423F8" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</main>
+			</td>
+
+
+			<td style="width: 25%;">
+				<aside>
+					<p>
+						<a class="side" href="#MOSFET">MOSFETs</a><br>
+						&nbsp;&nbsp;&nbsp;<a class="side"  href="#aufbau">Aufbau und Funktionsprinzip</a><br>
+						&nbsp;&nbsp;&nbsp;<a class="side"  href="#typen">MOSFET Typen</a><br>
+						&nbsp;&nbsp;&nbsp;<a class="side"  href="#nmos_schalter">NMOS als Schalter</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="side"  href="#nmos_not">NMOS als Inverter</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+						class="side"  href="../../../halbleiter_aufgaben/mosfets/mosfet_i_01/mosfet_i_01.html"
+							target="_blank">Aufgabe: OD-Inverter</a><br>
+					</p>
+					<p>
+						&nbsp;&nbsp;&nbsp;<a class="side"  href="#od_bus">Open Drain Bus</a><br>
+					</p>
+					<p>
+						&nbsp;&nbsp;&nbsp;<a class="side"  href="#cmos">CMOS-Technik</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="side" href="#cmos_not">CMOS Inverter</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="side" href="#cmos_not_tristate">CMOS Inverter (Tristate)</a><br>
+					</p>
+					<p>
+						<a href="#oben" style="text-decoration: none;">
+							<div class="nach_oben" style="margin-top: 10px; margin-bottom: 15px;">
+								&#x21eb;
+							</div>
+						</a><br>
+					</p>
+					<p style="clear: both;">
+						<a class="intern" href="../halbleiterschalter.html">Halbleiterschalter</a>
+					</p>
+				</aside>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right"><img src="../../../../../../licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 12.06.2025&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/digitaltechnik_lernmaterial/halbleiterschalter/mosfets/mosfets_allgemein.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:31 GMT -->
+</html>

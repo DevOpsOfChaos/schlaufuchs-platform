@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_shell/linux_shellskripte.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:27:23 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Shell Skripte</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<script src="../css/linux_nav_standard.js"></script>
+	</nav>
+</header>
+
+<table>
+<tr>
+<td>	
+	<main>
+		<h1>Shell Skripte</h1>
+		<p>
+			Ein <em class="Fachwort">Shell Skript</em> ist eine Textdatei, die mehrere Shell-Befehle enthält, die nacheinander ausgeführt werden sollen. Shell Skripte sind wichtige Hilfsmittel, wenn es darum geht, automatisiert eine Abfolge von Befehlen auszuführen, die man sonst einzeln in der Kommandozeile eingeben müsste.
+Das Shell-Skript wird durch einen Interpreter verarbeitet und die Befehle ausgeführt. Es gibt hierfür mehrere Interpreter, die einen unterschiedlichen Befehlsumfang beherrschen. Die in Linux Systemen am häufigsten verwendete Shell ist die <em class="Fachwort">bash</em>. Deshalb bezeichnet man Shell-Scripte häufig auch als <em class="Fachwort">bash Skripte</em>.
+		</p>
+		<h2>Bash Skripte schreiben</h2>
+		<p>
+			Bash Skripte können mit jedem <em>Texteditor</em> geschrieben und bearbeitet werden. Unter UBUNTU bietet sich der Texteditor nano an. Für fortgeschrittene Benutzer gibt es den Editor vi, der auf jedem LINUX-System standardmäßig installiert ist.
+		</p>
+		<p>
+			Skripte sollten mit der Endung <em class="Datei">*.sh</em> versehen werden, um klar zu machen, dass es sich um ein Skript handelt. Dies ist kein "Muss", aber guter Programmierstil. Auf jeden Fall sollten Skripte nicht wie bereits bestehende Bash-Befehle benannt werden, da dies schnell zu Problemen führt.
+		</p>
+		<h2>Bash Skripte ausführen</h2>
+		<p>
+			Mit dem Befehl <em class="Befehl">bash</em> wird das Skript <em class="Datei">SkriptName</em> von der Bash interpretiert und die im Skript enthaltenen Befehle ausgeführt.
+		</p>
+		<p class="Syntax">
+			<em class="Befehl">bash</em> <em class="Datei">SkriptName.sh</em>
+		</p>
+		<p>
+			Die Erweiterung <em class="Datei">*.sh</em> steht für guten Programmierstil und zeigt an, dass es sich um ein Shell-Skript handelt.
+		</p>
+		<h2>Korrekter Aufbau eines Shell Skripts</h2>
+		<p>
+			Der richtige Aufbau eines Shell Skripts ist wichtig, damit ein Skript auch richtig verarbeitet werden kann.
+		</p>
+		<p>
+			In der ersten Zeile des Skriptes wird festgelegt mit welchem Interpreter das Skript ausgeführt werden soll. Der absolute Pfad zum Interpreter (üblicherweise zur bash) wird folgendermaßen festgelegt:
+		</p>
+		<p class="Syntax">
+			<em class="Befehl">#!/bin/bash</em>
+		</p>
+		<p>
+			Die Zeichenfolge <em class="Befehl">#!</em> (bezeichnet als "<em class="Fachwort">Shebang</em>" oder "<em>sharp Bang</em>") wird vom Interpreter als Kommentar behandelt, vom System jedoch erkannt. Die Pfadangabe zum Interpreter sollte immer als absoluter Pfad vorliegen. Informationen der <em class="Befehl_Variable">$PATH</em> Umgebungsvariable werden nicht verarbeitet!
+		</p>
+		<h2>Skripte direkt ausführen</h2>
+		<p>
+			Damit das Skript direkt ausgeführt werden kann, muss die Skript-Datei mit dem <em class="Befehl">chmod</em> Befehl ausführbar gemacht werden. 
+Das Skript kann dann folgendermaßen direkt ausgeführt werden:
+		</p>
+		<p class="Syntax">
+			<em class="Befehl">./</em><em class="Datei">SkriptName</em>
+		</p>
+		<p>
+			<em class="Befehl">./</em> bedeutet, dass sich das Skript im aktuellen Ordner befindet.
+		</p>
+		<h2>Kommentare in Skripten</h2>
+		<p>
+			<em class="Fachwort">Kommentare</em> in Skripten werden mit dem <em>Hash-Zeichen</em> <em class="Befehl">#</em> eingeleitet. Die Bash ignoriert alle Zeichen hinter dem Hash-Zeichen. Allerdings werden Hash-Zeichen innerhalb von Quotes (Anführungszeichen) nicht erkannt.
+		</p>
+		<p>
+Kommentare dienen der Übersichtlichkeit und dem Verständnis von Skripten und sollten daher auch verwendet werden, vor allem wenn mehrere Benutzer mit dem Skript arbeiten und es eventuell modifizieren müssen.
+		</p>
+		
+		<h2>Leerzeichen in Bash-Skripten</h2>
+		<p>
+			<em class="Fachwort">Leerzeichen</em> dienen der Shell zur Trennung und zur Strukturierung von Befehlen.<br/><em>Daher ist die <em style="color: red;">korrekte Verwendung</em> von Leerzeichen <em style="color: red;">äußerst wichtig</em> für die fehlerfreie Funktion eines Skriptes!</em><br/>
+Üblicherweise werden mehrere hintereinander stehende Leerzeichen als ein einziges Leerzeichen interpretiert. Dies ist bei der Bildschirmausgabe zu berücksichtigen.
+		</p>
+		<p>
+			Es lohnt sich auf jeden Fall nach den Leerzeichen im Quelltext zu sehen, wenn ein Skript fehlerhaft ausgeführt wird! Die strikten Regeln zur Verwendung von Leerzeichen in Bash-Skripten widersprechen den meisten Regeln, die man von anderen Programmiersprachen kennt.
+		</p>
+		
+		<h2>Variablen in Skripten</h2>
+		<p>
+			Wie in jeder Programmiersprache, können auch in Bash-Skripten Variablen definiert werden. Eine Typisierung von Variablen ist nicht vorgesehen.
+		</p>
+		<p>
+			Variablen werden wie folgt definiert und initialisiert:
+		</p>
+		<pre class="Syntax"><em class="Befehl_Variable">VarBezeichner</em><em class="Befehl">=</em><em class="Befehl_Konstante">VarWert</em></pre>
+		<ul class="ohneAZ">
+			<li><em class="Befehl_Variable">VarBezeichner</em>: Bezeichner der Variablen</li>
+			<li><em class="Befehl_Konstante">VarWert</em>: Wert (Inhalt) der Variablen</li>
+		</ul>
+		<p>
+			Soll die Wertzuweisung Sonderzeichen enthalten, so muss die Zuweisung in <em class="Taste">"</em>Quotes<em class="Taste">"</em> stehen oder die Sonderzeichen müssen mit Backslash maskiert werden.
+		</p>
+		<p>
+			<em class="wichtig">Wichtig!</em> Rechts und links vom Gleichheitszeichen darf kein Leerzeichen stehen!
+		</p>
+		
+		<h2><a href="linux_shellskripte_ausgaben.html">Ausgaben in Skripten</a></h2>
+		<p>
+			Mit dem Befehl <em class="Befehl"><a href="linux_shellskripte_ausgaben.html#echo">echo</a></em> lassen sich Variablen oder Zeichenketten auf dem Bildschirm darstellen. Diese Ausgaben können auch in Dateien <a href="linux_shell.html#streams">umgeleitet</a> oder <a href="linux_shell.html#streams">angehängt</a> werden. Auf diese Art lassen sich mit Hilfe der Shell umfangreiche Textdateien erzeugen.
+		</p>
+		
+		<h2><a href="linux_shellskripte_eingaben.html">Kommunikation mit dem Benutzer</a></h2>
+		<p>
+			Bei der Shell handelt es sich um eine tastaturbasierte Konsole. Daher läuft die Kommunikation Benutzer-Betriebssystem fast ausschließlich über die Tastatur ab. Die Shell kennt dazu den <em class="Befehl"><a href="linux_shellskripte_eingaben.html">read</a></em>-Befehl.
+		</p>
+		
+		<h2><a href="linux_shellskripte_kontrollstrukturen.html">Kontrollstrukturen für den Programmablauf</a></h2>
+		<p>
+			Die Bash kennt zahlreiche <em class="Fachwort"><a href="linux_shellskripte_kontrollstrukturen.html">Kontrollstrukturen</a></em> zur <a href="linux_shellskripte_kontrollstrukturen.html">Programmablauf-Steuerung</a>, wie verschiedene Verzweigungen und Schleifen. So lassen sich Skripte ereignisorientiert steuern. Dies macht die Bash zu einem mächtigen Werkzeug.
+		</p>
+		
+	</main>
+</td>
+	
+<td>
+	<aside>
+		<script src="../css/linux_aside_standard.js"></script>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_shell/linux_shellskripte.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:27:24 GMT -->
+</html>

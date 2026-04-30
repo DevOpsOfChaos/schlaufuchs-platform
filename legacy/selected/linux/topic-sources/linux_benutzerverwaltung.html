@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_benutzerverwaltung/linux_benutzerverwaltung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:23 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>LINUX Benutzerverwaltung</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<script src="../css/linux_nav_standard.js"></script>
+	</nav>
+</header>
+
+<table>
+<tr>
+<td>	
+	<main>
+		<h1>Die Benutzerverwaltung in LINUX</h1>
+		<h2>Wozu Benutzer und Gruppen?</h2>
+		<p>
+			LINUX ist von Anfang an als <em class="Fachwort">Mehrbenutzer-System</em> ausgelegt. D.h. mehrere Benutzer können sich gleichzeitig am System anmelden und arbeiten. Diese Eigenschaft von LINUX Systemen bedingt das Vorhandensein einer <em class="Fachwort">Benutzersteuerung/Verwaltung</em>. Zum einen muss das System vor unerlaubten Manipulationen einzelner Benutzer geschützt werden. Zum anderen müssen die Benutzer mit ihrem Arbeitsbereich und ihre Dateien voneinander getrennt und abgegrenzt werden.
+		</p>
+		<p>
+			Für das Arbeiten mit Dateien bringt Linux eine <em class="Fachwort"><a href="../linux_dateisystem/linux_dateirechte.html">Rechteverwaltung</a></em> mit, die den Zugriff auf Dateien benutzer- und gruppenabhängig steuert. Dafür benötigt Linux auch besondere <em class="Fachwort">Dateisysteme</em>, die eine Rechtevergabe zulassen.
+		</p>
+		
+		<h2>Benutzer unter Linux</h2>
+		<p>
+			Linux bringt eine umfangreiche, ausgeklügelte Benutzersteuerung mit, die es ermöglicht unterschiedliche Nutzer mit individuell verschiedenen Rechten auszustatten.
+		</p>
+		<p>Die <em class="Fachwort">Rechtevergabe</em> für die unterschiedlichen Benutzerkonten ist ein Sicherheitsaspekt bei LINUX. Destruktive Zugriffe auf systemrelevante Daten und Dienste können so eingeschränkt werden.
+		</p>
+		<h3>Reale Nutzer</h3>
+		<p>
+			Jeder reale Nutzer (d.h. Person, die am System arbeitet) hat sein eigenes <em class="Fachwort">Benutzerkonto</em>.
+		</p>
+		<h3>Systemnutzer</h3>
+		<p>Aber auch viele Systemdienste bringen ihre eigenen "Benutzerkonten" mit, die auch als <em class="Fachwort">Systemnutzer</em> bezeichnet werden. Damit erreicht man, dass Benutzer und Systemdienste auf die selbe Art administriert werden können und sich voneinander abgrenzen lassen.
+		</p>
+		
+		<h3>root und nobody</h3>
+		<p>
+			Als <em class="Fachwort">root</em> wird in LINUX-Systemen allgemein der <em class="Fachwort">Systemadministrator</em> bezeichnet. Er hat von Haus aus alle Rechte (<em class="Fachwort">root-Rechte</em>), darf in allen Verzeichnissen schreiben, auch in Systemverzeichnissen. Dies birgt einige Gefahren, da (auch versehentlich) systemrelevante, wichtige Dateien manipuliert oder gelöscht werden können. Schlimmstenfalls ist das System danach unbrauchbar und alle Daten verloren!!!
+		</p>
+		<p style="color: red;">Also immer <em>Vorsicht mit root-Rechten!</em></p>
+		<p>
+			Nur wer weiß, was er tut und nur wer im Moment das System administrieren muss sollte sich als root ins System einloggen. Ist die Systemadministration erledigt, sollte man sich als root gleich wieder ausloggen und unter einem eigenen Benutzerkonto einloggen. So erspart man sich unangenehme Überraschungen.
+		</p>
+		<p class="Absatz">
+			Der Benutzer <em class="Fachwort">Nobody</em> wird von den meisten LINUX-Systemen als Gast verwendet, der nur mit minimalen Rechten ausgestattet ist.
+		</p>
+		
+		<h2>Gruppen</h2>
+		<p>
+			In LINUX gibt es die Möglichkeit <em class="Fachwort">Gruppen</em> zur bilden, denen mehrere Benutzer angehören. Dies macht es möglich, dass mehrere Benutzer auf die selben Dateien zugreifen und diese bearbeiten können.</p>
+		<p>
+			Auch viele Systemdienste bilden ihre eigenen Gruppen (<em class="Fachwort">Systemgruppen</em>). Nur wer diesen Systemgruppen angehört darf die Systemdienste nutzen. Dies ist oft auch ein Grund, warum für einzelne Nutzer bestimmte Systemdienste nicht funktionieren. Es gehört zur Systemadministration, die Benutzer auf die Systemgruppen zu verteilen.
+		</p>
+		
+		<h2 id="Namenskonvention">Namenskonvention bei Benutzern und Gruppen</h2>
+		<p>
+			Bei der Namensgebung von Gruppen und Benutzern müssen folgende Konventionen berücksichtigt werden:
+		</p>
+		<ul>
+			<li>
+				Die Namen müssen mit einem Kleinbuchstaben beginnen.
+			</li>
+			<li>
+				Als weitere Zeichen sind Kleinbuchstaben, Ziffern, sowie <em>-</em> (Minuszeichen) oder <em>_</em> (Unterstrich) erlaubt.
+			</li>
+			<li>
+				Am Ende des Benutzer- oder Gruppen-Namens darf ein <em>$</em> (Dollarzeichen) stehen.
+			</li>
+			<li>
+				Benutzer- und Gruppen-Namen müssen eindeutig sein, d.h. sie dürfen auf dem System nur ein Mal vergeben werden.
+			</li>
+		</ul>
+		
+		<h2 id="uid_gid">UID und GID</h2>
+		<p>
+			Jedem <em class="Fachwort">Benutzer</em> (<em class="Fachwort">User</em>) wird vom LINUX-System eine eindeutige Benutzer-Nummer zugeteilt. Diese wird als <em class="Fachwort">UserID</em> (<em class="Befehl_Konstante">UID</em>) bezeichnet. Bei OpenSUSE und Debian beginnen die UIDs von realen Benutzern bei 1000. Andere Distributionen lassen für reale Benutzer UIDs ab 500 zu.
+		</p>
+		<p class="Absatz">
+			Das selbe Prinzip gilt für Gruppen. Das LINUX-System ordnet den Gruppen eine eindeutige <em class="Fachwort">GroupID</em> (<em class="Befehl_Konstante">GID</em>) zu.
+		</p>
+		<p class="Absatz">
+			Das LINUX-System arbeitet intern mit UIDs und GIDs. Da jedoch die Einteilung der Nutzer nach Nummern nicht sehr intuitiv ist sind diesen Nummern <em class="Fachwort">Benutzernamen</em> bzw. <em class="Fachwort">Gruppennamen</em> zugewiesen.
+		</p>
+		
+		<h2><a href="linux_benutzerverwaltung_dateien.html">Konfigurationsdateien der Benutzerverwaltung</a></h2>
+		<p>
+			Die Zuordnung von UID und Benutzernamen ergibt sich aus der <em>zentralen Nutzerdatei</em>: <em class="Datei"><a href="linux_benutzerverwaltung_dateien.html#etc_passwd">/etc/passwd</a></em>.
+		</p>
+		<p>
+			Die Zuordnung von GID und Gruppennamen ergibt sich aus der <em>zentralen Gruppendatei</em>: <em class="Datei"><a href="linux_benutzerverwaltung_dateien.html#etc_group">/etc/group</a></em>.
+		</p>
+		
+		<h2>Benutzer und Gruppen anlegen</h2>
+		<p>
+			Das Anlegen von Benutzern und Gruppen kann grundsätzlich manuell erfolgen, indem die entsprechenden Systemdateien modifiziert werden. Alternativ dazu gibt es aber auch diverse Tools für diese Aufgaben, die jedes System von Haus aus mitbringt.</p>
+		<p>
+		Einige Überlegungen muss man jedoch in jedem Fall vor dem Anlegen eines Benutzers oder einer Gruppe machen:
+		</p>
+		<ul>
+			<li>
+				Den Namen für den Benutzer sinnvoll festlegen. Dabei die <em><a href="#Namenskonvention">Namenskonventionen</a></em> beachten.
+			</li>
+			<li>
+				Die UID festlegen (UID &gt; 1000).
+			</li>
+			<li>
+				Die Systemdateien modifizieren oder System-Tool ausführen. Beim manuellen Modifizieren sollte man die Systemdateien vorher kopieren und die Kopie in <em class="Datei">*.old</em> umbenennen.
+			</li>
+			<li>
+				Ein Passwort vergeben. (Kann eventuell automatisch per System-Tool erfolgen)
+			</li>
+			<li>
+				Ein Home-Verzeichnis für den User anlegen. (Kann eventuell automatisch per System-Tool erfolgen)
+			</li>
+			<li>
+				Die Gruppenzugehörigkeiten des Benutzers definieren. (Kann eventuell automatisch per System-Tool erfolgen)
+			</li>
+		</ul>
+		
+		<h2><a href="linux_benutzerverwaltung_tools.html">Tools für die Benutzerverwaltung unter Linux</a></h2>
+		<p>
+			Linux bringt von Haus aus einige Tools zur Benutzerverwaltung mit. Natürlich gibt es bei allen großen Distributionen auch grafische Tools, die die Benutzerverwaltung mehr oder weniger intuitiv per Mausklick möglich machen. Aber auch auf der Konsole gibt kann man Benutzer ohne größeren Aufwand anlegen.
+		</p>
+		<p class="nonprint">
+			Eine <a href="linux_benutzerverwaltung_tools.html">Übersicht der Konsolentools</a> für die LINUX-Benutzerverwaltung gibt es <a href="linux_benutzerverwaltung_tools.html">hier</a>.
+		</p>
+		<h2><a href="linux_benutzerverwaltung_tools.html">Ändern von Nutzern und Gruppen</a></h2>
+		<p>
+			Eine Aufgabe für den Administrator eines Systems ist die Vergabe von Rechten für Benutzer oder auch die Verteilung der Benutzer auf verschiedene Gruppen. Allerdings ist zu bedenken, das Benutzerrechte und Gruppenzugehörigkeiten beim Login in die Shell gesetzt werden. Daher werden <i>Änderungen in diesem Bereich erst nach dem <em>erneuten Anmelden</em></i> des betreffenden Users wirksam.
+		</p>
+	</main>
+</td>
+	
+<td>
+	<aside>
+		<script src="../css/linux_aside_standard.js"></script>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/linux/linux_benutzerverwaltung/linux_benutzerverwaltung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:23 GMT -->
+</html>

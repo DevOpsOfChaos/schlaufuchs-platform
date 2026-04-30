@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_aufgaben/avr_aufgaben/arduino_zaehler_03/arduino_zaehler_03.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:33 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>Arduino UNO Ereigniszähler</title>
+	<link href="../../../css/standard_elektrotechnik.css" type="text/css" rel="stylesheet">
+	<link href="../../../css/favicon.ico" type="image/x-icon" rel="shortcut icon">
+</head>
+
+<body>
+
+<header>
+	<nav>
+	<figure style="float: right; margin: -8px; padding: 0;">
+		<img src="../../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+	</figure>
+		<p>
+			<a href="../../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="../../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+			<a href="../../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+			<a href="../../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+			<a href="../../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+		</p>
+		<p>
+			<a href="../avr_aufgaben.html"><b>AVR</b> Aufgaben</a> &nbsp;&nbsp;&nbsp;
+			<a href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_avr/avr.html"><b>AVR</b> Lernmaterial</a> &nbsp;&nbsp;&nbsp;
+			<a href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller.html">Mikrocontroller Lernmaterial</a>
+		</p>
+	</nav>
+</header>
+
+<table style="width: 100%">
+<tr>
+<td class="main" style="width: 80%;">
+		<h1 style="margin: 0;">Arduino UNO Ereigniszähler</h1>
+		<p>
+			<em class="Stufe_i">(Schwierigkeitsstufe i)</em>
+		</p>
+		<p style="margin-top: 1em;"><em class="Aufgabe">Aufgabe:</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em class="AufgabenZeit">Zeitaufwand: <b>30</b></b> Minuten</em></p>
+		<div class="Aufgabe">
+			<p>
+				Ein <b>8 Bit</b> breiter Zähler soll auf 8 LEDs ausgegeben werden, die am Arduino UNO am den Eingängen <em class="Pin">D0&nbsp;-&nbsp;D7</em> angeschlossen sind.
+			</p>
+			<p>
+				Beim einem Tastendruck am Taster <code class="Bauteil">S1</code>, der an Eingang <em class="Pin">D10</em> am Arduino UNO angeschlossen ist, soll der Zähler inkrementiert werden.
+			</p>
+			<figure>
+				<a href="arduino_zaehler_03_bild_01.html" target="_blank" title="zum Vergrößern klicken"><img src="formeln/jw_zaehler_03_Steckplatine_web_" width="400" height="389" alt="Schaltplan" class="interaktiv"></a>
+				<figcaption>
+					<p>
+						Schaltplan: Anschluss der LEDs und des Tasters <code class="Bauteil">S1</code> ans Arduino UNO Board
+					</p>
+				</figcaption>
+			</figure>
+			<table>
+				<tr>
+					<td>
+						a)&nbsp;&nbsp;
+					</td>
+					<td>
+						Recherchieren Sie, welche Anschlüsse (Pins) am ATmega328p den oben genannten Eingängen am Arduino-Board entsprechen.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						b)&nbsp;&nbsp;
+					</td>
+					<td>
+						Zeichnen Sie einen einfachen Programmablaufplan (PAP).
+					</td>
+				</tr>
+				<tr>
+					<td>
+						c)&nbsp;&nbsp;
+					</td>
+					<td>
+						Schreiben Sie ein C-Programm und testen Sie die Funktion ihres Programms.
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<p style="margin-top: 1em;"><em class="Aufgabe">Vorgaben:</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<div class="Aufgabe">
+			<p>
+				Der Zähler wird von der Variable <code class="Variable">zaehler</code> repräsentiert. Dabei handelt es sich um einen <b>8 Bit unsigned Integer</b>. Verwenden Sie hierzu <a href="../../../mikrocontroller_lernmaterial/microcontroller_allgemein/mikrocontroller_a/avr_in_c_programmieren#stdint_h" target="_blank" class="intern" title="interner Link">standardisierte Integer-Typen</a>.
+			</p>
+		</div>
+</td>
+	
+<td>
+	<aside>
+		<p>
+			<a href="../../../mikrocontroller_loesungen/avr_loesungen/arduino_zaehler_03_lsg/arduino_zaehler_03_lsg.264.delaye">Lösungen</a><br>
+			<a href="arduino_zaehler_03_bild_01.html" target="_blank">Schaltplan</a>
+		</p>
+		<a href="#oben" style="text-decoration: none;">
+			<div class="nach_oben" style="margin-top: 10px;">
+				&#x21eb;
+			</div>
+		</a>
+	</aside>
+</td>
+</tr>
+</table>
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../../../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a> 
+	<a href="../../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+	<a href="../../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right"><img src="../../../../css/by-nc-sa.eu.png" width="88" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+	<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../../../impressum/impressum_datenschutz.html" target="_blank">Erstellt: 24.10.2020&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/mikrocontroller_aufgaben/avr_aufgaben/arduino_zaehler_03/arduino_zaehler_03.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:34 GMT -->
+</html>

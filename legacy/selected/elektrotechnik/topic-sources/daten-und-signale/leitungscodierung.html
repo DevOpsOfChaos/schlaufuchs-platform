@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/leitungscodierung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:33 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<title>Leitungscodierung</title>
+	<link type="text/css" rel="stylesheet" href="../../css/standard_elektrotechnik.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../../css/schlaufuchs_logo_navbar.png" width="75" height="67" alt="Schlaufuchs Logo">
+			</figure>
+			<p>
+				<a href="../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;
+				<a href="../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a href="../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a href="../../../linux/linux.html">Linux</a>&nbsp;&nbsp;
+				<a href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a>
+			</p>
+			<p>
+				<a
+					href="../../digitaltechnik_lernmaterial/digitaltechnik_lernmaterial.html">Digitaltechnik-Lernmaterial</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a
+					href="../../mikrocontroller_lernmaterial/mikrocontroller_lernmaterial.html">Mikrocontroller-Lernmaterial</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="../datenuebertragung_lernmaterial.html">Daten und Signale</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			</p>
+		</nav>
+
+	</header>
+
+	<table>
+		<tr>
+			<td class="main">
+				<h1>Leitungscodierung</h1>
+				<p>
+					Das kanalcodierte Signal muss noch an die <b>physikalischen Eigenschaften</b> des Übertragungskanals
+					angepasst werden.
+					Hier wird festgelegt, wie das Signal mit Hilfe des zur Übertragung zur Verfügung stehenden
+					physikalischen Mediums, z.B. Licht, Spannung, EM-Welle, übertragen wird.<br /> Mit Hilfe einer
+					angepassten <em class="Fachwort">Leitungscodierung</em> kann das Signal innerhalb gewisser Grenzen
+					spektral geformt werden. Zum Einsatz kommen die unterschiedlichsten Arten von Leitungscodes.<br />
+					Das kanalcodierte Signal ist prinzipiell ein Bitstrom, der aus zwei unterschiedlichen Zuständen (0
+					und 1) besteht. Als einfachste und naheliegende Leitungscodes
+					kommen also <em class="Fachwort">binäre Leitungscodes</em> in Frage. Fasst man mehrere Bits des
+					kanalcodierten Signals zusammen, kann durch eine <em class="Fachwort">digitale Modulation</em> die
+					Kanalkapazität deutlich gesteigert werden.
+				</p>
+				<h2>Binäre Leitungscodes</h2>
+				<p><b>Binäre Leitungscodes</b> ordnen den logischen Zuständen 0 und 1 zwei definierte Pegel zu. Die Art
+					der Zuordnung hängt vom speziellen Leitungscode ab. Diese Art
+					der Leitungscodierung ist einfach zu realisieren, hat aber den Nachteil, dass der Übertragungskanal
+					relativ schlecht ausgenutzt wird. Eine hohe Übertragungsrate bedingt automatisch eine hohe
+					Grenzfrequenz. Da Kupferleitungen einen ausgeprägten Tiefpass-Charakter besitzen, ist eine
+					Signalübertragung über längere Strecken auf diese Weise nicht machbar.</p>
+
+				<h2>NRZ-Code</h2>
+				<p>
+					Beim <em class="Fachwort">NRZ-Code</em> (<em class="Fachwort">None Return to Zero Code</em>) geht
+					der Signalpegel schwankt der Signalpegel zwischen zwei Werten.
+				</p>
+				<h3>Unipolare NRZ-Codierung</h3>
+				<p>
+					Bei der <b>unipolaren NRZ-Codierung</b> besitzt das leitungscodierte Signal nur zwei Pegel, die
+					beide die selbe Polarität haben. Meist ist einer dieser Pegel die Null. Diese Art von NRZ-Codierung
+					lässt sich einfach direkt mit Digitalbausteinen realisieren.
+				</p>
+				<figure>
+					<a href="signale_leitungscodierung_bild_nrz_uni_01.html" target="_blank"><img
+							src="bilder/NRZ_unipolar_JW_web.png" width="500" height="197" alt="NRZ-Code, unipolar"
+							longdesc="NRZ-Code%2c%20unipolar.html"></a>
+					<figcaption>
+						Abbildung: Unipolare NRZ-Codierung
+					</figcaption>
+				</figure>
+				<div class="Syntax">
+					<table>
+						<tr>
+							<td>
+								<p><em class="beispiel">Vorteile:</em></p>
+								<ul>
+									<li>Schaltungstechnisch mit sehr geringem Aufwand realisierbar</li>
+								</ul>
+							</td>
+							<td>
+								&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>
+								<p><em class="beispiel">Nachteile:</em></p>
+								<ul>
+									<li>keine Taktrekonstruktion möglich.</li>
+									<li>elektrische Übertragungsleitungen müssen galvanisch gekoppelt sein.</li>
+									<li>nicht gleichanteilsfrei</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<h3>Bipolare NRZ-Codierung</h3>
+				<p>
+					Bei der <b>bipolaren NRZ-Codierung</b> besitzt das leitungscodierte Signal zwei Pegel, die
+					unterschiedliche Polarität haben.
+				</p>
+				<figure>
+					<a href="signale_leitungscodierung_bild_nrz_bipol_01.html" target="_blank"><img
+							src="bilder/NRZ_bipolar_JW_web.png" width="500" height="192" alt="NRZ-Code, bipolar"
+							longdesc="NRZ-Code%2c%20bipolar.html"></a>
+					<figcaption>
+						Abbildung: Bipolare NRZ-Codierung
+					</figcaption>
+				</figure>
+				<div class="Syntax">
+					<table>
+						<tr>
+							<td>
+								<p><em class="beispiel">Vorteile:</em></p>
+								<ul>
+									<li>Geringerer Gleichanteil als bei unipolarer Codierung.</li>
+								</ul>
+							</td>
+							<td>
+								&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>
+								<p><em class="beispiel">Nachteile:</em></p>
+								<ul>
+									<li>keine Taktrekonstruktion möglich.</li>
+									<li>elektrische Übertragungsleitungen müssen galvanisch gekoppelt sein.</li>
+									<li>nicht gleichanteilsfrei</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<h2>RZ-Code</h2>
+				<p>
+					Beim <em class="Fachwort">RZ-Code</em> (<em class="Fachwort">Return to Zero Code</em>) geht der
+					Signalpegel nach einem halben Takt wieder zurück auf Null.
+					Dabei gibt es mehrere Möglichkeiten der Pegelzuordnung, die gängig sind.
+				</p>
+				<h3>Unipolare RZ-Codierung</h3>
+				<p>
+					Bei der <b>unipolaren RZ-Codierung</b> besitzt das leitungscodierte Signal nur zwei Pegel, wovon
+					einer Null ist. Diese Art von RZ-Codierung lässt sich einfach direkt mit Digitalbausteinen
+					realisieren.
+				</p>
+				<figure>
+					<a href="signale_leitungscodierung_bild_rz_uni_01.html" target="_blank"><img
+							src="bilder/RZ_unipolar_JW_web.png" width="500" height="197" alt="RZ-Code, unipolar"
+							longdesc="RZ-Code%2c%20unipolar.html"></a>
+					<figcaption>
+						Abbildung: Unipolare RZ-Codierung
+					</figcaption>
+				</figure>
+				<div class="Syntax">
+					<table>
+						<tr>
+							<td>
+								<p><em class="beispiel">Vorteile:</em></p>
+								<ul>
+									<li>Taktsignal bedingt rekonstruierbar</li>
+									<li>Schaltungstechnisch mit geringem Aufwand realisierbar</li>
+									<li>Geringerer Gleichanteil des Signals</li>
+								</ul>
+							</td>
+							<td>
+								&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>
+								<p><em class="beispiel">Nachteile:</em></p>
+								<ul>
+									<li>Höhere Bandbreite zur Übertragung nötig</li>
+									<li>geringe Bit-Übertragungsrate</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<h3>Bipolare RZ-Codierung</h3>
+				<p>
+					Bei der <b>bipolaren RZ-Codierung</b> besitzt das leitungscodierte Signal nur zwei Pegel
+					unterschiedlicher Polarität. Nach einer halben Taktperiode kehrt das Signal nach Null zurück.
+				</p>
+				<figure>
+					<a href="signale_leitungscodierung_bild_rz_bi_01.html" target="_blank"><img
+							src="bilder/RZ_bipolar_JW_web.png" width="500" height="197" alt="RZ-Code, bipolar"
+							longdesc="RZ-Code%2c%20bipolar.html"></a>
+					<figcaption>
+						Abbildung: Bipolare RZ-Codierung
+					</figcaption>
+				</figure>
+				<div class="Syntax">
+					<table>
+						<tr>
+							<td>
+								<p><em class="beispiel">Vorteile:</em></p>
+								<ul>
+									<li>Taktsignal rekonstruierbar</li>
+									<li>Signalleitungen müssen nicht zwingend galvanisch gekoppelt sein</li>
+									<li>Geringer Gleichanteil des Signals</li>
+								</ul>
+							</td>
+							<td>
+								&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>
+								<p><em class="beispiel">Nachteile:</em></p>
+								<ul>
+									<li>Höhere Bandbreite zur Übertragung nötig</li>
+									<li>geringe Bit-Übertragungsrate</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<h2>Manchester Codierung</h2>
+				<p>
+					Bei der <em class="Fachwort">Manchester Codierung</em> liegt die Information nicht in den
+					unterschiedlichen Signalpegeln, sondern in den Wechseln von einem Pegel zum anderen in der Mitte der
+					Signalperiode, also in den <b>Taktflanken</b>.
+				</p>
+				<p>
+					In der Definition nach <b>IEEE 802.3</b> bedeutet eine fallende Taktflanke eine Null und eine
+					steigende Taktflanke eine Eins.
+				</p>
+				<figure>
+					<a href="signale_leitungscodierung_bild_manchester_01.html" target="_blank"><img
+							src="bilder/Manchester_code_JW_web.png" width="500" height="191"
+							alt="Manchester Code nach IEEE 802.3" longdesc="Manchester%20Code%20nach%20IEEE%20802.html"></a>
+					<figcaption>
+						Abbildung: Manchester Codierung nach IEEE 802.3
+					</figcaption>
+				</figure>
+				<div class="Syntax">
+					<table>
+						<tr>
+							<td>
+								<p><em class="beispiel">Vorteile:</em></p>
+								<ul>
+									<li>Taktsignal rekonstruierbar</li>
+									<li>Signalleitungen müssen nicht galvanisch gekoppelt sein</li>
+									<li>Das Signal ist gleichanteilsfrei</li>
+								</ul>
+							</td>
+							<td>
+								&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>
+								<p><em class="beispiel">Nachteile:</em></p>
+								<ul>
+									<li>Höhere Bandbreite zur Übertragung nötig</li>
+									<li>geringe Bit-Übertragungsrate</li>
+									<li>Timing kritisch bei der Rekonstruktion</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				</main>
+			</td>
+
+			<td>
+				<aside>
+					<p><a href="../daten/daten_beschreibung.html">Daten</a></p>
+					<p><a href="../daten/daten_speicherung.html">Datenspeicherung</a></p>
+					<p><a href="../datenuebertragungsprotokolle/daten_uebertragung.html">Datenübertragung</a></p>
+					<p><a href="../netzwerke_grundlagen/netzwerke_grundlagen.html">Grundlagen Rechnernetze</a></p>
+					<p><a href="../netzwerke_grundlagen/lan_grundlagen.html">Grundlagen LAN</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_sicherheit.html">Netzwerk-Sicherheit</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_firewall.html">Firewall</a></p>
+					<p><a href="signale_grundlagen.html">Signale</a></p>
+					<p><a href="signaluebertragung_grundlagen.html">Signalübertragung</a></p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px;">
+							&#x21eb;
+						</div>
+					</a>
+
+				</aside>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../../impressum/impressum_datenschutz.html">Impressum</a>
+		<a href="../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right; margin-top: 0px;"><img src="../../../css/by-nc-sa.eu.png" width="89" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 11.1.2019&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/leitungscodierung.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:36 GMT -->
+</html>

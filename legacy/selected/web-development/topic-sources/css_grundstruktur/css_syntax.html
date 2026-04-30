@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_syntax.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:16 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>CSS Syntax</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css.css"/>
+</head>
+
+<body>
+
+<header>
+	<p>
+	<nav>
+		<script src="../css/head_nav_css.js"></script>
+	</nav>
+	</p>
+</header>
+
+<table>
+
+<td>
+	<main>
+	<h1>Syntax von CSS-Formatanweisungen</h1>
+	<h2>CSS-Regeln</h2>
+	<p>
+		Eine CSS-<em>Regel</em>, auch <em>Regelsatz</em> legt fest, wie ein HTML-Element in einem HTML-Dokument
+		dargestellt wird.
+	</p>
+	<p class="Absatz">
+		Das <em>HTML-Element</em>, dessen Formatierung von einer CSS-Regel beschrieben wird wird als <em class="Befehl">Selektor</em> bezeichnet.
+	</p>
+	<p>
+		Die <em>Eigenschaften</em>, die dem Selektor zugeschrieben werden sollen werden als <em class="Befehl_Konstante">Deskriptoren</em> bezeichnet.
+	</p>
+	<p class="Syntax_Befehl">
+		<em class="Befehl">Selektor</em> { <em class="Befehl_Konstante">Deskriptor1</em>; <em class="Befehl_Konstante">Deskriptor2</em>; ...}
+	</p>
+	<p>
+		Eine Regel kann sich auch auf mehrere Selektoren beziehen:
+	</p>
+	<p class="Syntax_Befehl">
+		<em class="Befehl">Selektor1</em>, <em class="Befehl">Selektor2</em>, ... { <em class="Befehl_Konstante">Deskriptor1</em>; <em class="Befehl_Konstante">Deskriptor2</em>; ...}
+	</p>
+	<p class="Absatz">
+		Dabei ist zu folgendes zu beachten:
+		<ul>
+			<li>
+			<em class="Befehl">Selektoren</em> werden durch <em>Kommas</em> voneinander getrennt.
+			</li>
+			<li>
+			<em>Deskriptoren</em> werden von <em>Semikolons</em> abgeschlossen.
+			</li>
+			<li>
+			<em>Deskriptoren</em> setzen sich aus einem <em class="Befehl_Attribut">Schlüsselwort</em> gefolgt von einem <em>Doppelpunkt</em> und einer <em class="Befehl_Konstante">Wertangabe</em> zusammen.
+			</li>
+			<li>
+			Die Liste der Deskriptoren wird von <em>geschweiften Klammern</em> umschlossen.
+			</li>
+		</ul>
+	</p>
+	<div class="Beispiel">
+	<p>
+		Hier ein <em>Beispiel</em> für eine CSS-Regel mit zwei Deskriptoren:
+	</p>
+	<p class="Syntax_Befehl">
+		<em class="Befehl">em</em> { <em class="Befehl_Attribut">font-style</em>: <em class="Befehl_Konstante">normal</em>; &nbsp;
+		<em class="Befehl_Attribut">font-weight</em>: <em class="Befehl_Konstante">bold</em>; }	
+	</p>
+	</div>
+	
+	<h2>Kommentare in CSS</h2>
+	<p>
+		Es gibt die Möglichkeit CSS-Regeln zu kommentieren. Da die eigentlichen CSS-Regeln praktisch selbsterklärend sind,
+		sollten Kommentare nur da wo sie unbedingt notwendig sind verwendet werden. Man muss jedoch beachten, dass Kommentare 
+		in CSS nicht verschachtelt werden können. Das "Auskommentieren" beim Debuggen von CSS-Bereichen, die schon Kommentare
+		enthalten führt zu unerwarteten Fehlern.
+	</p>
+	<p>
+		<em>Kommentare</em> beginnen mit der Zeichenfolge <em class="Befehl">/*</em> und enden mit <em class="Befehl">*/</em>. Der gesamte Text, der dazwischen, auch über Zeilengrenzen hinweg steht wird als Kommentar betrachtet.
+	</p>
+	<p class="Syntax_Befehl">
+		<em class="Befehl">/*</em><em class="Befehl_Variable"> Kommentartext </em><em class="Befehl">*/</em>
+	</p>
+	</main>
+
+</td>
+
+<td>
+	<aside>
+	 	<script src="../css/sidebar_css.js"></script>
+	</aside>
+</td>
+
+</table>
+
+<footer>
+	<a href="../impressum/impressum_datenschutz.html">Impressum</a> <a href="../impressum/impressum_datenschutz.html#Datenschutzerklaerung">Datenschutzerklärung</a>
+</footer>	
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_syntax.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:26:16 GMT -->
+</html>

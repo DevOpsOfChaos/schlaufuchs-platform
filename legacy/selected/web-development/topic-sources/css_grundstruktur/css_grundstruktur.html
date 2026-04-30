@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_grundstruktur.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:12 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<title>CSS Grundstruktur</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css_neu.css"/>
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<figure style="float: right; margin: -8px; padding: 0;">
+			<img src="../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+		</figure>
+		<script src="../css/head_nav_css.js"></script>
+	</nav>
+</header>
+
+	<main>
+		<h1>Die Grundstruktur von CSS</h1>
+		<h2>Grundidee von CSS</h2>
+		<p>
+			Die Grundidee von <em class="Fachwort">CSS</em> ist die Trennung von Design und Inhalt in einem HTML-Dokument.
+			Dies erzeugt schlankere HTML-Dokumente, die mit Hilfe der <a href="../html_grundstruktur/html_grundstruktur.html#HTML5">HTML5</a>-Strukturelemente auch inhaltlich
+			klar strukturiert werden können. <br/>
+			Semantisch klar strukturierte Websites sind ein wichtiger
+			Beitrag für die Suchmaschinenoptimierung (SEO). Sie erleichtern den Suchmaschinen
+			die Indizierung und werden im Ranking besser bewertet.
+		</p>
+		
+		<h2>Cascading Stylesheets</h2>
+		<p>
+			<em class="Fachwort">CSS</em> bedeutet <em class="Fachwort">Cascading Stylesheets</em>. 
+			Der Begriff <em>Cascading</em> deutet an, wie bzw. in welcher Reihenfolge
+			CSS-Formatierungsanweisungen behandelt werden.
+			Mit <em>Stylesheet</em> ist eigentlich eine externe Textdatei gemeint, in der die Anweisungen für die
+			Formatierung des Inhalts eines HTML-Dokuments stehen.
+		</p>
+		<h3>Reihenfolge der CSS-Formatierungsanweisungen</h3>
+		<p>
+			Die Reihenfolge der CSS-Anweisungen bestimmt, welche Formatierungsanweisung übernommen wird.
+			Dabei wird nach folgenden Gesichtspunkten vorgegangen:
+			<ul>
+				<li>Die zuletzt angegebene Formatierungsanweisung überschreibt vorangegangene Formatierungsanweisungen</li>
+				<li>Inline Formatierungsanweisungen überschreiben alle vorangehenden Anweisungen</li>
+			</ul>
+			<p>
+				So ist es auf einfache Art möglich, eine <a href="externe_stylesheet_datei.html">externe Stylesheet-Datei</a> zu schreiben und zu verlinken, die für
+				mehrere Dokumente gilt.
+				Diese kann dann durch dokumentinterne Definitionen im Head-Bereich bzw. 
+				durch Inline Definitionen präzisiert werden.		
+			</p>
+		</p>
+		<h3><a href="externe_stylesheet_datei.html">Externe Stylesheet-Datei</a></h3>
+		<p>
+			Eine <em class="Fachwort"><a href="externe_stylesheet_datei.html">externe Stylesheet-Datei</a></em> ist eine Textdatei, 
+			die <a href="css_syntax.html">CSS-Formatanweisungen</a> enthält.
+			Diese kann im Head-Bereich ins HTML-Dokument eingebunden (verlinkt) werden.
+			Mehrere HTML-Dokumente können sich die selbe Stylesheet-Datei "teilen". Eine Änderung in dieser
+			zentralen Stylesheet-Datei bewirkt dann eine Änderung in allen HTML-Dokumenten, in die diese Stylesheet-Datei
+			verlinkt wurde. Dies spart viel Arbeit bei der Pflege von Websites.<br/>
+			Eine solche <em class="Fachwort">zentrale Stylesheet-Datei</em> sollte in der Verzeichnisstruktur der Website einen besonderen Platz erhalten.
+			Sinnvoll (und gängig) ist die Platzierung in einem Unterordner mit dem Namen <em class="Befehl_Variable">css</em>. Dies trägt ebenfalls
+			zu gutem Programmierstil bei.
+		</p>
+		
+		<h2><a href="css_syntax.html">Die Syntax von CSS-Formatanweisungen</a></h2>
+		<p>
+			Eine <em><a href="css_syntax.html">CSS-Formatanweisung</a></em> wird als <em class="Fachwort">Regel</em> oder <em class="Fachwort">Regelsatz</em> bezeichnet.
+			Eine Regel beinhaltet einen <em class="Fachwort">Selektor</em> gefolgt von einer Liste von <em>Eigenschaften</em>.
+			Die Schlüsselwörter für die Eigenschaften sind in englischer Sprache gehalten. Sie sind in den meisten Fällen
+			selbsterklärend. Somit erschließt sich bereits mit dem Blick auf die CSS-Eigenschaften das Aussehen des 
+			durch den Selektor ausgewählten HTML-Element.
+		</p>
+		
+		<h2><a href="CSS_box_modell.html">Das Box-Modell</a></h2>
+		<p>Der Inhalt eines HTML-Dokuments wird in Blöcken (Boxes) gegliedert. Mit CSS kann man das Design eines solchen rechteckigen Bereichs definieren. Dazu gibt es in CSS das <em class="Fachwort"><a href="CSS_box_modell.html">Box-Modell</a></em>, das den Aufbau eines Blocks definiert.</p>
+		
+		<div class="nonprint">
+		<h2>Tipps für einfache Grundlayouts</h2>
+		<p>
+			Mit Hilfe von CSS lassen sich schnell einfache Grundlayouts für HTML-Dokumente erstellen.
+		</p>
+		<ul>
+			<li>
+				<a href="css_zentrierte_ausgabe.html">Die <em>Bildschirmausgabe zentrieren</em>.</a>
+			</li>
+			<li>
+				Ein <a href="css_zweispaltiges_layout.html">zweispaltiges Layout</a> mit einem Hauptbereich und einer Seitenleiste für zusätzliche Informationen.
+			</li>
+			<li>
+				Ein flexibles <a href="css_grid_layout.html">mehrspaltiges Layout</a> mit Hilfe eines Grid-Layouts.
+			</li>
+		</ul>
+		</div>
+	</main>
+
+	<aside>
+		<script src="../css/sidebar_css.js"></script>
+	</aside>
+
+
+<footer>
+	<a href="#oben">nach oben</a>
+	<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+	<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung" target="_blank">Datenschutzerklärung</a>
+	<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"  rel="license" style="float: right; margin-top: 0px;"><img src="../../css/by-nc-sa.eu.png" width="89" height="31" alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+	<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;" href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 15.06.2020&nbsp;&nbsp; von: <b style="color: blue;">JW</b></a>
+</footer>
+	
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_grundstruktur.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:14 GMT -->
+</html>
