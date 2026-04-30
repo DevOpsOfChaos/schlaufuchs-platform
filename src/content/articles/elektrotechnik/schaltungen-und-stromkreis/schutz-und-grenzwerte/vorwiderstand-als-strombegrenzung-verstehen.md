@@ -18,12 +18,6 @@ draft: false
 
 Eine LED braucht nicht nur eine Spannung, sondern einen begrenzten Strom. Der Vorwiderstand nimmt die restliche Spannung auf und macht den Strom berechenbar.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/el-v106-resistor.svg" alt="Lernillustration zu Strombegrenzung." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

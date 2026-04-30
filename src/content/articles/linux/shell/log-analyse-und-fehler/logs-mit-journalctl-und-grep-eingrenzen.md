@@ -18,12 +18,6 @@ draft: false
 
 Logs sind keine fertige Antwort, sondern eine Spurensammlung. Gute Analyse begrenzt zuerst Zeitraum und Quelle, bevor einzelne Fehlermeldungen bewertet werden.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/linux-v106-logs.svg" alt="Lernillustration zu Loganalyse." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

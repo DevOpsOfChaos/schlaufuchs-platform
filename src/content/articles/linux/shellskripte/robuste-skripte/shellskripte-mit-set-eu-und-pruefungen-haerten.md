@@ -18,12 +18,6 @@ draft: false
 
 Ein Shellskript ist schnell geschrieben, aber auch schnell gefährlich. Robuste Skripte prüfen Eingaben, reagieren auf Fehlercodes und brechen lieber kontrolliert ab als still falsch weiterzulaufen.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/linux-v106-script-safety.svg" alt="Lernillustration zu Skriptrobustheit." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

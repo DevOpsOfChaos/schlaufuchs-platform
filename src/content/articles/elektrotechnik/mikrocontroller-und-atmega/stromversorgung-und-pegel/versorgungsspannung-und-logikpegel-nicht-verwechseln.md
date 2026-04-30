@@ -18,12 +18,6 @@ draft: false
 
 Ein Mikrocontroller hat eine Versorgungsspannung, aber Pins sehen einzelne Spannungen. Ob ein Signal als High gilt und ob es elektrisch zulässig ist, sind zwei verschiedene Fragen.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/el-v106-pegel.svg" alt="Lernillustration zu Logikpegel." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

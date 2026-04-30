@@ -18,12 +18,6 @@ draft: false
 
 Ein Parameter ist kein Fehler in der Aufgabe. Er beschreibt eine ganze Familie von Fällen. Deshalb muss klar bleiben, wonach gelöst wird und welcher Buchstabe nur mitgeführt wird.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/math-v106-parameter.svg" alt="Lernillustration zu Parameter." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

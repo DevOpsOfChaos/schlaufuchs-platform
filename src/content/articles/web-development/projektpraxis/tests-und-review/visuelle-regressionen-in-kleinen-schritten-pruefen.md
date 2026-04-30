@@ -18,12 +18,6 @@ draft: false
 
 Eine scheinbar kleine CSS-Änderung kann an anderer Stelle Layout, Fokus oder Lesbarkeit verändern. Gute Prüfung vergleicht deshalb nicht nur die neue Komponente, sondern auch wichtige Nachbarseiten.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/web-v106-visual-regression.svg" alt="Lernillustration zu UI-Prüfung." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

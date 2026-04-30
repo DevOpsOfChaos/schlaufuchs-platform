@@ -18,12 +18,6 @@ draft: false
 
 Eine Funktion ist leichter zu verstehen, wenn sie wenige klare Eingaben hat, ein erkennbares Ergebnis liefert und nicht heimlich globalen Zustand verändert.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/info-v106-function-api.svg" alt="Lernillustration zu Funktionsdesign." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

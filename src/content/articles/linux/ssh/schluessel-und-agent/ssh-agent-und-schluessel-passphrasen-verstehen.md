@@ -18,12 +18,6 @@ draft: false
 
 Ein privater Schlüssel ist ein sensibler Zugang. Eine Passphrase schützt ihn, der ssh-agent merkt ihn für eine Sitzung, ohne die Passphrase in Skripte zu schreiben.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/linux-v106-ssh-agent.svg" alt="Lernillustration zu SSH-Schlüssel." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

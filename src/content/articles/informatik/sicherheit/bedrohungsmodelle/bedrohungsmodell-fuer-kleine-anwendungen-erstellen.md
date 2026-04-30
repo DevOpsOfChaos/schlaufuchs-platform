@@ -18,12 +18,6 @@ draft: false
 
 Sicherheit beginnt nicht mit Werkzeugnamen. Zuerst muss klar sein, welche Daten schützenswert sind, wer darauf zugreifen darf und welche Grenze zwischen vertrauenswürdig und unsicher liegt.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/info-v106-threat-model.svg" alt="Lernillustration zu Bedrohungsmodell." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

@@ -18,12 +18,6 @@ draft: false
 
 Beim Vergrößern ändern sich Längen, Flächen und Volumen unterschiedlich. Wer nur den Maßstab auf alle Größen gleich überträgt, erhält schnell falsche Ergebnisse.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/math-v106-skalierung.svg" alt="Lernillustration zu Skalierung." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

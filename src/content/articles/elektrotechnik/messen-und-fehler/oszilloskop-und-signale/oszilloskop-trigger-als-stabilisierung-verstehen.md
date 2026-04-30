@@ -18,12 +18,6 @@ draft: false
 
 Ohne passenden Trigger läuft ein Signal scheinbar über den Bildschirm. Der Trigger legt fest, bei welchem Ereignis die Darstellung beginnt. Dadurch wird ein periodisches Signal vergleichbar.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/el-v106-trigger.svg" alt="Lernillustration zu Oszilloskop." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

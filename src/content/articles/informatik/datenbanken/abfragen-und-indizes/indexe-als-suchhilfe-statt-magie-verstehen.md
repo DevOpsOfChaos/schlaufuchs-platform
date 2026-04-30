@@ -18,12 +18,6 @@ draft: false
 
 Ein Index macht nicht jede Datenbank automatisch schneller. Er hilft vor allem, wenn oft nach bestimmten Spalten gesucht, sortiert oder verbunden wird.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/info-v106-index.svg" alt="Lernillustration zu Datenbankindex." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

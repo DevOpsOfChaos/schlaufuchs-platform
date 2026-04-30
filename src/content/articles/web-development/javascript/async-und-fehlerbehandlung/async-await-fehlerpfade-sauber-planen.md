@@ -18,12 +18,6 @@ draft: false
 
 Async/await macht Code lesbarer, entfernt aber keine Fehlerfälle. Netzwerk, Berechtigung, Timeout und ungültige Daten müssen weiterhin als eigene Zustände gedacht werden.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/web-v106-async-errors.svg" alt="Lernillustration zu Asynchronität." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

@@ -18,12 +18,6 @@ draft: false
 
 Ein guter Testfall entsteht nicht zufällig. Er fragt, wo ein Algorithmus kippen kann: bei leeren Daten, bei genau einem Element, bei Grenzen und bei unerwarteter Reihenfolge.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/info-v106-testfaelle.svg" alt="Lernillustration zu Testfälle." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

@@ -18,12 +18,6 @@ draft: false
 
 Eine Sekante beschreibt Änderung über ein Intervall. Eine Tangente beschreibt die Änderung an einer Stelle. Beide Ideen gehören zusammen, beantworten aber unterschiedliche Fragen.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/math-v106-sekante-tangente.svg" alt="Lernillustration zu Änderungsrate." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text

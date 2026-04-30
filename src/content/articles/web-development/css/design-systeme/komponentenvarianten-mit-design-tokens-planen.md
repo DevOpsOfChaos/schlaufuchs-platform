@@ -18,12 +18,6 @@ draft: false
 
 Eine Komponente sollte nicht für jede Seite neu erfunden werden. Tokens beschreiben Werte, Varianten beschreiben Absichten, und die Komponente hält Struktur und Verhalten zusammen.
 
-<div class="figure-card">
-  <p class="card-kicker">Visualisierung</p>
-  <h3>Vom Eindruck zur Gegenprobe</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/web-v106-design-tokens.svg" alt="Lernillustration zu Design-System." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Mini-Demo: Prüfschritte
 
 ```text
