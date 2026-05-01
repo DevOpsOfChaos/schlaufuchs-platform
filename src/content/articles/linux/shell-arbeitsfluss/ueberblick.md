@@ -1,6 +1,6 @@
 ---
 title: "Shell-Arbeitsfluss"
-description: "Überblick über einen ruhigen Arbeitsfluss in der Shell: orientieren, prüfen, ausführen, kontrollieren und dokumentieren."
+description: "Referenz zu Shell, Terminal, Prompt, Befehlsaufbau, Standardströmen und Arbeitskontext in Linux."
 subject: "linux"
 section: "Shell"
 topicPath: ["shell-arbeitsfluss", "ueberblick"]
@@ -11,56 +11,155 @@ keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
 level: "einfach"
-tags: ["linux", "Shell"]
+tags: ["linux", "Shell", "Terminal", "Prompt"]
 draft: false
 ---
 # Shell-Arbeitsfluss
 
-Ein guter Shell-Arbeitsfluss vermeidet blindes Ausprobieren. Er beginnt mit Orientierung und endet mit einer Kontrolle des Ergebnisses. Die Überblicksseite ist bewusst allgemein gehalten: Sie soll Orientierung geben, bevor einzelne Spezialfälle, Werkzeuge oder Rechenregeln wichtig werden.
+Eine Shell ist ein Kommandointerpreter. Sie nimmt Texteingaben entgegen, zerlegt sie in Befehl, Optionen und Argumente, startet Programme oder eingebaute Shell-Funktionen und verbindet deren Ein- und Ausgaben mit Terminal, Dateien oder anderen Prozessen.
 
-![Shell-Arbeitsfluss](/schlaufuchs-platform/images/overviews/v147/shell-arbeitsfluss.svg)
+Der Shell-Arbeitsfluss beschreibt deshalb nicht nur eine Reihenfolge von Befehlen. Er beschreibt den Kontext, in dem ein Befehl ausgeführt wird: aktueller Benutzer, aktuelles Arbeitsverzeichnis, Umgebung, Dateisystem, Prozess und Rückmeldung.
 
-*Überblick über einen ruhigen Arbeitsfluss in der Shell: orientieren, prüfen, ausführen, kontrollieren und dokumentieren.*
+## Einordnung im Linux-System
 
-## Grundidee
+Eine typische interaktive Arbeitssituation besteht aus mehreren Schichten:
 
-Ein guter Shell-Arbeitsfluss vermeidet blindes Ausprobieren. Er beginnt mit Orientierung und endet mit einer Kontrolle des Ergebnisses. In vielen Lern- und Praxissituationen wird das Thema zu spät allgemein erklärt. Dann stehen einzelne Beispiele nebeneinander, ohne dass klar ist, welche gemeinsame Struktur dahinterliegt.
+- **Terminal:** stellt Tastatur, Anzeige, Steuerzeichen und Sitzungsfenster bereit.
+- **Shell:** interpretiert die eingegebene Befehlszeile.
+- **Prozess:** entsteht, wenn die Shell ein Programm startet.
+- **Kernel:** verwaltet Prozesse, Dateien, Geräte, Speicher, Rechte und Systemaufrufe.
+- **Dateisystem:** liefert die Orte, auf die Befehle mit Pfaden zugreifen.
 
-Ein guter Einstieg trennt deshalb drei Ebenen: den Begriff selbst, seine Funktion im größeren Zusammenhang und die Grenzen der vereinfachten Darstellung. Diese Trennung verhindert, dass ein Spezialfall versehentlich als allgemeine Regel verstanden wird.
+Die Shell ist damit nicht der Kernel und auch nicht das Terminalfenster. Sie ist das Programm, das zwischen Eingabezeile und Betriebssystemoperation vermittelt.
 
-## Wozu das Thema dient
+## Shell und Terminal
 
-Shell-Arbeitsfluss hilft dabei, Entscheidungen, Beobachtungen oder Berechnungen nachvollziehbar zu ordnen. Es macht sichtbar, welche Elemente beteiligt sind, welche Rolle sie übernehmen und an welcher Stelle Missverständnisse entstehen können.
+Das Terminal ist die sichtbare und bedienbare Umgebung. Die Shell ist die darin laufende Befehlslogik.
 
-Der praktische Nutzen liegt nicht nur im Auswendiglernen von Begriffen. Wer die allgemeine Struktur versteht, kann konkrete Situationen besser einordnen: Welche Information fehlt? Welche Annahme wird gemacht? Wo beginnt eine Messung, ein Modell, eine Schnittstelle oder ein Prozess? Welche Grenze darf nicht überschritten werden?
+Ein Terminal kann verschiedene Shells starten, etwa `bash`, `dash`, `zsh` oder `fish`. Dieselbe Shell kann wiederum lokal, per SSH oder in einer virtuellen Konsole laufen. Wenn eine Eingabe nicht funktioniert, ist deshalb zuerst zu klären, ob das Problem an der Terminaldarstellung, an der Shell-Syntax, am ausgeführten Programm, am Benutzerkontext oder am Dateisystem liegt.
 
-## Typische Teilaspekte
+Der Prompt gehört zur Shell-Sitzung. Er zeigt an, dass die Shell auf Eingabe wartet. Häufig enthält er Benutzername, Rechnername, Arbeitsverzeichnis und ein Prompt-Zeichen wie `$` oder `#`. Das Zeichen `#` ist ein Warnsignal: Es steht häufig für eine Root-Shell oder einen Kontext mit erhöhten Rechten.
 
-- **Arbeitsverzeichnis:** Dieser Aspekt beeinflusst, wie das Thema verstanden, geplant oder überprüft wird.
-- **Trockenlauf:** Dieser Aspekt beeinflusst, wie das Thema verstanden, geplant oder überprüft wird.
-- **Ausgabeprüfung:** Dieser Aspekt beeinflusst, wie das Thema verstanden, geplant oder überprüft wird.
-- **Historie:** Dieser Aspekt beeinflusst, wie das Thema verstanden, geplant oder überprüft wird.
+## Befehlszeile lesen
 
-Diese Teilaspekte müssen nicht immer alle gleichzeitig wichtig sein. Sie geben aber eine ruhige Checkliste, um neue Beispiele einzuordnen und nicht vorschnell auf eine einzelne Lösung zu springen.
+Eine einfache Befehlszeile hat meist diese Form:
 
-## Abgrenzung
+```bash
+befehl -option argument
+```
 
-Das Schaubild zeigt eine vereinfachte Orientierung. Es ersetzt keine vollständige technische Spezifikation, keinen Beweis, kein Datenblatt und keine konkrete Implementierung. Gerade als Überblick ist die Vereinfachung jedoch nützlich, weil sie zuerst die tragenden Beziehungen sichtbar macht.
+Die Bestandteile haben unterschiedliche Aufgaben:
 
-Wichtig ist auch die Abgrenzung zwischen Begriff und Umsetzung. Derselbe Begriff kann in unterschiedlichen Kontexten anders umgesetzt werden, ohne dass die Grundidee verschwindet. Umgekehrt kann eine ähnliche Umsetzung zu unterschiedlichen Zwecken dienen.
+- **Befehl:** Name des Programms oder eingebauten Shell-Befehls, zum Beispiel `ls`, `cd`, `grep` oder `pwd`.
+- **Option:** verändert das Verhalten des Befehls, zum Beispiel `-l`, `-a` oder `--help`.
+- **Argument:** benennt ein Ziel, einen Wert oder einen Suchbegriff, zum Beispiel `.` , `/var/log` oder `"Fehler A"`.
 
-## Häufige Missverständnisse
+Nicht jedes Wort hinter einem Befehl ist eine Option. Optionen beginnen oft mit `-` oder `--`, aber die genaue Bedeutung legt der jeweilige Befehl fest. Eine saubere Lesart beginnt deshalb beim Programmnamen und prüft dann, welche Teile Verhalten ändern und welche Teile Ziele oder Werte sind.
 
-Shell-Arbeit wird oft als schnelle Befehlsfolge verstanden. Gerade schnelle Befehle brauchen aber klare Zwischenkontrollen.
+## Standardströme
 
-Ein weiteres Missverständnis besteht darin, Überblickswissen als „zu oberflächlich“ abzutun. Ohne diese Ebene werden Detailseiten schwer verständlich, weil Lernende nicht wissen, welche Rolle ein Spezialfall im Gesamtbild spielt.
+Jeder gestartete Prozess hat normalerweise drei Standardkanäle:
 
-## Beispiele für Einordnung
+- **stdin (0):** Standardeingabe, interaktiv oft die Tastatur oder Daten aus einer Pipe.
+- **stdout (1):** normale Ausgabe, interaktiv meist die Anzeige im Terminal.
+- **stderr (2):** Fehler- und Diagnoseausgabe, ebenfalls meist sichtbar im Terminal.
 
-Eine gute Einordnungsfrage lautet nicht sofort: „Wie löse ich diesen Sonderfall?“ Sinnvoller ist zunächst: „Welche Elemente gehören dazu, welcher Zusammenhang wird dargestellt und welche Grenze ist gerade kritisch?“ Erst danach sind konkrete Werkzeuge, Formeln, Befehle oder Bauteilwerte sinnvoll.
+Diese Trennung ist eine Grundlage für Pipes und Umleitungen. Normale Daten können weiterverarbeitet werden, während Fehlermeldungen getrennt sichtbar bleiben oder separat gespeichert werden.
 
-Bei technischen Themen kann das ein Messpunkt, eine Schnittstelle, ein Datenfluss oder ein Zustandswechsel sein. Bei mathematischen Themen kann es ein Modell, ein Parameter, ein Grenzfall oder ein Datenbezug sein. Bei Web- und Linux-Themen geht es häufig um Zustände, Pfade, Rechte, Schnittstellen oder Rückmeldungen.
+## Ausführung eines Befehls
 
-## Merksatz
+Bei einer interaktiven Eingabe läuft typischerweise diese Kette ab:
 
-Ein guter Shell-Arbeitsfluss vermeidet blindes Ausprobieren. Er beginnt mit Orientierung und endet mit einer Kontrolle des Ergebnisses. Als Überblick ist das Thema dann verstanden, wenn die Grundidee, die wichtigsten Teilaspekte und mindestens eine typische Fehlerquelle klar benannt werden können.
+1. Das Terminal übergibt die eingegebene Zeile an die Shell.
+2. Die Shell zerlegt die Zeile in Wörter, Operatoren, Anführungszeichen und Erweiterungen.
+3. Die Shell prüft, ob der Befehl eingebaut ist, als Funktion oder Alias existiert oder als Programm über `PATH` gefunden werden muss.
+4. Für externe Programme startet die Shell einen neuen Prozess.
+5. Der Prozess liest Eingaben, arbeitet mit Dateien oder Systemressourcen und schreibt nach `stdout` oder `stderr`.
+6. Die Shell erhält den Exit-Code und zeigt danach wieder einen Prompt.
+
+Der Exit-Code ist die knappe technische Rückmeldung des Prozesses. `0` bedeutet in der Regel Erfolg, andere Werte zeigen einen Fehler oder Sonderfall an. Sichtbare Ausgabe und Exit-Code sind nicht dasselbe: Ein Befehl kann Text ausgeben und trotzdem fehlschlagen.
+
+## Arbeitsverzeichnis und Pfade
+
+Viele Befehle wirken relativ zum aktuellen Arbeitsverzeichnis. Dieses Verzeichnis ist der Standort, von dem relative Pfade gelesen werden.
+
+```bash
+pwd
+ls
+cat notizen.txt
+cat ./notizen.txt
+cat /home/fox/notizen.txt
+```
+
+`notizen.txt` und `./notizen.txt` sind relative Pfade. Sie beziehen sich auf den aktuellen Ort. `/home/fox/notizen.txt` ist ein absoluter Pfad und beginnt an der Wurzel des Dateisystems.
+
+Vor Befehlen, die Dateien verändern, ist der Arbeitskontext wichtiger als Geschwindigkeit:
+
+- `pwd` prüft den aktuellen Ort.
+- `ls` oder `find` prüfen vorhandene Namen.
+- `realpath` kann relative Angaben eindeutig machen.
+- `whoami` oder der Prompt helfen, den Benutzerkontext zu erkennen.
+
+Ein Befehl aus einer Anleitung ist nur dann sinnvoll übertragbar, wenn aktuelles Verzeichnis, Benutzer, Zielpfad und erwartete Wirkung passen.
+
+## Umgebung und PATH
+
+Umgebungsvariablen sind benannte Werte, die Prozesse von ihrer Umgebung erhalten. Für den Shell-Einstieg sind vor allem diese Variablen relevant:
+
+- `HOME`: Heimatverzeichnis des Benutzers.
+- `PWD`: aktuelles Arbeitsverzeichnis.
+- `PATH`: Suchpfade, in denen die Shell externe Programme findet.
+
+`PATH` erklärt, warum `ls` ohne vollständigen Pfad gestartet werden kann. Die Shell sucht den Programmnamen in den dort eingetragenen Verzeichnissen. Das Arbeitsverzeichnis ist dabei nicht automatisch ein Suchpfad.
+
+## Quoting
+
+Die Shell trennt Wörter an Leerzeichen. Anführungszeichen verhindern, dass zusammengehörender Text in mehrere Argumente zerfällt.
+
+```bash
+mkdir "Projekt Archiv"
+grep "Fehler A" dokumente/protokoll.log
+```
+
+Ohne passende Anführungszeichen werden Pfade, Suchtexte oder Werte mit Leerzeichen falsch aufgeteilt. Das ist kein Anzeigeproblem des Terminals, sondern eine Folge der Shell-Auswertung.
+
+## Verhältnis zu Skripten
+
+Ein Shell-Skript ist eine Textdatei mit Shell-Befehlen, die nicht einzeln am Prompt eingegeben, sondern nacheinander ausgeführt werden. Das macht die Shell auch zu einer einfachen Automatisierungsumgebung.
+
+Diese Seite bleibt aber eine Referenz zum interaktiven Shell-Arbeitsfluss. Skripte bringen zusätzliche Themen mit: Shebang, Ausführungsrechte, Parameter, Variablen, Fehlerbehandlung, Portabilität und Tests.
+
+## Typische Fehler
+
+- Terminal und Shell werden gleichgesetzt. Dadurch wird unklar, ob ein Darstellungsproblem, ein Syntaxproblem oder ein Ausführungsproblem vorliegt.
+- Befehlsname, Option und Argument werden vermischt. Dann wird etwa ein Zielpfad für eine Option gehalten oder eine Option als Dateiname gelesen.
+- Relative Pfade werden aus dem falschen Arbeitsverzeichnis ausgeführt.
+- Pfade oder Suchtexte mit Leerzeichen werden nicht in Anführungszeichen gesetzt.
+- Kommandos aus Anleitungen werden kopiert, ohne Benutzer, Arbeitsverzeichnis, Zielpfad und Rechte zu prüfen.
+- Fehlermeldungen auf `stderr` werden wie normale Ergebnisdaten behandelt.
+- Ein sichtbarer Prompt mit `#` wird ignoriert, obwohl Befehle dann mit deutlich größerer Wirkung laufen können.
+
+## Ein ruhiger Arbeitsfluss
+
+Ein belastbarer Shell-Arbeitsfluss ist kurz:
+
+1. **Orientieren:** `pwd`, `ls`, Prompt und Benutzerkontext prüfen.
+2. **Befehl lesen:** Programmname, Optionen, Argumente und Operatoren trennen.
+3. **Wirkung abschätzen:** Lesen, Schreiben, Löschen, Verschieben, Rechteänderung oder Prozessstart unterscheiden.
+4. **Ausführen:** nur mit passendem Arbeitsverzeichnis und passendem Benutzerkontext.
+5. **Rückmeldung prüfen:** Ausgabe, Fehlermeldung und Exit-Code nicht verwechseln.
+
+Die Linux-Lernshell der Plattform passt zu dieser Seite als geschützter Übungsraum für Orientierung, Pfade und einfache Ausgaben. Sie ersetzt keine echte Linux-Sitzung und führt keine beliebigen Systembefehle aus.
+
+## Verwandte Themen
+
+- Dateisystem und Pfade
+- Befehle, Optionen und Argumente
+- stdin, stdout und stderr
+- Pipes und Umleitungen
+- Rechte und Benutzerkontext
+- Shell-Skripte und Automatisierung
+
+## Quellenhinweis
+
+Diese Referenzseite wurde fachlich aus dem legacy Schlaufuchs-Material `legacy/selected/linux/topic-sources/linux_shell.html` erweitert. Die beobachtete Ursprungs-URL ist `https://c-arts-modelle.de/schlaufuchs_web/linux/linux_shell/linux_shell.html`. Die Quelle ist als CC BY-NC-SA 4.0 beobachtet, mit Autorenkürzel JW und Aktualisierungsdatum 01.10.2019. Text, Struktur und fachliche Einordnung wurden für die aktuelle Plattform neu geschrieben und adaptiert; altes HTML, alte Gestaltung und alte Bilddateien wurden nicht übernommen. Der Quellenhinweis bedeutet keine Empfehlung oder Unterstützung durch den ursprünglichen Autor.
