@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs Arduino counter flow source: legacy/selected/elektrotechnik/tasks/arduino_zaehler_03/loesung/formeln/Zaehler_03_delay.svg.63d. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2021. No endorsement by the original author is implied. -->
+  <title id="title">Programmablauf des Arduino-UNO-Ereigniszählers</title>
+  <desc id="desc">Ablaufplan: Initialisierung, Warten auf Tastendruck an PB2, Entprellen, Zähler erhöhen, Wert auf Port D ausgeben und auf Loslassen warten.</desc>
+  <style>
+    .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.flow{stroke:#334155;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.start{fill:#dcfce7;stroke:#15803d;stroke-width:3}.process{fill:#eff6ff;stroke:#2563eb;stroke-width:3}.decision{fill:#fef3c7;stroke:#b45309;stroke-width:3}.delay{fill:#fee2e2;stroke:#dc2626;stroke-width:3}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:21px;font-weight:700}.small{font-size:15px;fill:#475569}.inside{font-size:17px;font-weight:700}.note{font-size:15px;font-weight:700;fill:#0f766e}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="58">Programmablauf für den 8-Bit-Zähler</text>
+  <text class="txt small" x="48" y="84">PB2 ist durch den Pull-up im Ruhezustand 1; gedrückt bedeutet 0.</text>
+  <rect class="panel" x="54" y="112" width="852" height="364" rx="18"/>
+
+  <rect class="start" x="362" y="136" width="236" height="52" rx="26"/>
+  <text class="txt inside" x="480" y="169" text-anchor="middle">Start</text>
+
+  <rect class="process" x="318" y="216" width="324" height="58" rx="10"/>
+  <text class="txt inside" x="480" y="240" text-anchor="middle">Initialisieren</text>
+  <text class="txt small" x="480" y="263" text-anchor="middle">DDRD = Ausgänge, PB2 = Eingang mit Pull-up</text>
+
+  <path class="decision" d="M480 302l170 58-170 58-170-58z"/>
+  <text class="txt inside" x="480" y="354" text-anchor="middle">S1 gedrückt?</text>
+  <text class="txt small" x="480" y="377" text-anchor="middle">PINB &amp; (1 &lt;&lt; PB2) == 0</text>
+
+  <rect class="process" x="108" y="331" width="150" height="58" rx="10"/>
+  <text class="txt inside" x="183" y="355" text-anchor="middle">weiter warten</text>
+  <text class="txt small" x="183" y="378" text-anchor="middle">PB2 bleibt 1</text>
+
+  <rect class="process" x="702" y="222" width="150" height="58" rx="10"/>
+  <text class="txt inside" x="777" y="246" text-anchor="middle">zähler++</text>
+  <text class="txt small" x="777" y="269" text-anchor="middle">uint8_t läuft über</text>
+
+  <rect class="process" x="702" y="312" width="150" height="58" rx="10"/>
+  <text class="txt inside" x="777" y="336" text-anchor="middle">PORTD = zähler</text>
+  <text class="txt small" x="777" y="359" text-anchor="middle">LEDs aktualisieren</text>
+
+  <rect class="delay" x="702" y="402" width="150" height="46" rx="10"/>
+  <text class="txt inside" x="777" y="431" text-anchor="middle">Loslassen + Delay</text>
+
+  <path class="flow" marker-end="url(#arrow)" d="M480 188V216"/>
+  <path class="flow" marker-end="url(#arrow)" d="M480 274V302"/>
+  <path class="flow" marker-end="url(#arrow)" d="M310 360H258"/>
+  <path class="flow" marker-end="url(#arrow)" d="M183 331V302H480"/>
+  <path class="flow" marker-end="url(#arrow)" d="M650 360H777V280"/>
+  <path class="flow" marker-end="url(#arrow)" d="M777 280V312"/>
+  <path class="flow" marker-end="url(#arrow)" d="M777 370V402"/>
+  <path class="flow" marker-end="url(#arrow)" d="M702 425H480V418"/>
+
+  <text class="txt note" x="278" y="346" text-anchor="middle">nein</text>
+  <text class="txt note" x="674" y="346" text-anchor="middle">ja</text>
+  <text class="txt small" x="96" y="452">Ein langer Tastendruck zählt erst nach Loslassen und neuem Drücken erneut.</text>
+</svg>

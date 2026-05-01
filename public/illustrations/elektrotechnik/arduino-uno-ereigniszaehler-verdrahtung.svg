@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs Arduino counter task source: legacy/selected/elektrotechnik/tasks/arduino_zaehler_03/aufgabe/formeln/jw_zaehler_03_Steckplatine_web_. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020/2021. No endorsement by the original author is implied. -->
+  <title id="title">Verdrahtung des Arduino-UNO-Ereigniszählers</title>
+  <desc id="desc">Arduino UNO mit acht LED-Ausgängen an D0 bis D7 und einem Taster S1 an D10 beziehungsweise PB2 mit internem Pull-up gegen Masse.</desc>
+  <style>
+    .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.board{fill:#e0f2fe;stroke:#0369a1;stroke-width:4}.wire{stroke:#334155;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.wire-led{stroke:#2563eb;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.wire-button{stroke:#b45309;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.node{fill:#0f766e}.part{stroke:#0f172a;stroke-width:4;fill:#fff;stroke-linecap:round;stroke-linejoin:round}.led{fill:#fee2e2;stroke:#dc2626;stroke-width:4}.res{fill:#fef3c7;stroke:#b45309;stroke-width:3}.button{fill:#f1f5f9;stroke:#0f172a;stroke-width:4}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:22px;font-weight:700}.small{font-size:16px;fill:#475569}.pin{font-size:14px;font-weight:700;fill:#075985}.value{font-size:18px;font-weight:700;fill:#0f766e}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="58">Arduino UNO als 8-Bit-Ereigniszähler</text>
+  <text class="txt small" x="48" y="84">D0 bis D7 treiben die LEDs; D10/PB2 liest S1 mit internem Pull-up.</text>
+  <rect class="panel" x="54" y="112" width="852" height="364" rx="18"/>
+
+  <rect class="board" x="84" y="168" width="260" height="238" rx="18"/>
+  <text class="txt label" x="214" y="222" text-anchor="middle">Arduino UNO</text>
+  <text class="txt small" x="214" y="252" text-anchor="middle">ATmega328P</text>
+  <text class="txt small" x="214" y="282" text-anchor="middle">Port D: PD0 bis PD7</text>
+  <text class="txt small" x="214" y="306" text-anchor="middle">Port B: PB2</text>
+
+  <text class="txt pin" x="366" y="157">D7</text>
+  <text class="txt pin" x="411" y="157">D6</text>
+  <text class="txt pin" x="456" y="157">D5</text>
+  <text class="txt pin" x="501" y="157">D4</text>
+  <text class="txt pin" x="546" y="157">D3</text>
+  <text class="txt pin" x="591" y="157">D2</text>
+  <text class="txt pin" x="636" y="157">D1</text>
+  <text class="txt pin" x="681" y="157">D0</text>
+
+  <g>
+    <circle class="node" cx="374" cy="178" r="7"/><circle class="node" cx="419" cy="178" r="7"/><circle class="node" cx="464" cy="178" r="7"/><circle class="node" cx="509" cy="178" r="7"/>
+    <circle class="node" cx="554" cy="178" r="7"/><circle class="node" cx="599" cy="178" r="7"/><circle class="node" cx="644" cy="178" r="7"/><circle class="node" cx="689" cy="178" r="7"/>
+    <path class="wire-led" d="M344 188H374V300"/><path class="wire-led" d="M344 198H419V300"/><path class="wire-led" d="M344 208H464V300"/><path class="wire-led" d="M344 218H509V300"/>
+    <path class="wire-led" d="M344 228H554V300"/><path class="wire-led" d="M344 238H599V300"/><path class="wire-led" d="M344 248H644V300"/><path class="wire-led" d="M344 258H689V300"/>
+  </g>
+
+  <g>
+    <circle class="led" cx="374" cy="322" r="16"/><circle class="led" cx="419" cy="322" r="16"/><circle class="led" cx="464" cy="322" r="16"/><circle class="led" cx="509" cy="322" r="16"/>
+    <circle class="led" cx="554" cy="322" r="16"/><circle class="led" cx="599" cy="322" r="16"/><circle class="led" cx="644" cy="322" r="16"/><circle class="led" cx="689" cy="322" r="16"/>
+    <rect class="res" x="362" y="356" width="24" height="54" rx="5"/><rect class="res" x="407" y="356" width="24" height="54" rx="5"/><rect class="res" x="452" y="356" width="24" height="54" rx="5"/><rect class="res" x="497" y="356" width="24" height="54" rx="5"/>
+    <rect class="res" x="542" y="356" width="24" height="54" rx="5"/><rect class="res" x="587" y="356" width="24" height="54" rx="5"/><rect class="res" x="632" y="356" width="24" height="54" rx="5"/><rect class="res" x="677" y="356" width="24" height="54" rx="5"/>
+    <path class="wire" d="M374 338V356M419 338V356M464 338V356M509 338V356M554 338V356M599 338V356M644 338V356M689 338V356"/>
+    <path class="wire" d="M374 410V438H744M419 410V438M464 410V438M509 410V438M554 410V438M599 410V438M644 410V438M689 410V438"/>
+    <text class="txt small" x="538" y="458" text-anchor="middle">je LED: eigener Vorwiderstand nach GND</text>
+  </g>
+
+  <g>
+    <text class="txt pin" x="386" y="287">D10 / PB2</text>
+    <circle class="node" cx="344" cy="286" r="7"/>
+    <path class="wire-button" d="M344 286H782V330"/>
+    <rect class="button" x="742" y="330" width="80" height="44" rx="8"/>
+    <path class="part" d="M754 352h20M790 352h20"/>
+    <text class="txt label" x="782" y="318" text-anchor="middle">S1</text>
+    <path class="wire" d="M782 374V438"/>
+    <text class="txt small" x="724" y="392">Taster nach GND</text>
+    <text class="txt value" x="672" y="284">interner Pull-up aktiv</text>
+  </g>
+
+  <g>
+    <path class="wire" d="M744 438h54"/>
+    <path class="wire" d="M764 452h34"/>
+    <path class="wire" d="M778 466h20"/>
+    <text class="txt label" x="818" y="446">GND</text>
+  </g>
+</svg>
