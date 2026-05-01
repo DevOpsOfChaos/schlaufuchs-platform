@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/signaluebertragung_grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:31 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<title>Signalübertragung</title>
+	<link type="text/css" rel="stylesheet" href="../../css/standard_elektrotechnik.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+			</figure>
+			<p>
+				<a href="../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;
+				<a href="../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a href="../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a href="../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a href="../daten/daten_beschreibung.html">Daten</a> &nbsp;
+				<a href="signale_grundlagen.html">Signale</a>
+				<a href="signaluebertragung_grundlagen.html">Signalübertragung</a> &nbsp;
+				<a href="../netzwerke_grundlagen/netzwerke_grundlagen.html">Grundlagen Rechnernetze</a> &nbsp;
+				<a href="../netzwerke_grundlagen/lan_grundlagen.html">Grundlagen LAN</a> &nbsp;
+				<a href="../netzwerke_sicherheit/netzwerke_sicherheit.html">Netzwerk-Sicherheit</a>
+			</p>
+		</nav>
+	</header>
+
+	<table>
+		<tr>
+			<td>
+				<main>
+					<h1>Signalübertragung</h1>
+					<h2>Die Signal-Übertragungskette</h2>
+					<p>
+						Die <em>Signal-Übertragungskette</em> beschreibt die grundsätzliche Struktur der Übertragung
+						eines <em><a href="signale_grundlagen.html">Signals</a></em> vom Sender zum
+						Empfänger.
+					</p>
+					<figure>
+						<img src="bilder/Signal_Uebertragungskette_01_jw_web.png" width="700" height="60"
+							alt="Signalübertragungskette" longdesc="Signal%c3%83%c2%bcbertragungskette.html">
+						<figcaption>
+							<p>
+								Signalübertragungskette
+							</p>
+						</figcaption>
+					</figure>
+					<p>
+						Man kann die gesamte Signal-Übertragungskette in 5 Blöcke unterteilen:
+					</p>
+					<ol>
+						<li>Die <em>Signalerzeugung</em> beim Sender</li>
+						<li>Die <em>Signalverarbeitung</em> beim Sender</li>
+						<li>Den <em>Übertragungskanal</em></li>
+						<li>Die <em>Signalverarbeitung</em> beim Empfänger</li>
+						<li>Die <em>Signalerzeugung</em> beim Empfänger</li>
+					</ol>
+
+					<h2>Logikpegel</h2>
+					<p>
+						Im einfachsten Fall besteht ein digitales Signal aus zwei Zuständen: <em class="Fachwort">0</em>
+						und <em class="Fachwort">1</em>. Diesen beiden Zuständen werden <em
+							class="Fachwort">Logikpegel</em> zugeordnet.
+					</p>
+					<p>
+						In elektrischen Schaltungen werden die Logikpegel üblicherweise durch verschiedene Spannungen
+						oder Spannungsbereiche repräsentiert.
+					</p>
+					<p>
+						Logikpegel lassen sich aber auch anderen physikalischen Größen wie z.B. Schalldruck, Lichtstrom
+						oder Frequenzen zuordnen.
+					</p>
+
+					<h2>Signalverarbeitung</h2>
+					<p>
+						Ein Signal muss vor der Übertragung zuerst verarbeitet werden. Es muss der Übertragungsstrecke
+						und deren Eigenschaften angepasst werden. Nach dem Empfang muss das Signal wieder zurückgewonnen
+						werden.
+					</p>
+					<h3>A/D-Wandlung</h3>
+					<p>
+						Ein analoges Signal muss zunächst mit einem <em class="Fachwort">Analog-Digital-Wandler</em>
+						(<em class="Fachwort">A/D-Wandler</em> oder <em class="Fachwort">ADC</em>: engl.
+						<em>analog-to-digital-converter</em>) in ein digitales Signal umgewandelt werden. Häufig nennt
+						man diesen Vorgang auch <em>digitalisieren</em>. Das digitalisierte Signal kann dann
+						weiterverarbeitet werden.
+					</p>
+					<p>
+						Die A/D-Wandlung ist wichtiger Schritt und ausschlaggebend für die Qualität des Signals. Bereits
+						bei der A/D-Wandlung wird festgelegt mit welchen Fehlern bei der späteren Rekonstruktion des
+						Originalsignals zu rechnen ist. Dabei gilt es immer einen Mittelweg zwischen geringer Datenrate
+						und Signalqualität zu finden.
+					</p>
+					<h3>Signalcodierung</h3>
+					<p>
+						Das digitale Signal muss vor der Übertragung in eine passende Form gebracht werden. Diesen
+						Vorgang bezeichnet man als <em class="Fachwort">Signalcodierung</em> oder <em
+							class="Fachwort">Codierung</em>. Die Codierung kann in drei Stufen eingeteilt werden:
+					</p>
+					<table>
+						<tr>
+							<td>
+								<ul>
+									<li style="margin-bottom: 0.5em; margin-top: 1em;"><em
+											class="Fachwort">Quellencodierung</em></li>
+									<li style="margin-bottom: 0.5em;"><em class="Fachwort">Kanalcodierung</em></li>
+									<li><em class="Fachwort">Leitungscodierung / Modulation</em>&nbsp;&nbsp;&nbsp;&nbsp;
+									</li>
+								</ul>
+							</td>
+							<td>
+								<figure>
+									<img src="bilder/Signalcodierung_01_jw.png" width="419" height="80"
+										alt="Signalcodierung" longdesc="Signalcodierung.html">
+									<figcaption>
+										Abbildung: 3 Stufen der Signalcodierung
+									</figcaption>
+								</figure>
+							</td>
+						</tr>
+					</table>
+
+					<h3>Quellencodierung</h3>
+					<p>
+						<em class="Fachwort">Quellencodierung</em>: Der Datenstrom des digitalisierten Signals muss
+						zunächst in eine Form gebracht werden,
+						die beim Empfänger eine eindeutige Rekonstruktion in der gewünschten Qualität zulässt.
+					</p>
+					<p>
+						Nicht immer müssen die von der Quelle gelieferten Daten beim Empfänger 1:1 wieder rekonstruiert
+						werden. Bei Audio- und Videosignalen erfolgt vor
+						der Übertragung in den meisten Fällen eine <em class="Fachwort">verlustbehaftete
+							Komprimierung</em> (oder <em class="Fachwort">Kompression</em>)
+						der Daten. Ein Teil der Rohdaten wird bei der verlustbehafteten Komprimierung verworfen, was zu
+						einer (deutlich) keineren Datenmenge führt, die
+						übertragen werden muss. Die Stärke der Kompression (<em class="Fachwort">Kompressionsrate</em>),
+						d.h. das Maß der Verkleinerung des Datenstroms, hängt dabei von der
+						gewünschten Übertragungsqualität beim Empfänger ab. Moderne mathematische <em
+							class="Fachwort">Kompressionsverfahren</em> erlauben enorme Kompressionsraten bei moderatem
+						Qualitätsverlust. Bekannte Kompressionsverfahren für Video und Audio sind z.B. <b>MPEG</b>,
+						<b>JPEG</b> oder <b>MP3</b>.
+					</p>
+					<p>
+						Sollen Daten übertragen werden, kommt nur die <em class="Fachwort">verlustfreie
+							Komprimierung</em> in Frage, da die Daten beim Empfänger natürlich
+						1:1 rekonstruiert werden müssen. Ein bekanntes Kompressionsverfahren für Daten ist
+						beispielsweise die <b>ZIP</b>-Komprimierung.
+					</p>
+
+					<h3>Kanalcodierung</h3>
+					<p>
+						<em class="Fachwort">Kanalcodierung</em>: Bevor das quellencodierte Signal auf die Reise
+						geschickt wird, muss es an die besonderen Eigenschaften des verlustbehafteten Übertragungskanals
+						angepasst werden.
+						Dazu fügt man dem Signal zusätzliche Daten (<em class="Fachwort">Redundanz</em>) hinzu, die
+						später eine <em class="Fachwort">Fehlererkennung</em>
+						oder sogar eine <em class="Fachwort">Fehlerkorrektur</em> zulassen.
+					</p>
+
+					<h3><a href="leitungscodierung.html">Leitungscodierung</a></h3>
+					<p>
+						<em class="Fachwort"><a href="leitungscodierung.html">Leitungscodierung</a></em>: Das
+						kanalcodierte Signal muss noch an die <b>physikalischen Eigenschaften</b> des Übertragungskanals
+						angepasst werden.
+						Hier wird festgelegt, wie das Signal mit Hilfe des zur Übertragung zur Verfügung stehenden
+						physikalischen Mediums, z.B. Licht, Spannung, EM-Welle, übertragen wird.<br />
+						Bei der <em class="Fachwort">Basisbandübertragung</em> wird das Signal im gleichen
+						Frequenzbereich (ohne Modulation) übertragen. Eine gewisse Frequenzanpassung lässt sich durch
+						eine geeignete Leitungscodierung erreichen. Jedoch sind nur wenige Übertragungsmedien für die
+						Basisbandübertragung geeignet, z.B. TP-Leitungen in LANs.<br />
+						Häufig muss das Frequenzspektrum des kanalcodierten Signals noch hin zu höheren Frequenzen
+						verschoben werden. Dies wird als <em class="Fachwort">Modulation</em> bezeichnet.
+						Dabei bedient man sich häufig unterschiedlicher, angepasster <em
+							class="Fachwort">Modulationsverfahren</em>, die eine möglichst hohe
+						Datenrate auf dem Übertragungskanal zulassen.
+					</p>
+
+				</main>
+			</td>
+
+			<td>
+				<aside>
+					<p><a href="../daten/daten_beschreibung.html">Daten</a></p>
+					<p><a href="../daten/daten_speicherung.html">Datenspeicherung</a></p>
+					<p><a href="../datenuebertragungsprotokolle/daten_uebertragung.html">Datenübertragung</a></p>
+					<p><a href="../netzwerke_grundlagen/netzwerke_grundlagen.html">Grundlagen Rechnernetze</a></p>
+					<p><a href="../netzwerke_grundlagen/lan_grundlagen.html">Grundlagen LAN</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_sicherheit.html">Netzwerk-Sicherheit</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_firewall.html">Firewall</a></p>
+					<p><a href="signale_grundlagen.html">Signale</a></p>
+					<p><a href="signaluebertragung_grundlagen.html">Signalübertragung</a></p>
+					<p><a href="leitungscodierung.html">Leitungscodierung</a></p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px;">
+							&#x21eb;
+						</div>
+					</a>
+
+				</aside>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../../impressum/impressum_datenschutz.html">Impressum</a>
+		<a href="../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right; margin-top: 0px;"><img src="../../../css/by-nc-sa.eu.png" width="89" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 20.11.2022&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/signaluebertragung_grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:32 GMT -->
+</html>

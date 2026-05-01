@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_grid_layout.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:42 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="expires" content="500000">
+	<title>Grid-Layout</title>
+	<link type="text/css" rel="stylesheet" href="../css/standard_css_neu.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+			</figure>
+			<script src="../css/head_nav_css.js"></script>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Grid-Layout</h1>
+		<p>
+			Ein <code class="Fachwort">Grid-Layout</code> ist ein mächtiges CSS-Werkzeug zur Anordnung von Containern in
+			einem HTML-Dokument. <em class="Fachwort"><a href="../html_grundstruktur/html5_semantik.html"
+					target="_blank" class="intern">Semantische Strukturelemente</a></em> von HTML erhalten mit Hife von
+			CSS erst ihr Design und ihren Platz in der Darstellung des HTML-Dokuments. Hierfür ist das
+			<b>Grid-Layout</b> ein vielseitiges und flexibles Werkzeug. Die Trennung von Inhalt (HTML) und Design (CSS)
+			wird dadurch besonders effektiv möglich.
+		</p>
+		<h2>Definieren eines Grids</h2>
+		<p>
+			Ein Grid ist ein Raster, das man flexibel definieren kann, mit dem man einen HTML-Bereich (z.B. den <code
+				class="Befehl">&lt;body&gt;</code>-Bereich) strukturieren kann. Das Raster besteht aus Zeilen (<code
+				class="Befehl_Attribut">rows</code>) und Spalten (<code class="Befehl_Attribut">columns</code>)
+		</p>
+		<p>
+			Die <code class="Befehl">display</code>-Eigenschaft eines HTML-Bereichs wird dazu auf den Wert <code
+				class="Befehl_Attribut">grid</code> gesetzt. Dann folgen die Definitionen der Zeilen und Spalten des
+			Grids.
+		</p>
+		<div class="Syntax">
+			<pre><b>display</b>: grid;
+	<b>grid-template-rows</b>: <span style='color:#b08000;'>105</span><span style='color:#0057ae;'>px</span> <span style='color:#b08000;'>1</span>fr <span style='color:#b08000;'>75</span><span style='color:#0057ae;'>px</span>;
+	<b>grid-template-columns</b>: <span style='color:#b08000;'>1</span>fr <span style='color:#b08000;'>3</span>fr <span style='color:#b08000;'>1</span>fr;</pre>
+		</div>
+		<p>
+			Die Größendefinitionen können pixelgenau mit der Angabe <code class="Befehl_Attribut">px</code> gemacht
+			werden. Oder auch relativ mit der Angabe <code class="Befehl_Attribut">fr</code>. Der Browser berechnet dann
+			selbst die Größe der einzelnen Bereiche.
+		</p>
+		<div class="Beispiel">
+			<p>
+				<b>Beispiel:</b> zentriertes, dreispaltiges, dreizeiliges Grid-Layout des <code
+					class="Befehl">&lt;body&gt;</code>-Bereichs:
+			</p>
+			<p style="margin-top: 1em;">
+			<pre>
+body {
+	<b>font-family</b>: Verdana, Arial, <span style='color:#b08000;'>sans-serif</span>;
+	<b>font-size</b>: <span style='color:#b08000;'>14</span><span style='color:#0057ae;'>px</span>;
+	<b>width</b>: <span style='color:#b08000;'>76</span><span style='color:#0057ae;'>%</span>;
+	<b>margin-left</b>: <b><span style='color:#644a9b;'>auto</span></b>;
+	<b>margin-right</b>: <b><span style='color:#644a9b;'>auto</span></b>;
+	<b>background-color</b>: <span style='color:#aa5500;'>beige</span>;
+	<b>display</b>: grid;
+		<b>grid-template-columns</b>: <span style='color:#b08000;'>1</span>fr <span style='color:#b08000;'>3</span>fr <span style='color:#b08000;'>1</span>fr;
+		<b>grid-template-rows</b>: <span style='color:#b08000;'>105</span><span style='color:#0057ae;'>px</span> <span style='color:#b08000;'>1</span>fr <span style='color:#b08000;'>75</span><span style='color:#0057ae;'>px</span>;
+	}</pre>
+			</p>
+		</div>
+		<p>
+			Das <b>Eltern-Element</b> eines Grid-Layouts wird als <code class="Fachwort">Grid-Container</code>
+			bezeichnet.
+		</p>
+		<p>
+			Alle <b>direkten Kind-Elemente</b> des Grid-Containers werden zu <code class="Fachwort">Grid-Items</code>.
+		</p>
+		<p>
+			Die Definitionen im Grid-Container geben vor, wie die Grid-Items angeordnet werden sollen.
+		</p>
+
+		<h2>Zuordnung der Grid-Items</h2>
+		<p>
+			Die Grid-Items (direkten Kind-Elemente) eines Bereichs mit Grid-Layout können flexibel den Zeilen und
+			Spalten zugeordnet werden. Dabei ist es egal, in welcher Reihenfolge die einzelnen Bereiche im HTML-Dokument
+			definiert wurden.
+		</p>
+		<p>
+			Mit der Eigenschaft <code class="Befehl_Attribut">span</code> kann ein Element sich auch über einen Bereich
+			von mehreren Spalten erstrecken.
+		</p>
+		<div class="Beispiel">
+			<p>
+				<b>Beispiel:</b> Positionierung der Kindelemente des <code class="Befehl">&lt;body&gt;</code>-Bereichs:
+			</p>
+			<p style="margin-top: 1em;">
+			<pre>
+main {
+	<b>grid-column</b>: <span style='color:#b08000;'>1</span> / span <span style='color:#b08000;'>2</span>;
+	<b>grid-row</b>: <span style='color:#b08000;'>2</span>;
+	<b>background-color</b>: <span style='color:#aa5500;'>white</span>;
+	<b>padding</b>: <span style='color:#b08000;'>1</span><span style='color:#0057ae;'>em</span>;
+	<b>border-style</b>: <span style='color:#b08000;'>solid</span>;
+	<b>border-radius</b>: <span style='color:#b08000;'>15</span><span style='color:#0057ae;'>px</span>;
+	<b>border-width</b>: <span style='color:#b08000;'>0</span><span style='color:#0057ae;'>px</span>;
+	}
+
+aside {
+	<b>grid-column</b>: <span style='color:#b08000;'>3</span>;
+	<b>grid-row</b>: <span style='color:#b08000;'>2</span>;
+	<b>width</b>: <span style='color:#b08000;'>220</span><span style='color:#0057ae;'>px</span>;
+	<b>padding</b>: <span style='color:#b08000;'>1</span><span style='color:#0057ae;'>em</span>;
+	}</pre>
+			</p>
+		</div>
+
+		<h2>Eigenschaften der Grid-Items</h2>
+		<h3>grid-auto-flow</h3>
+		<p>
+			Mit der <code class="Befehl_Attribut">grid-auto-flow</code> Eigenschaft können die Grid-Items automatisch
+			positioniert werden.
+		</p>
+		<div class="Syntax">
+			<table>
+				<tr>
+					<td style="min-width: 15em;">
+						<p>
+							<b>grid-auto-flow:</b>&nbsp;<b><span style='color:#644a9b;'>column</span></b>;
+						</p>
+					</td>
+					<td>
+						<p>
+							Die Grid Elemente werden automatisch in Spalten angeordnet.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							<b>grid-auto-flow:</b>&nbsp;<b><span style='color:#644a9b;'>row</span></b>;
+						</p>
+					</td>
+					<td>
+						<p>
+							Die Grid Elemente werden automatisch in Zeilen angeordnet.
+						</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+	</main>
+
+	<aside>
+		<div style="position: fixed;">
+			<script src="../css/sidebar_css.js"></script>
+		</div>
+	</aside>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../impressum/impressum_datenschutz.html" target="_blank">Impressum</a>
+		<a href="../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right; margin-top: 0px;"><img src="../../css/by-nc-sa.eu.png" width="89" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 16.07.2021&nbsp;&nbsp; von:
+			<b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/html_css/css_grundstruktur/css_grid_layout.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:24:42 GMT -->
+</html>

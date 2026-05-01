@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html id="oben">
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/signale_grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:30 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<title>Signale</title>
+	<link type="text/css" rel="stylesheet" href="../../css/standard_elektrotechnik.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../css/favicon.ico">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<figure style="float: right; margin: -8px; padding: 0;">
+				<img src="../../../css/logo_navbar.png" width="75" height="67" alt="Logo">
+			</figure>
+			<p>
+				<a href="../../../schlaufuchs_startseite.html">Startseite</a> &nbsp;&nbsp;&nbsp;
+				<a href="../../../html_css/html_css.html">HTML und CSS</a>&nbsp;&nbsp;
+				<a href="../../../linux/linux.html">LINUX</a>&nbsp;&nbsp;
+				<a href="../../../mathematik/mathematik.html">Mathematik</a>&nbsp;&nbsp;
+				<a href="../../elektrotechnik.html">Elektrotechnik und Elektronik</a> &nbsp;&nbsp;
+			</p>
+			<p style="margin-top: 10px;">
+				<a href="../daten/daten_beschreibung.html">Daten</a> &nbsp;
+				<a href="signale_grundlagen.html">Signale</a>
+				<a href="signaluebertragung_grundlagen.html">Signalübertragung</a> &nbsp;
+				<a href="../netzwerke_grundlagen/netzwerke_grundlagen.html">Grundlagen Rechnernetze</a> &nbsp;
+				<a href="../netzwerke_grundlagen/lan_grundlagen.html">Grundlagen LAN</a> &nbsp;
+				<a href="../netzwerke_sicherheit/netzwerke_sicherheit.html">Netzwerk-Sicherheit</a>
+			</p>
+		</nav>
+	</header>
+
+	<table>
+		<tr>
+			<td>
+				<main>
+					<h1>Signale</h1>
+					<h2>Was sind Signale?</h2>
+					<p class="Syntax">
+						Ein <em class="Fachwort">Signal</em> bezeichnet in der Nachrichten- und Informationstechnik
+						<br><em><i>den zeitlichen Verlauf einer physikalischen Größe, der eine Information zugeordnet
+								wird</i></em>.
+					</p>
+					<p>
+						Die in der Definition erwähnte physikalische Größe kann von unterschiedlicher Art sein.
+					</p>
+					<p>
+						Zum Beispiel der Schalldruck von Sprache oder die elektrische Spannung an einem Lautsprecher
+						oder Mikrophon.
+					</p>
+					<p>
+						Bei der Nachrichtenübertragung hat man es meistens mit elektrischen oder elektromagnetischen
+						Signalen zu tun (auch Licht ist eine elektromagnetische Welle). Andere Arten von Signalen werden
+						vor der Übertragung zumeist in elektrische Signale umgewandelt.
+					</p>
+					<p>
+						Mathematisch kann ein Signal als eine Funktion f(t) gesehen werden, die zu jedem Zeitpunkt t den
+						Wert der Messgröße definiert.
+					</p>
+
+					<h2>Signal-Kategorien</h2>
+					<p>
+						Die in der Nachrichtentechnik üblichen Signale können grundsätzlich in zwei Kategorien
+						eingeteilt werden:
+					</p>
+					<ul>
+						<li><em>Analoge Signale</em></li>
+						<li><em>Digitale Signale</em></li>
+					</ul>
+					<h3>Analoge Signale</h3>
+					<figure style="float: right;">
+						<img src="bilder/Signal_01_jw.png" width="200" height="200" alt="Analogsignal"
+							longdesc="Zeitlicher%20Verlauf%20eines%20analogen%20Signals.html">
+						<figcaption>
+							<p>
+								Verlauf eines analogen Signals
+							</p>
+						</figcaption>
+					</figure>
+					<div class="Definition" style="width: 50%; margin-left: 0%;">
+						<p>
+							<em class="Fachwort">Analoge Signale</em> oder <em class="Fachwort">Analogsignale</em> sind:
+						</p>
+						<ul>
+							<li><em>Wert-kontinuierlich</em></li>
+							<li><em>Zeit-kontinuierlich</em></li>
+						</ul>
+					</div>
+					<p>
+						<em>Wert-kontinuierliche</em> Größen besitzen beliebig viele Zwischenwerte.
+					</p>
+					<p>
+						Eine <em>Zeit-kontinuierliche</em> Größe ist zu jedem beliebigen Zeitpunkt kontinuierlich
+						messbar.
+					</p>
+					<p>
+						Analoge Signale sind in der Nachrichtentechnik gar nicht so selten anzutreffen, z.B. bei der
+						Übertragung von Video oder Audio. Meistens werden diese jedoch vor der Übertragung digitalisiert
+						und beim Empfänger wieder in ein mit dem Ausgangssignal möglichst identisches Analogsignal
+						umgewandelt. Im Prinzip sind auch die auf dem Übertragungskanal gesendeten Signale analog.
+					</p>
+					<p>
+						Ein Analoges Signal kann mathematisch als reelle <em>Funktion x(t)</em> gesehen werden.
+					</p>
+					<h3 style="clear: both;">Digitale Signale</h3>
+					<figure style="float: right;">
+						<a href="signale_grundlagen_bild01.html" target="_blank"><img
+								src="bilder/digitales_signal_01.png" width="300" height="217" alt="Digitales Signal"
+								longdesc="Digitales%20Signal.html"></a>
+						<figcaption style="width: 300px;">
+							<p>
+								Verlauf eines digitalen Signals (analoges Signal nach Abtastung und Quantisierung)
+							</p>
+						</figcaption>
+					</figure>
+					<div class="Definition" style="width: 50%; margin-left: 0%;">
+						<p>
+							<em class="Fachwort">Digitale Signale</em> sind:
+						</p>
+						<ul>
+							<li><em>Wert-diskret</em></li>
+							<li><em>Zeit-diskret</em></li>
+						</ul>
+					</div>
+					<p>
+						<em>Wert-diskrete</em> oder <em>wertdiskrete</em> Größen besitzen nur endlich viele
+						Zwischenwerte.
+					</p>
+					<p>
+						Ein <em>Zeit-diskretes</em> oder <em>zeitdiskretes</em> Signal ist nur zu bestimmten Zeitpunkten
+						definiert. Das heißt jedoch nicht, dass das Signal zu anderen Zeitpunkten nicht existiert.
+						Allerdings ergeben sich zu diesen Zeitpunkten keine sinnvollen Aussagen über die Information,
+						die das Signal transportiert.
+					</p>
+					<p>
+						Digitale Signale können aus analogen Signalen durch <em class="Fachwort">Abtastung</em> (<em
+							class="Fachwort">Sampling</em>) und <em class="Fachwort">Quantisierung</em> gewonnen werden.
+					</p>
+					<p>
+						Ein Digitales Signal kann mathematisch als <em>Zahlenfolge x[n]</em> betrachtet werden.
+						Insbesondere kann die Folge ganzzahlig (Integerzahlen) sein, da die Messgröße, nur endlich viele
+						Werte hat und diese durch eine geeignete Transformation in Ganzzahlen überführt werden kann.
+					</p>
+					<h3>Vorteile digitaler Signale gegenüber analogen Signalen</h3>
+					<p>
+						Die allgegenwärtige Digitalisierung der analogen Welt findet nicht grundlos statt. Digitale
+						Daten und Signale haben gegenüber den analogen zahlreiche Vorteile.
+						Die Leistungsfähigkeit der Prozessoren steigt stetig und durch Massenfertigung sinken die
+						Preise. Dadurch tritt der Nachteil der aufwändigen und kostenintensiven AD-Wandlung in den
+						Hintergrund. Auch die rechenintensive Verarbeitung und Speicherung von digitalen Daten sind
+						mittlerweile ohne große und kostenintensive technische Klimmzüge in Echtzeit möglich.
+					</p>
+					<div class="Definition">
+						<p>
+							<em class="Fachwort">Vorteile</em> digitaler Signale und Daten sind:
+						</p>
+						<ul>
+							<li>Deutlich kleinere Datenmengen als analoge Signale.</li>
+							<li>Da die Datenmenge komprimiert wird, kann bei der Signalübertragung Bandbreite effektiv
+								eingespart werden.</li>
+							<li>Digitale Signale können rekonstruiert werden. Solange der Rauschanteil unter einer
+								gewissen Grenze bleibt kann ein digitales Signal beliebig oft verstärkt und so über
+								beliebig lange Strecken verlustfrei übertragen werden.</li>
+							<li>Durch die Rekonstruktionsfähigkeit digitaler Signale kann die Sendeleistung minimiert
+								werden.</li>
+							<li>Die Signaleigenschaften können durch Rechenoperationen fast beliebig manipuliert werden.
+								Somit werden z.B. digitale Filter möglich, die auf analogem Wege nicht realisierbar
+								werden.</li>
+						</ul>
+					</div>
+
+				</main>
+			</td>
+
+			<td>
+				<aside>
+					<p><a href="../daten/daten_beschreibung.html">Daten</a></p>
+					<p><a href="../daten/daten_speicherung.html">Datenspeicherung</a></p>
+					<p><a href="../datenuebertragungsprotokolle/daten_uebertragung.html">Datenübertragung</a></p>
+					<p><a href="../netzwerke_grundlagen/netzwerke_grundlagen.html">Grundlagen Rechnernetze</a></p>
+					<p><a href="../netzwerke_grundlagen/lan_grundlagen.html">Grundlagen LAN</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_sicherheit.html">Netzwerk-Sicherheit</a></p>
+					<p><a href="../netzwerke_sicherheit/netzwerke_firewall.html">Firewall</a></p>
+					<p><a href="signale_grundlagen.html">Signale</a></p>
+					<p><a href="signaluebertragung_grundlagen.html">Signalübertragung</a></p>
+					<a href="#oben" style="text-decoration: none;">
+						<div class="nach_oben" style="margin-top: 10px;">
+							&#x21eb;
+						</div>
+					</a>
+
+				</aside>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<a href="#oben">nach oben</a>
+		<a href="../../../impressum/impressum_datenschutz.html">Impressum</a>
+		<a href="../../../impressum/impressum_datenschutz.html#Datenschutzerklaerung"
+			target="_blank">Datenschutzerklärung</a>
+		<a href="../../../impressum/kontakt_admin.html" target="_blank">Kontakt</a>
+		<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license"
+			style="float: right; margin-top: 0px;"><img src="../../../css/by-nc-sa.eu.png" width="89" height="31"
+				alt="Creative Commons Lizenzvertrag" style="border-width:0"></a>
+		<a style="color: dimgray; float: right; text-decoration: none; margin-top: 0px;"
+			href="../../../impressum/impressum_datenschutz.html" target="_blank">Aktualisiert: 20.11.2022&nbsp;&nbsp;
+			von: <b style="color: blue;">JW</b></a>
+	</footer>
+
+</body>
+
+
+<!-- Mirrored from c-arts-modelle.de/schlaufuchs_web/elektrotechnik/datenuebertragung_lernmaterial/signale/signale_grundlagen.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Apr 2026 16:23:31 GMT -->
+</html>
