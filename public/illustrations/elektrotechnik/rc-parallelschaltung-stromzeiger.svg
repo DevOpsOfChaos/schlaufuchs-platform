@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs RCL task source: legacy/selected/elektrotechnik/tasks/rcl_i_01/pictures/funktionsverlauf.png and solution phasor values. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2021. No endorsement by the original author is implied. -->
+  <title id="title">Stromzeiger einer RC-Parallelschaltung</title>
+  <desc id="desc">Zeigerdiagramm mit Spannungszeiger horizontal, Widerstandsstrom 273 Milliampere in Phase, Kondensatorstrom 88,6 Milliampere um 90 Grad voraus und Gesamtstrom 287 Milliampere bei 18 Grad Phasenverschiebung.</desc>
+  <style>
+    .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.grid{stroke:#e2e8f0;stroke-width:1}.axis{stroke:#475569;stroke-width:3;fill:none;stroke-linecap:round}.u{stroke:#2563eb;stroke-width:5}.r{stroke:#15803d;stroke-width:5}.c{stroke:#0891b2;stroke-width:5}.sum{stroke:#f97316;stroke-width:6}.guide{stroke:#94a3b8;stroke-width:2;stroke-dasharray:8 8;fill:none}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:22px;font-weight:700}.small{font-size:16px;fill:#475569}.value{font-size:18px;font-weight:700}
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#15803d"/>
+    </marker>
+    <marker id="arrow-cyan" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#0891b2"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="58">Zeigerdiagramm der Ströme</text>
+  <text class="txt small" x="48" y="84">Maßstab: 1 mA entspricht 1,2 px. Der Spannungszeiger liegt auf der Horizontalen.</text>
+  <rect class="panel" x="54" y="112" width="852" height="364" rx="18"/>
+
+  <g transform="translate(220 360)">
+    <path class="grid" d="M0-260H620M0-200H620M0-140H620M0-80H620M0-20H620"/>
+    <path class="grid" d="M120-300V40M240-300V40M360-300V40M480-300V40M600-300V40"/>
+    <path class="axis" d="M0 0H640"/>
+    <path class="axis" d="M0 0V-310"/>
+    <text class="txt small" x="590" y="30">Bezug: v<tspan baseline-shift="sub" font-size="11">AC</tspan></text>
+    <text class="txt small" x="-18" y="-292">90° voraus</text>
+
+    <path class="u" marker-end="url(#arrow-blue)" d="M0 0H210"/>
+    <text class="txt value" fill="#2563eb" x="74" y="28">v<tspan baseline-shift="sub" font-size="12">AC</tspan> als Bezug</text>
+
+    <path class="r" marker-end="url(#arrow-green)" d="M0 0H327"/>
+    <text class="txt value" fill="#15803d" x="214" y="-18">Î<tspan baseline-shift="sub" font-size="12">R</tspan> = 273 mA</text>
+
+    <path class="c" marker-end="url(#arrow-cyan)" d="M327 0V-106"/>
+    <text class="txt value" fill="#0891b2" x="342" y="-52">Î<tspan baseline-shift="sub" font-size="12">C</tspan> = 88,6 mA</text>
+
+    <path class="guide" d="M327 0H344M327-106H0"/>
+    <path class="sum" marker-end="url(#arrow-orange)" d="M0 0L344 -112"/>
+    <text class="txt value" fill="#f97316" x="360" y="-116">Î<tspan baseline-shift="sub" font-size="12">ges</tspan> = 287 mA</text>
+
+    <path class="guide" d="M90 0A90 90 0 0 0 86 -28"/>
+    <text class="txt value" fill="#f97316" x="98" y="-22">φ = 18°</text>
+  </g>
+
+  <text class="txt small" x="84" y="448">Der Gesamtstrom eilt der Spannung voraus, weil der kapazitive Zweig einen positiven Blindstromanteil liefert.</text>
+</svg>
