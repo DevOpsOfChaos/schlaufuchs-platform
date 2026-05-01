@@ -7,7 +7,7 @@
   </style>
   <rect class="bg" width="960" height="540" rx="28"/>
   <text class="txt label" x="48" y="58">Diodenkennlinie messen</text>
-  <text class="txt small" x="48" y="84">R1 begrenzt den Strom und dient als Messwiderstand fuer I<tspan baseline-shift="sub" font-size="12">D</tspan>.</text>
+  <text class="txt small" x="48" y="84">R1 begrenzt den Strom und dient als Messwiderstand für I<tspan baseline-shift="sub" font-size="12">D</tspan>.</text>
   <rect class="panel" x="54" y="112" width="852" height="364" rx="18"/>
 
   <path class="wire" d="M168 382V230H320"/>
@@ -32,7 +32,7 @@
   <circle class="meter" cx="394" cy="142" r="44"/>
   <text class="txt label" x="394" y="150" text-anchor="middle">V</text>
   <path class="accent" d="M350 142V230M438 142V230"/>
-  <text class="txt small" x="300" y="124">UR ueber R1</text>
+  <text class="txt small" x="300" y="124">UR über R1</text>
 
   <path class="part" d="M592 294v70"/>
   <path class="part" d="M560 318h64l-32 38z"/>
@@ -42,7 +42,7 @@
   <circle class="meter" cx="746" cy="330" r="44"/>
   <text class="txt label" x="746" y="338" text-anchor="middle">V</text>
   <path class="accent" d="M592 295H746V286M592 365H746V374"/>
-  <text class="txt small" x="706" y="270">UD ueber D1</text>
+  <text class="txt small" x="706" y="270">UD über D1</text>
 
   <circle class="node" cx="168" cy="230" r="10"/>
   <circle class="node" cx="320" cy="230" r="10"/>

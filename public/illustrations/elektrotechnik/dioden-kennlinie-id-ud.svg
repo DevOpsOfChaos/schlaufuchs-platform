@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <!-- Redrawn/adapted from legacy Schlaufuchs diode task solution graph: legacy/selected/elektrotechnik/tasks/dioden_i_01/loesung/formeln/a01l_d_02.png and measured values in a01_a_02.png. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020. No endorsement by the original author is implied. -->
-  <title id="title">Diodenkennlinie ID in Abhaengigkeit von UD</title>
+  <title id="title">Diodenkennlinie ID in Abhängigkeit von UD</title>
   <desc id="desc">Messpunkte zeigen bis etwa 0,7 Volt nur kleinen Strom und danach stark ansteigenden Durchlassstrom.</desc>
   <style>
     .bg{fill:#f8fafc}.grid{stroke:#dbe3ee;stroke-width:1}.axis{stroke:#0f172a;stroke-width:4;stroke-linecap:round}.curve{fill:none;stroke:#0f766e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.fit{fill:none;stroke:#ea580c;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 8}.pt{fill:#0f766e;stroke:#fff;stroke-width:3}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:14px;fill:#475569}.tick{font-size:14px;fill:#475569}
@@ -51,6 +51,6 @@
   </g>
 
   <rect x="630" y="92" width="250" height="54" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
-  <text class="txt small" x="646" y="115">orange: einfache Naeherung</text>
+  <text class="txt small" x="646" y="115">orange: einfache Näherung</text>
   <text class="txt small" x="646" y="134">Grenze bei UD = 0,8 V</text>
 </svg>

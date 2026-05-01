@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <!-- Redrawn/adapted from legacy Schlaufuchs diode task solution graph: legacy/selected/elektrotechnik/tasks/dioden_i_01/loesung/formeln/a01l_h_02.png and calculated values in a01l_d_01.png. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020. No endorsement by the original author is implied. -->
-  <title id="title">Diodenwiderstand RD in Abhaengigkeit von UD</title>
+  <title id="title">Diodenwiderstand RD in Abhängigkeit von UD</title>
   <desc id="desc">Halblogarithmische Darstellung des aus UD und ID berechneten Diodenwiderstands. Der Widerstand sinkt mit steigender Diodenspannung stark ab.</desc>
   <style>
     .bg{fill:#f8fafc}.grid{stroke:#dbe3ee;stroke-width:1}.axis{stroke:#0f172a;stroke-width:4;stroke-linecap:round}.curve{fill:none;stroke:#0f766e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.pt{fill:#0f766e;stroke:#fff;stroke-width:3}.note{fill:#ecfeff;stroke:#a5f3fc}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:14px;fill:#475569}.tick{font-size:14px;fill:#475569}
   </style>
   <rect class="bg" width="960" height="540" rx="28"/>
-  <text class="txt label" x="48" y="56">Spannungsabhaengiger Diodenwiderstand</text>
+  <text class="txt label" x="48" y="56">Spannungsabhängiger Diodenwiderstand</text>
   <text class="txt small" x="48" y="80">R<tspan baseline-shift="sub" font-size="10">D</tspan> = UD / I<tspan baseline-shift="sub" font-size="10">D</tspan>, halblogarithmische Darstellung</text>
 
   <line class="grid" x1="90" y1="420" x2="850" y2="420"/>
