@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Semantisches CSS-Grid-Layout</title>
+  <desc id="desc">Raster mit Header, Navigation, Main-Bereich, Aside und Footer als benannte Grid-Flächen.</desc>
+  <!--
+    Redrawn/adapted from legacy Schlaufuchs source:
+    legacy/selected/web-development/web-css-aufgabe-02-grid-layout/css_aufgabe_02.html
+    and its layout image. Observed license: CC BY-NC-SA 4.0. Author marker: JW. Date: 15.06.2020.
+    The diagram was newly redrawn for the current Schlaufuchs platform; old bitmap/layout styling was not copied.
+    Attribution does not imply endorsement by the original author.
+  -->
+  <rect x="24" y="24" width="912" height="512" rx="28" fill="#f8fafc" stroke="#334155" stroke-width="4"/>
+  <rect x="56" y="56" width="848" height="72" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="480" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0f172a">header</text>
+  <text x="480" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#334155">Kopfbereich</text>
+
+  <rect x="56" y="160" width="168" height="260" rx="18" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <text x="140" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0f172a">nav</text>
+  <text x="140" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#334155">Navigation</text>
+
+  <rect x="256" y="160" width="432" height="260" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="472" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0f172a">main</text>
+  <text x="472" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#334155">Hauptinhalt</text>
+
+  <rect x="720" y="160" width="184" height="260" rx="18" fill="#ffedd5" stroke="#ea580c" stroke-width="3"/>
+  <text x="812" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#0f172a">aside</text>
+  <text x="812" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#334155">Ergänzung</text>
+
+  <rect x="56" y="452" width="848" height="52" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+  <text x="480" y="486" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#0f172a">footer</text>
+
+  <text x="56" y="526" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">grid-template-areas: "header header header" / "nav main aside" / "footer footer footer"</text>
+</svg>

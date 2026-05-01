@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">AVR-Timer mit Prescaler, Zählregister und Compare Match</title>
+  <desc id="desc">Blockdiagramm vom CPU-Takt über Prescaler und Timerzähler bis zu Overflow und Compare-Match-Ereignis.</desc>
+  <!-- Redrawn/adapted for Schlaufuchs from legacy AVR timer source material, observed CC BY-NC-SA 4.0, author marker JW where supplied; no endorsement implied. -->
+  <rect width="880" height="420" rx="24" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="90" width="150" height="95" rx="16" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+    <text x="125" y="127" font-size="24" font-weight="700" text-anchor="middle" fill="#0c4a6e">CPU-Takt</text>
+    <text x="125" y="158" font-size="20" text-anchor="middle" fill="#0c4a6e">z. B. 16 MHz</text>
+
+    <rect x="270" y="90" width="150" height="95" rx="16" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+    <text x="345" y="127" font-size="24" font-weight="700" text-anchor="middle" fill="#14532d">Prescaler</text>
+    <text x="345" y="158" font-size="20" text-anchor="middle" fill="#14532d">/1 /8 /64 ...</text>
+
+    <rect x="490" y="78" width="170" height="120" rx="16" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+    <text x="575" y="115" font-size="24" font-weight="700" text-anchor="middle" fill="#78350f">Timerzähler</text>
+    <text x="575" y="145" font-size="20" text-anchor="middle" fill="#78350f">0 → 255</text>
+    <text x="575" y="174" font-size="19" text-anchor="middle" fill="#78350f">8-Bit-Beispiel</text>
+
+    <rect x="720" y="60" width="115" height="70" rx="14" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+    <text x="777" y="91" font-size="21" font-weight="700" text-anchor="middle" fill="#7f1d1d">Overflow</text>
+    <text x="777" y="116" font-size="18" text-anchor="middle" fill="#7f1d1d">zurück auf 0</text>
+
+    <rect x="705" y="180" width="145" height="78" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text x="777" y="213" font-size="21" font-weight="700" text-anchor="middle" fill="#4c1d95">Compare</text>
+    <text x="777" y="239" font-size="18" text-anchor="middle" fill="#4c1d95">Timer = OCR</text>
+
+    <line x1="200" y1="138" x2="268" y2="138" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="420" y1="138" x2="488" y2="138" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="660" y1="112" x2="718" y2="96" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="660" y1="160" x2="704" y2="210" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <text x="270" y="290" font-size="22" fill="#1e293b">f_timer = f_cpu / Prescaler</text>
+    <text x="270" y="325" font-size="22" fill="#1e293b">T_tick = 1 / f_timer</text>
+    <text x="270" y="360" font-size="22" fill="#1e293b">Compare-Wert: gezählte Schritte minus 1</text>
+  </g>
+</svg>
