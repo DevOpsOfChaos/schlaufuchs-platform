@@ -56,10 +56,17 @@ Future migration PR checklist:
 - Task and solution linked.
 - Assets modernized.
 - Attribution included.
-- `npx astro sync` passed.
-- `npm run check:content` passed.
-- `git diff --check` passed.
-- Build passed, or skipped with explicit documentation.
+
+Default validation for content migration sprints:
+
+1. Run `git status`.
+2. Run `npx astro sync`.
+3. Run `npm run check:content`.
+4. Run `git diff --check`.
+
+Do not run `npm run build` for every content or legacy migration sprint. A full build is expensive and should only be run when routing, layout, or components changed; the content schema changed; `areaStructure.ts` or central content querying changed; a larger release or checkpoint needs full validation; or the user explicitly requests it.
+
+If default validation passes, commit the migration changes and directly run `git push origin main`.
 
 ## Migration Priority
 
