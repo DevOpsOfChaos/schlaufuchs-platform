@@ -34,6 +34,33 @@ Before any item leaves this staging area:
 4. Verify license and attribution details.
 5. Review separately credited third-party material before reuse.
 
+## Legacy Migration Standard
+
+The diode-characteristic pilot defines the production standard for future legacy migrations. Legacy material is source material only, not production layout.
+
+- Do not copy old HTML into production content.
+- Do not copy the old visual style, including legacy layout, navigation, CSS, logos, buttons, or generic decorative assets.
+- Production content must use the current subject/topic structure.
+- Every migrated exercise needs a matching solution in the same sprint.
+- Every migrated asset must be redrawn, adapted, or clearly justified.
+- Every migrated or adapted asset or text must include attribution with the source path or URL, observed license, original author marker if available, changed/adapted/redrawn status, and a clear note that no endorsement is implied.
+- Visible German text must use proper umlauts. ASCII is only for slugs, paths, IDs, and URLs.
+- New production paths must not contain version markers.
+- Do not migrate large batches until one pilot in the same content type has been validated.
+
+Future migration PR checklist:
+
+- Source inspected.
+- Target path chosen.
+- Old look discarded.
+- Task and solution linked.
+- Assets modernized.
+- Attribution included.
+- `npx astro sync` passed.
+- `npm run check:content` passed.
+- `git diff --check` passed.
+- Build passed, or skipped with explicit documentation.
+
 ## Migration Priority
 
 ### First Production Migration Sprint
